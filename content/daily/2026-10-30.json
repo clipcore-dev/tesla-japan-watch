@@ -1,7 +1,7 @@
 {
   "id": "daily-2026-10-30",
   "date": "2026-10-30",
-  "checkedAt": "2026-10-30T09:47:00+09:00",
+  "checkedAt": "2026-10-30T09:50:10+09:00",
   "category": "日次レポート",
   "hardware": [
     "HW3",
@@ -280,6 +280,14 @@
       "title": "テスラ モデル3 日本仕様を改良、先着で26.4万円支援も｜16インチ画面 - トランスカー",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9EcjNIRVZKMldEVng4RmwzMmlMS2pnWU1KV3ZtNmstamg1QUpqQ1ZCSnA5SEN2V281WDlHejVBUXU1bFBMb3NhVzZxam1hMGdhZk9hczRrWG4yalhaMUlEVzlR?oc=5",
       "published": "Fri, 23 Oct 2026 07:22:08 GMT",
+      "source": "日本のTesla購入・補助金の報道発見",
+      "topic": "購入・補助金／未検証",
+      "initial": false
+    },
+    {
+      "title": "E2E自動運転革命 - 日経クロステック",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOUTdMN3pWRnY0bWptRi0wYW5zQ01Tbm5ZNFRoTGJtcDQtNHlPYzBiV25odlFUSC1BWFNQc3hHcjNnRnU2SnAtM2JBaWVhZ0tjbkc1aWxmaGhua1BMdXU3UjB2dW81eF9fSjNueWFUa0h6dWhpYTJjQ3hLMHlqaTFBR29ZRXd2aWpUckJwM3hDcGlfdEY2WWtKS2g4RlVhTlZGcFJ6SFRkcmJJR09hUHVBUzEtZm5oNWUtMEhSSlBHQTR5ZkVaZGx6SkdnMk9DTHc2ZzF1UV9Nek1HZUhNQ1Z1aHdR?oc=5",
+      "published": "Fri, 23 Oct 2026 12:08:19 GMT",
       "source": "日本のTesla購入・補助金の報道発見",
       "topic": "購入・補助金／未検証",
       "initial": false
