@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30T09:13:24+09:00",
+  "checkedAt": "2026-10-30T09:20:25+09:00",
   "sources": [
     {
       "id": "tesla-jp",
@@ -7,7 +7,7 @@
       "url": "https://prtimes.jp/companyrdf.php?company_id=38481",
       "topic": "日本公式",
       "ok": true,
-      "checkedAt": "2026-10-30T09:13:24+09:00",
+      "checkedAt": "2026-10-30T09:20:25+09:00",
       "items": [
         {
           "title": "新しいModel 3とModel Y、Model Y L - おでかけも、もしもの備えも、テスラの電気で。",
@@ -160,7 +160,7 @@
           "published": "2025-08-20"
         }
       ],
-      "lastSuccess": "2026-10-30T09:13:24+09:00"
+      "lastSuccess": "2026-10-30T09:20:25+09:00"
     },
     {
       "id": "world",
@@ -168,7 +168,7 @@
       "url": "https://news.google.com/rss/search?q=Tesla+%22FSD%22+when:1d&hl=en-US&gl=US&ceid=US:en",
       "topic": "海外報道・未検証",
       "ok": true,
-      "checkedAt": "2026-10-30T09:13:24+09:00",
+      "checkedAt": "2026-10-30T09:20:25+09:00",
       "items": [
         {
           "title": "South Korean Police Are Cracking Down On Tesla Owners Jailbreaking FSD - InsideEVs",
@@ -181,7 +181,7 @@
           "published": "Fri, 30 Oct 2026 00:04:41 GMT"
         },
         {
-          "title": "76-Year-Old Woman in California Says Tesla FSD Lets Her Stay Out Later, But Is That Actually Safe? -",
+          "title": "76-Year-Old Woman in California Says Tesla FSD Lets Her Stay Out Later, But Is That Actually Safe? …",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZnlwczUyVlg0R2xLYXhlR09taktPc3EzZzMxSFFwTmE0TTViYS1HUHRsM1dNbEVLcFpnUmJjN3hjZU5aT08tenI4cnNVS0RfcGFDMnZrNjZiZGM3VXc0dmZXSnI1Q3ZKM2Etd1ZEVl9XbzdQVzJrLW5tSXpPSTh0SzQySENtWC1iYkhHX2xXZXBjc211MnBuSFhQSQ?oc=5",
           "published": "Thu, 29 Oct 2026 18:56:02 GMT"
         },
@@ -226,12 +226,12 @@
           "published": "Thu, 29 Oct 2026 12:00:19 GMT"
         },
         {
-          "title": "Another country says YES to Tesla FSD! Europe is getting harder to keep up with. Latvia just became ",
+          "title": "Another country says YES to Tesla FSD! Europe is getting harder to keep up with. Latvia just became…",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vbWZISk1UcE1VQk5jOEZhVzB0YjcwNEZJbHFJU19pY0hVX3FqR2dJclJBeExnUzR0bEZEU29FWHVSYlpIWTBiWkNlUnZlTFp0S1NBX0owYTloVXZSZmRpVm9MUy1aekxzYnp6cw?oc=5",
           "published": "Thu, 29 Oct 2026 10:00:03 GMT"
         },
         {
-          "title": "Slovakia approved ‌Tesla's (TSLA.O) Full Self-Driving (FSD) system. - The Daily News | Texas' Oldest",
+          "title": "Slovakia approved ‌Tesla's (TSLA.O) Full Self-Driving (FSD) system. - The Daily News | Texas' Oldes…",
           "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQcUVoX0F2VEtIXzkzZ2NTa3NIUE1mbUtUb1VRN0o0NVdiMFhPM0JlMzBaRGVwd0Z1U0ExaUU5NWl3b2tPcmduUl9nQ0pVNVZJUktWLUFqWEVBb0VzN0cyZ0lkZWROTjFqbjhHR3F6WkRzZ0lQZE9nWDZlWmplRjFIdUZCeU02dlVvb1hBMFJDdnNkTEhfNS1TamhxYldEakpYdGlybllzS2pTejVtTFVUQldyWUN6ZGktNm9mU2hkUi1zZF9tQVRaWVR2SktRRloySUg0WHlfbnVSTzFkYzRWaWhyekZmeUJ0bTJz?oc=5",
           "published": "Thu, 29 Oct 2026 08:05:42 GMT"
         },
@@ -251,7 +251,7 @@
           "published": "Thu, 29 Oct 2026 10:31:00 GMT"
         },
         {
-          "title": "Musk Said Unsupervised FSD Would Reach End Users by the End of 2025, Then Tesla Pointed to Q2 2027 f",
+          "title": "Musk Said Unsupervised FSD Would Reach End Users by the End of 2025, Then Tesla Pointed to Q2 2027 …",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVWJkejdES1ktSnN1RERjdU9JcXVnVXYwTzV4N1NHVy0tRHB1dUtHZ3FVcEdrVUlWSUJpcm9uM0xmdFN6RHEyMDI1Z0hyOVd1cE5zZDhRTEFWY0VhZExHdHZ4RHVCc014eEtGT3lFNkQ5WENCSHMzUHZEcXNpZ29scE9pU1doV2RUb09pOHM2X1hBTWtXMl9lVTVGa2s?oc=5",
           "published": "Thu, 29 Oct 2026 14:00:00 GMT"
         },
@@ -306,7 +306,7 @@
           "published": "Thu, 29 Oct 2026 04:54:21 GMT"
         },
         {
-          "title": "South Korea books 80 Tesla owners for illegally unlocking FSD feature, seizes 21 devices - Business ",
+          "title": "South Korea books 80 Tesla owners for illegally unlocking FSD feature, seizes 21 devices - Business…",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQemZkVzhYOHFPYzAyQjduYnZRYVNjZkM1MG5uMGpFeXBnenl6azZ4UnpWR3VUVWFXdDQ4bEc0SG1WVDFSM3NyZW5yRkVtdXRzYllXTkFkRW5XWTNaWHg2TDNPeFpyUDg2VnN3dU5McW4ybm9hYVM0bjRSdWhMbU45a2J6aVNpN1BRZlJtRmFyOVRHX2MyejhCRnBvQXZTbzR2RUpRZkN1MVUxem10Q0tkaUprR3NjMXJUYXJHdUs4THNfbzFQdUNmU1I5THlyNFNsdmh4WlI4SWVXc0hfaVpj0gHkAUFVX3lxTE9XTmlKZTY0dHJObERsN2t2RkJCaDJVTHZ4OEd1VVFrRVVhbkxNb1dPTVV6bmtkOTFEemItODJaaWNjX0l2OUZhMDU1cEE0dk95cm1ubmlVTlRqVzhSWmdSSGhWejlsZ2RSWFlQbDY2Z05WUFBHWmMyUUpmbUhFSl9TcG9ybFZMbG81MnlBMUFpdVVUZFVDZlBYUHQ0cndtTG9sOGdKSjdYbUlhRWVzUzd1Zk9MUUhJQ24wcVI3MnNldEZPR0cwZnlxcHRSV2JERHFzNmNhdGwyVWRMVG1WRk1OaFBXUg?oc=5",
           "published": "Thu, 29 Oct 2026 20:45:04 GMT"
         },
@@ -321,7 +321,7 @@
           "published": "Thu, 29 Oct 2026 13:31:16 GMT"
         }
       ],
-      "lastSuccess": "2026-10-30T09:13:24+09:00"
+      "lastSuccess": "2026-10-30T09:20:25+09:00"
     },
     {
       "id": "fsd-jp",
@@ -329,7 +329,7 @@
       "url": "https://www.tesla.com/ja_jp/fsd/safety",
       "topic": "FSD・規制",
       "ok": false,
-      "checkedAt": "2026-10-30T09:13:24+09:00",
+      "checkedAt": "2026-10-30T09:20:25+09:00",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -338,7 +338,7 @@
       "url": "https://www.tesla.com/support/fsd",
       "topic": "FSD・価格",
       "ok": false,
-      "checkedAt": "2026-10-30T09:13:24+09:00",
+      "checkedAt": "2026-10-30T09:20:25+09:00",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -347,7 +347,7 @@
       "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=TESLA&model=MODEL%20Y&modelYear=2026",
       "topic": "米国規制",
       "ok": true,
-      "checkedAt": "2026-10-30T09:13:24+09:00",
+      "checkedAt": "2026-10-30T09:20:25+09:00",
       "recalls": [
         {
           "id": "25V359000",
@@ -390,7 +390,7 @@
           "reported": "01/09/2026"
         }
       ],
-      "lastSuccess": "2026-10-30T09:13:24+09:00"
+      "lastSuccess": "2026-10-30T09:20:25+09:00"
     },
     {
       "id": "stations",
@@ -398,7 +398,7 @@
       "url": "https://www.tesla.com/ja_jp/findus/list/superchargers/Japan",
       "topic": "新設・掲載",
       "ok": false,
-      "checkedAt": "2026-10-30T09:13:24+09:00",
+      "checkedAt": "2026-10-30T09:20:25+09:00",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -407,7 +407,7 @@
       "url": "https://shop.tesla.com/ja_jp/product/mobile-connector",
       "topic": "充電・在庫",
       "ok": false,
-      "checkedAt": "2026-10-30T09:13:24+09:00",
+      "checkedAt": "2026-10-30T09:20:25+09:00",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -416,7 +416,7 @@
       "url": "https://shop.tesla.com/ja_jp/product/wall-connector",
       "topic": "充電・在庫",
       "ok": false,
-      "checkedAt": "2026-10-30T09:13:24+09:00",
+      "checkedAt": "2026-10-30T09:20:25+09:00",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -425,7 +425,7 @@
       "url": "https://shop.tesla.com/ja_jp/product/chademo-adapter",
       "topic": "充電・在庫",
       "ok": false,
-      "checkedAt": "2026-10-30T09:13:24+09:00",
+      "checkedAt": "2026-10-30T09:20:25+09:00",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -434,7 +434,7 @@
       "url": "https://shop.tesla.com/ja_jp/category/charging",
       "topic": "充電・販売",
       "ok": false,
-      "checkedAt": "2026-10-30T09:13:24+09:00",
+      "checkedAt": "2026-10-30T09:20:25+09:00",
       "error": "HTTP Error 403: Forbidden"
     }
   ],
