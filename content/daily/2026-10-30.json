@@ -1,7 +1,7 @@
 {
   "id": "daily-2026-10-30",
   "date": "2026-10-30",
-  "checkedAt": "2026-10-30T09:42:47+09:00",
+  "checkedAt": "2026-10-30T09:45:50+09:00",
   "category": "日次レポート",
   "hardware": [
     "HW3",
@@ -250,6 +250,14 @@
       "published": "Fri, 23 Oct 2026 07:24:00 GMT",
       "source": "日本のTesla購入・補助金の報道発見",
       "topic": "購入・補助金／未検証",
+      "initial": false
+    },
+    {
+      "title": "Departments of Commerce and Transportation Announce $109 Million in Grants to Modernize 911 Service…",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZWFPeGJ0SUZ0NmVlS2xpZEZVOUNTTUI2aGIwZXMzSDlqWFhTcUZCRVBpa0V2bjJJRDVJOGdrUXRDaS0xWGtVRTFsMzNZenNoQlV0Y2FnWjBBb290cDlLZHJFLTRNNTlacVRHcHFfS1ZaZXdlUkIwdmsxSWw0RjdMcFhmMjZ4M3NkZThPZG54Z3A5SGJjaWE5ckpyWURtVWxTZ3hVZkpDUldEa19Dd2xLTmNZTEtjS3hRQWc?oc=5",
+      "published": "Thu, 29 Apr 2021 08:15:39 GMT",
+      "source": "規制当局の関連発表（RSS発見）",
+      "topic": "規制当局・原文確認",
       "initial": false
     }
   ],
