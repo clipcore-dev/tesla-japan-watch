@@ -37,7 +37,7 @@ python3 -m http.server 4173 --directory dist
 - Tesla Japan公式PR TIMES RSS / Google News海外FSD発見RSS / Tesla公式地域・機能・価格ページ
 - 日本公式Supercharger一覧（正常な一覧同士の差分のみ。新規掲載≠開業）
 - 日本公式モバイル・ウォール・CHAdeMO商品と充電カテゴリ
-- 米NHTSA recalls APIはModel Y 2026のみの補助監視。全世界の規制を網羅しない。
+- 米NHTSA recalls APIはModel Y 2026のみの補助監視。RDW承認説明ページと規制当局関連発表の発見RSSも監視。全世界の規制を網羅しない。
 - Teslaの403・JS限定ページは回避しない。商品不掲載や取得失敗を在庫なしと認定しない。
 - 在庫・価格はJSON-LD Offerの明示情報のみ自動判定。発送先の購入可能性は別途確認。
 - 頻繁なサイト共通部分の変化は「本文変更候補」とだけ表示。解禁や値上げを推論しない。

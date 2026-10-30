@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30T09:20:25+09:00",
+  "checkedAt": "2026-10-30T09:21:17+09:00",
   "sources": [
     {
       "id": "tesla-jp",
@@ -7,7 +7,7 @@
       "url": "https://prtimes.jp/companyrdf.php?company_id=38481",
       "topic": "日本公式",
       "ok": true,
-      "checkedAt": "2026-10-30T09:20:25+09:00",
+      "checkedAt": "2026-10-30T09:21:17+09:00",
       "items": [
         {
           "title": "新しいModel 3とModel Y、Model Y L - おでかけも、もしもの備えも、テスラの電気で。",
@@ -160,7 +160,7 @@
           "published": "2025-08-20"
         }
       ],
-      "lastSuccess": "2026-10-30T09:20:25+09:00"
+      "lastSuccess": "2026-10-30T09:21:17+09:00"
     },
     {
       "id": "world",
@@ -168,7 +168,7 @@
       "url": "https://news.google.com/rss/search?q=Tesla+%22FSD%22+when:1d&hl=en-US&gl=US&ceid=US:en",
       "topic": "海外報道・未検証",
       "ok": true,
-      "checkedAt": "2026-10-30T09:20:25+09:00",
+      "checkedAt": "2026-10-30T09:21:17+09:00",
       "items": [
         {
           "title": "South Korean Police Are Cracking Down On Tesla Owners Jailbreaking FSD - InsideEVs",
@@ -321,7 +321,7 @@
           "published": "Thu, 29 Oct 2026 13:31:16 GMT"
         }
       ],
-      "lastSuccess": "2026-10-30T09:20:25+09:00"
+      "lastSuccess": "2026-10-30T09:21:17+09:00"
     },
     {
       "id": "fsd-jp",
@@ -329,7 +329,7 @@
       "url": "https://www.tesla.com/ja_jp/fsd/safety",
       "topic": "FSD・規制",
       "ok": false,
-      "checkedAt": "2026-10-30T09:20:25+09:00",
+      "checkedAt": "2026-10-30T09:21:17+09:00",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -338,8 +338,69 @@
       "url": "https://www.tesla.com/support/fsd",
       "topic": "FSD・価格",
       "ok": false,
-      "checkedAt": "2026-10-30T09:20:25+09:00",
+      "checkedAt": "2026-10-30T09:21:17+09:00",
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "rdw",
+      "name": "オランダRDW：FSD承認の公式説明",
+      "url": "https://www.rdw.nl/en/news/2026/rdw-explanation-of-european-type-approval-tesla-with-provisional-validity-in-the-netherlands",
+      "topic": "欧州規制",
+      "ok": true,
+      "checkedAt": "2026-10-30T09:21:17+09:00",
+      "fingerprint": "7615faa818f4812e4bd9c9b20c5720e5ce31e68ad6b4e42f0382e26bac586bb9",
+      "lastSuccess": "2026-10-30T09:21:17+09:00"
+    },
+    {
+      "id": "authorities",
+      "name": "規制当局の関連発表（RSS発見）",
+      "url": "https://news.google.com/rss/search?q=(site:rdw.nl+OR+site:nhtsa.gov+OR+site:mlit.go.jp)+Tesla+when:30d&hl=en-US&gl=US&ceid=US:en",
+      "topic": "規制当局・原文確認",
+      "ok": true,
+      "checkedAt": "2026-10-30T09:21:17+09:00",
+      "items": [
+        {
+          "title": "Elon Musk Weight Loss: How the Tesla CEO’s Reported Transformation Put Weight-Loss Medication and L…",
+          "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxPb3YyeVNGV2djaS05NFhVbjE1NHhTV1JWSVhMc2MxU0ZDejB0SnVkT0pfMDhMWkpabzF0R3BjQTBQaHYtNE9MUFlZcktFUExEeWl2QVZ2QzU1RTQtZXZiaEdQMlpvakZoYXZaOFBJX2lBX29LU0QxUmhPMm9RX29wRTJNdkNDQWpJMXpKbFVmMmJPLW9nbktnRExzMlJZZTgzTjhSOUVkbDdkd1lRNVVULXVFeE51Vndscy1OZFVpMWFPWGptWjNzdGk3UlRNYlZxSXdyWTJEdVpjVndNZTVIcVVTaFBXOE1XeGtnNmpDZmdaYkd4bmFhZnJ3alNNUGxpcXV3Q2NXMDdFR1dhaUhlY0o2YW9iLXo4VklHOWhHWGpuMjJ5bjJUMk82NWJHcW1fTkt5M1hoN2NvQWY2UXhYLWMtM2dQbGt1LTFXUXI3YkN2WnFkY1hYOGc1RlZGdkgwSmdhTzMwWGtIUVd5MVkyS0hn?oc=5",
+          "published": "Thu, 22 Oct 2026 18:46:38 GMT"
+        },
+        {
+          "title": "Vehicle Detail Search - 2026 TESLA ROBOTAXI (CYBERCAB) - National Highway Traffic Safety Administra…",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9KSlV0NTdSc1VXalB0NWtFWTgtODN4Z284OEFwc3BGdVJNZHc1RFVwLTV5UzNsVjRvaG8tR2JuSWFuVUlyNUxkZGVIVG0zZG9kX2RUV0VSQUhnRnVLalFjVDRmNWtJaFlzeEQxVFhGRQ?oc=5",
+          "published": "Tue, 06 Oct 2026 20:20:50 GMT"
+        },
+        {
+          "title": "ODI RESUME - NHTSA | National Highway Traffic Safety Administration (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6OHg2QkdaRWNkUDRoNzVGcXJ1WWxSYUhtSExTdkVrTEVTZHNZRFdmQTE5aWMteFIyeUlSeWJMXzJyS3ZabW9VYWxtV01DbXYyUFR6Tjl3cVB0dWloZHJEb05EMThDb3NHdVcxTA?oc=5",
+          "published": "Fri, 09 Oct 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Consumer Alert: July is National Vehicle Theft Prevention Month - NHTSA | National Highway Traffic …",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcnVDWmhEd2hVY1ZaeXJSWXNXdXNiWE5xN0xkakc0Z2FiaDdJRFZqUHNBeFY3Y1R3YXJrOXRpWkpIV3RFQ3F6VHdXSkVQZl9NcF9mN2FBOEZNNmg0a21HYUdoOXk0XzRlbl9LdHQ3aWtmNXFsTm9jQmV2emtucjlKY1o3anludWlmUTM1UE9LY2NYUkQ4SFNzYlg2Wlk?oc=5",
+          "published": "Tue, 06 Jul 2021 14:25:23 GMT"
+        },
+        {
+          "title": "NHTSA Approves More Than $800M for States to Make Roads Safer - National Highway Traffic Safety Adm…",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2NWbThKdTF2U1MwejdyR2h5eHh0RG55RHR4ajROalVoUHRERWtna3BsdS1zczdCQ3VQU200X0dla3dqZ1o0cXpwT19USUhYR0lDZFY4eThWblBZRm5PNHkwU1lUbnhTWXV0R2pLaXV6MDU3RDhWWDhkamJoTEZFZjJONA?oc=5",
+          "published": "Mon, 29 Sep 2025 18:16:31 GMT"
+        },
+        {
+          "title": "About NHTSA - NHTSA | National Highway Traffic Safety Administration (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE01WDl0dzdiUkhmNnNmcDJKT0JBUzJFdkstbnEwOENxWXd1OE5Rd18tRDEweGxQamVvTUJZdlRTdmxTT3g0Rl84Qg?oc=5",
+          "published": "Sat, 17 Dec 2016 01:15:14 GMT"
+        },
+        {
+          "title": "Part 573 Safety Recall Report 26V698 - NHTSA | National Highway Traffic Safety Administration (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fU1psSkRKellCdjZzRHFyeGxJWUF4bzgyNjZKT2ZXSE5VQl9nZnBobmFIWmV2X1UxY1MwNTI5MmJWN1lzMF9nZW1vekNmeXhUM0V0Mk1fOTVtTzNlcVF0THBEcVJ3N3hRQjl5dA?oc=5",
+          "published": "Fri, 23 Oct 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Part 573 Safety Recall Report 26V659 - NHTSA | National Highway Traffic Safety Administration (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE54cmd5YnZibnU0MFMwcVlGUWJSNUZnNEJwbXVMbElvNjIxSjhMa010M29jU240cFEzREdEZVFHZlM3SmQ4V2hfVHFBT3JfZDZHOFhLek1mMm5HdVY4akxlX0QzMG9Ic2g5b0Y1Rg?oc=5",
+          "published": "Thu, 01 Oct 2026 07:00:00 GMT"
+        }
+      ],
+      "lastSuccess": "2026-10-30T09:21:17+09:00"
     },
     {
       "id": "regulator",
@@ -347,7 +408,7 @@
       "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=TESLA&model=MODEL%20Y&modelYear=2026",
       "topic": "米国規制",
       "ok": true,
-      "checkedAt": "2026-10-30T09:20:25+09:00",
+      "checkedAt": "2026-10-30T09:21:17+09:00",
       "recalls": [
         {
           "id": "25V359000",
@@ -390,7 +451,7 @@
           "reported": "01/09/2026"
         }
       ],
-      "lastSuccess": "2026-10-30T09:20:25+09:00"
+      "lastSuccess": "2026-10-30T09:21:17+09:00"
     },
     {
       "id": "stations",
@@ -398,7 +459,7 @@
       "url": "https://www.tesla.com/ja_jp/findus/list/superchargers/Japan",
       "topic": "新設・掲載",
       "ok": false,
-      "checkedAt": "2026-10-30T09:20:25+09:00",
+      "checkedAt": "2026-10-30T09:21:17+09:00",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -407,7 +468,7 @@
       "url": "https://shop.tesla.com/ja_jp/product/mobile-connector",
       "topic": "充電・在庫",
       "ok": false,
-      "checkedAt": "2026-10-30T09:20:25+09:00",
+      "checkedAt": "2026-10-30T09:21:17+09:00",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -416,7 +477,7 @@
       "url": "https://shop.tesla.com/ja_jp/product/wall-connector",
       "topic": "充電・在庫",
       "ok": false,
-      "checkedAt": "2026-10-30T09:20:25+09:00",
+      "checkedAt": "2026-10-30T09:21:17+09:00",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -425,7 +486,7 @@
       "url": "https://shop.tesla.com/ja_jp/product/chademo-adapter",
       "topic": "充電・在庫",
       "ok": false,
-      "checkedAt": "2026-10-30T09:20:25+09:00",
+      "checkedAt": "2026-10-30T09:21:17+09:00",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -434,15 +495,15 @@
       "url": "https://shop.tesla.com/ja_jp/category/charging",
       "topic": "充電・販売",
       "ok": false,
-      "checkedAt": "2026-10-30T09:20:25+09:00",
+      "checkedAt": "2026-10-30T09:21:17+09:00",
       "error": "HTTP Error 403: Forbidden"
     }
   ],
   "history": [
     {
       "date": "2026-10-30",
-      "ok": 3,
-      "total": 10,
+      "ok": 5,
+      "total": 12,
       "stations": null
     }
   ]

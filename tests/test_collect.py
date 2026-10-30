@@ -14,5 +14,9 @@ class Safeguards(unittest.TestCase):
  def test_station_first_run_requires_real_detail_links(self):
   raw=''.join('<a href="/ja_jp/findus/location/supercharger/site'+str(i)+'">Station '+str(i)+'</a>' for i in range(25))
   self.assertEqual(len(c.stations(raw)),25)
+ def test_same_day_recheck_preserves_headlines(self):
+  item={'url':'https://example.org/a','title':'A'}
+  self.assertEqual(c.merge_records([item],[],30),[item])
+  self.assertEqual(c.merge_records([item],[item],30),[item])
  def test_scripts_are_removed_from_plain_text(self):self.assertEqual(c.plain('<p>Hello</p><script>evil()</script>'),'Hello')
 if __name__=='__main__':unittest.main()

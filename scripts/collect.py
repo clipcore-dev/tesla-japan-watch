@@ -9,6 +9,8 @@ SOURCES=[
  ('world','世界FSD報道の発見用RSS','https://news.google.com/rss/search?q=Tesla+%22FSD%22+when:1d&hl=en-US&gl=US&ceid=US:en','rss','海外報道・未検証'),
  ('fsd-jp','FSD 世界提供地域（Tesla公式）','https://www.tesla.com/ja_jp/fsd/safety','page','FSD・規制'),
  ('fsd-us','FSD 米国価格・機能（Tesla公式）','https://www.tesla.com/support/fsd','page','FSD・価格'),
+ ('rdw','オランダRDW：FSD承認の公式説明','https://www.rdw.nl/en/news/2026/rdw-explanation-of-european-type-approval-tesla-with-provisional-validity-in-the-netherlands','page','欧州規制'),
+ ('authorities','規制当局の関連発表（RSS発見）','https://news.google.com/rss/search?q=(site:rdw.nl+OR+site:nhtsa.gov+OR+site:mlit.go.jp)+Tesla+when:30d&hl=en-US&gl=US&ceid=US:en','rss','規制当局・原文確認'),
  ('regulator','米国NHTSA TeslaリコールAPI / Model Y 2026','https://api.nhtsa.gov/recalls/recallsByVehicle?make=TESLA&model=MODEL%20Y&modelYear=2026','recalls','米国規制'),
  ('stations','日本Supercharger公式一覧','https://www.tesla.com/ja_jp/findus/list/superchargers/Japan','stations','新設・掲載'),
  ('mobile','モバイルコネクター公式商品','https://shop.tesla.com/ja_jp/product/mobile-connector','product','充電・在庫'),
@@ -86,6 +88,10 @@ def collect(src):
    value['fingerprint']=hashlib.sha256(text.encode()).hexdigest()
   return value
  except Exception as e:return {'id':key,'name':name,'url':url,'topic':topic,'ok':False,'checkedAt':NOW,'error':str(e)[:140]}
+def merge_records(old,new,limit):
+ merged={}
+ for item in old+new:merged[(item.get('url'),item.get('title'))]=item
+ return list(merged.values())[-limit:]
 def main():
  previous=json.loads((ROOT/'content/monitor.json').read_text()) if (ROOT/'content/monitor.json').exists() else {'sources':[],'history':[]}
  previous_sources={s['id']:s for s in previous['sources']}
@@ -121,7 +127,12 @@ def main():
  (ROOT/'content/reports').mkdir(exist_ok=True)
  (ROOT/'content/reports'/f'{day}.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
  for p in sorted((ROOT/'content/reports').glob('*.json'))[:-365]:p.unlink()
- article={'id':'daily-'+day,'date':day,'checkedAt':NOW,'category':'日次レポート','hardware':['HW3','HW4'],'title':day.replace('-','.')+'｜FSD・充電の定点観測','summary':f"公式発表・世界FSD報道・充電情報の{len(results)}系統中、{sum(s['ok'] for s in results)}系統を取得。取得できなかった情報も明示します。",'auto':True,'changes':changes,'headlines':headlines[:10],'photos':['model3','supercharger','modely'],'sources':[{'name':s['name'],'url':s['url']} for s in results]}
+ existing_path=ROOT/'content/daily'/f'{day}.json'
+ if existing_path.exists():
+  existing=json.loads(existing_path.read_text())
+  headlines=merge_records(existing.get('headlines',[]),headlines,30)
+  changes=merge_records(existing.get('changes',[]),changes,50)
+ article={'id':'daily-'+day,'date':day,'checkedAt':NOW,'category':'日次レポート','hardware':['HW3','HW4'],'title':day.replace('-','.')+'｜FSD・充電の定点観測','summary':f"公式発表・世界FSD報道・充電情報の{len(results)}系統中、{sum(s['ok'] for s in results)}系統を取得。取得できなかった情報も明示します。",'auto':True,'changes':changes,'headlines':headlines[:30],'photos':['model3','supercharger','modely'],'sources':[{'name':s['name'],'url':s['url']} for s in results]}
  (ROOT/'content/daily').mkdir(exist_ok=True)
  (ROOT/'content/daily'/f'{day}.json').write_text(json.dumps(article,ensure_ascii=False,indent=2)+'\n')
  # Keep 365 days of daily articles; image assets are shared, never duplicated per post.
