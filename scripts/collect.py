@@ -2,6 +2,9 @@
 import concurrent.futures,datetime as dt,hashlib,html,json,re,urllib.request,urllib.parse,xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 from pathlib import Path
+import sys
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+from market import summarise
 ROOT=Path(__file__).resolve().parents[1]
 TZ=dt.timezone(dt.timedelta(hours=9))
 SOURCES=[
@@ -16,7 +19,16 @@ SOURCES=[
  ('mobile','モバイルコネクター公式商品','https://shop.tesla.com/ja_jp/product/mobile-connector','product','充電・在庫'),
  ('wall','ウォールコネクター公式商品','https://shop.tesla.com/ja_jp/product/wall-connector','product','充電・在庫'),
  ('chademo','CHAdeMO公式商品（URL存続も確認）','https://shop.tesla.com/ja_jp/product/chademo-adapter','product','充電・在庫'),
- ('charging','日本公式ショップ充電カテゴリ','https://shop.tesla.com/ja_jp/category/charging','page','充電・販売')]
+ ('charging','日本公式ショップ充電カテゴリ','https://shop.tesla.com/ja_jp/category/charging','page','充電・販売'),
+ ('cev-amounts','CEV公式：登録日別・車両別の補助額PDF','https://www.cev-pc.or.jp/hojo/pdf/R7ho/R7ho_meigaragotojougen_3.pdf','document','補助金・交付額'),
+ ('cev','CEV補助金：実施機関のお知らせ','https://www.cev-pc.or.jp/','notices','補助金・期限'),
+ ('offers-jp','Tesla日本：現在の購入特典','https://www.tesla.com/ja_jp/current-offers','page','購入・キャンペーン'),
+ ('spigen','Spigen公式 Teslaアクセサリー','https://www.spigen.com/collections/tesla','page','アクセサリー'),
+ ('purchase-news','日本のTesla購入・補助金の報道発見','https://news.google.com/rss/search?q='+urllib.parse.quote_plus('テスラ (補助金 OR 金利 OR キャンペーン) when:7d')+'&hl=ja&gl=JP&ceid=JP:ja','rss','購入・補助金／未検証'),
+ ('software-news','Teslaアップデートの報道発見','https://news.google.com/rss/search?q='+urllib.parse.quote_plus('Tesla software update when:1d')+'&hl=ja&gl=JP&ceid=JP:ja','rss','アップデート／未検証'),
+ ('accessory-news','Tesla用アクセサリー新着の発見','https://news.google.com/rss/search?q='+urllib.parse.quote_plus('テスラ アクセサリー when:7d')+'&hl=ja&gl=JP&ceid=JP:ja','rss','アクセサリー／未検証'),
+ *[(f'market-{m}',f'カーセンサー {label} 掲載価格相場',f'https://www.carsensor.net/usedcar/souba/TS_S00{code}/','market','中古相場') for m,label,code in [('3','Model 3',4),('y','Model Y',5),('s','Model S',2),('x','Model X',3)]]
+]
 def safe_url(url):
  p=urllib.parse.urlparse(url)
  return url if p.scheme=='https' and p.hostname else ''
@@ -30,12 +42,14 @@ class Text(HTMLParser):
   if not self.skip:self.parts.append(s)
 def plain(s):
  p=Text();p.feed(s);return re.sub(r'\s+',' ',' '.join(p.parts)).strip()
-def request(url):
+def request(url,binary=False):
  req=urllib.request.Request(url,headers={'User-Agent':'TeslaJapanWatch/1.0 (+https://github.com/clipcore-dev/tesla-japan-watch)','Accept':'text/html,application/json,application/rss+xml,application/xml'})
  with urllib.request.urlopen(req,timeout=22) as r:
   b=r.read(3_000_001)
   if len(b)>3_000_000:raise ValueError('Response exceeds cap')
-  return b.decode('utf-8','replace')
+  if binary:return b
+  encoding=r.headers.get_content_charset() or 'utf-8'
+  return b.decode(encoding,'replace')
 def items_from_rss(raw):
  root=ET.fromstring(raw);out=[]
  for node in root.iter():
@@ -72,10 +86,25 @@ def stations(raw):
 def collect(src):
  key,name,url,kind,topic=src
  try:
-  raw=request(url)
-  if re.search(r'Access Denied|captcha|verify you are human',raw,re.I):raise ValueError('Access restricted')
+  raw=request(url,kind=='document')
+  if isinstance(raw,str) and re.search(r'<title[^>]*>[^<]*(?:Access Denied|captcha|verify you are human)',raw,re.I):raise ValueError('Access restricted')
   value={'id':key,'name':name,'url':url,'topic':topic,'ok':True,'checkedAt':NOW}
-  if kind=='rss':value['items']=items_from_rss(raw)
+  if kind=='document':value['fingerprint']=hashlib.sha256(raw).hexdigest()
+  elif kind=='rss':value['items']=items_from_rss(raw)
+  elif kind=='notices':
+   value['items']=[];seen=set()
+   for link,label in re.findall(r'<a\b[^>]*href=[\"\']([^\"\']+)[\"\'][^>]*>(.*?)</a>',raw,re.S|re.I):
+    url2=urllib.parse.urljoin(url,html.unescape(link));title=plain(label)
+    if safe_url(url2) and '/notice/' in url2 and title and url2 not in seen:
+     seen.add(url2);value['items'].append({'title':title[:100],'url':url2,'published':'原文で確認'})
+   if not value['items']:raise ValueError('CEV notice schema missing')
+  elif kind=='market':
+   value['market']=summarise(raw)
+   minimum={'market-3':2019,'market-y':2022,'market-s':2014,'market-x':2016}[key]
+   excluded=[r for r in value['market']['years'] if int(re.search(r'\d{4}',r['year'])[0])<minimum]
+   value['market']['excludedListings']=sum(r['count'] for r in excluded)
+   value['market']['years']=[r for r in value['market']['years'] if r not in excluded]
+   value['market']['note']='国内導入前の年式区分は要確認データとして表から除外。掲載属性の誤りや並行輸入を自動判定しません。'
   elif kind=='stations':value['stations']=stations(raw)
   elif kind=='recalls':
    x=json.loads(raw)
@@ -105,7 +134,7 @@ def main():
     oldlinks={i['url'] for i in last.get('items',[])}
     new=[i for i in s['items'] if i['url'] not in oldlinks]
     # On first run, present headlines as existing references, never today's breaking news.
-    for i in new[:5]:headlines.append({**i,'source':s['name'],'topic':s['topic'],'initial':not bool(last)})
+    for i in new[:4]:headlines.append({**i,'source':s['name'],'topic':s['topic'],'initial':not bool(last)})
    if s.get('stations') and last.get('stations'):
     oldurls={i['url'] for i in last['stations']};new=[i for i in s['stations'] if i['url'] not in oldurls]
     for i in new:changes.append({'title':'公式一覧に新規掲載：'+i['name'],'url':i['url'],'note':'検出日と開業日は異なります。営業開始・出力は公式詳細と車内地図で確認。'})
@@ -117,7 +146,7 @@ def main():
    if s.get('offers') and s.get('offers')!=last.get('offers'):
     changes.append({'title':s['name']+'：構造化された販売情報を検出','url':s['url'],'note':json.dumps(s['offers'],ensure_ascii=False)+'。配送先や購入時点の在庫は商品画面で再確認。'})
    if s.get('fingerprint') and last.get('fingerprint') and s['fingerprint']!=last['fingerprint']:
-    changes.append({'title':s['name']+'：ページ本文の変更候補','url':s['url'],'note':'サイト共通部分の変更も含むため、解禁・値上げ・機能追加は未判定。原文確認が必要です。'})
+    changes.append({'title':s['name']+'：出典内容の変更候補','url':s['url'],'note':'ページの共通部分やPDF差し替えも含むため、制度・価格・機能の変更内容は未判定。最新の原文確認が必要です。'})
   else:
    if last:s['lastGood']={k:v for k,v in last.items() if k!='lastGood'};s['lastSuccess']=last.get('lastSuccess',last.get('checkedAt'))
  history=previous.get('history',[]);day=NOW[:10]
@@ -126,17 +155,16 @@ def main():
  (ROOT/'content/monitor.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
  (ROOT/'content/reports').mkdir(exist_ok=True)
  (ROOT/'content/reports'/f'{day}.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
- for p in sorted((ROOT/'content/reports').glob('*.json'))[:-365]:p.unlink()
+ # Daily reports are retained permanently as small aggregate snapshots.
  existing_path=ROOT/'content/daily'/f'{day}.json'
  if existing_path.exists():
   existing=json.loads(existing_path.read_text())
-  headlines=merge_records(existing.get('headlines',[]),headlines,30)
+  headlines=merge_records(existing.get('headlines',[]),headlines,60)
   changes=merge_records(existing.get('changes',[]),changes,50)
- article={'id':'daily-'+day,'date':day,'checkedAt':NOW,'category':'日次レポート','hardware':['HW3','HW4'],'title':day.replace('-','.')+'｜FSD・充電の定点観測','summary':f"公式発表・世界FSD報道・充電情報の{len(results)}系統中、{sum(s['ok'] for s in results)}系統を取得。取得できなかった情報も明示します。",'auto':True,'changes':changes,'headlines':headlines[:30],'photos':['model3','supercharger','modely'],'sources':[{'name':s['name'],'url':s['url']} for s in results]}
+ article={'id':'daily-'+day,'date':day,'checkedAt':NOW,'category':'日次レポート','hardware':['HW3','HW4'],'title':day.replace('-','.')+'｜購入・補助金・中古相場とオーナーズトピックス','summary':f"購入・補助金・中古相場・FSD・充電などの{len(results)}系統中、{sum(s['ok'] for s in results)}系統を取得。取得できなかった情報も明示します。",'auto':True,'changes':changes,'headlines':headlines[:60],'photos':['model3','supercharger','modely'],'sources':[{'name':s['name'],'url':s['url']} for s in results]}
  (ROOT/'content/daily').mkdir(exist_ok=True)
  (ROOT/'content/daily'/f'{day}.json').write_text(json.dumps(article,ensure_ascii=False,indent=2)+'\n')
- # Keep 365 days of daily articles; image assets are shared, never duplicated per post.
- for p in sorted((ROOT/'content/daily').glob('*.json'))[:-365]:p.unlink()
+ # Articles accumulate permanently; photographs are shared across the archive.
  print(json.dumps({'successful':sum(s['ok'] for s in results),'total':len(results),'changes':len(changes),'headlines':len(headlines)}))
  if not any(s['ok'] for s in results):raise SystemExit('All sources failed; do not publish a fresh-looking site')
 NOW=dt.datetime.now(TZ).isoformat(timespec='seconds')

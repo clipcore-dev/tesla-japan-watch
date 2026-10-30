@@ -1,7 +1,7 @@
 """Check every local HTML/CSS/JS/image link before deploying."""
 from html.parser import HTMLParser
 from pathlib import Path
-import json,urllib.parse,xml.etree.ElementTree as ET
+import hashlib,json,urllib.parse,xml.etree.ElementTree as ET
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'dist'
 class Links(HTMLParser):
  def __init__(self):super().__init__();self.links=[]
@@ -21,6 +21,8 @@ def main():
   assert i['author'] and i['licenseUrl'] and i['source'] and i['changes']
   assert i['license'] in ('CC BY-SA 4.0','CC0')
   path=OUT/i['path'];assert path.read_bytes().startswith(b'\xff\xd8')
+  assert hashlib.sha256(path.read_bytes()).hexdigest()==i['sha256']
+  assert path.stat().st_size<=500_000
  for name in ('feed.xml','sitemap.xml'):ET.parse(OUT/name)
  assert sum(p.stat().st_size for p in OUT.rglob('*') if p.is_file())<900_000_000
  if errors:raise SystemExit('\n'.join(errors))

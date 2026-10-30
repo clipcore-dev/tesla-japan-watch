@@ -12,11 +12,15 @@ def main():
  out=[]
  for key,title in APPROVED:
   try:
-   url='https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File:'+urllib.parse.quote(title.replace(' ','_'))+'&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=1600'
+   url='https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File:'+urllib.parse.quote(title.replace(' ','_'))+'&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=960'
    info=next(iter(json.loads(get(url))['query']['pages'].values()))['imageinfo'][0];meta=info['extmetadata']
    license=meta['LicenseShortName']['value']
    if license not in ALLOWED:raise ValueError('License needs editorial review')
-   src=info.get('thumburl',info['url']);data=get(src)
+   src=info.get('thumburl',info['url'])
+   previous=next((x for x in old if x['id']==key),None)
+   local=target/(key+'.jpg')
+   data=local.read_bytes() if local.exists() else get(src)
+   if len(data)>500_000:raise ValueError('Image requires size review; keep existing compressed asset')
    if len(data)>8_000_000 or not data.startswith(b'\xff\xd8'):raise ValueError('Invalid or oversized JPEG')
    (target/(key+'.jpg')).write_bytes(data)
    out.append({'id':key,'path':'assets/photos/'+key+'.jpg','title':title,'author':re.sub('<[^>]+>','',meta['Artist']['value']),'license':license,'licenseUrl':meta.get('LicenseUrl',{}).get('value','https://creativecommons.org/publicdomain/zero/1.0/'),'source':info['descriptionurl'],'changes':'縮小版。表示枠に合わせたトリミングあり。','sha256':hashlib.sha256(data).hexdigest(),'caption':{'model3':'Model 3（2018年撮影・海外参考写真。日本仕様やHWを示すものではありません）','modely':'Model Y（2022年・英国撮影。日本仕様やHWを示すものではありません）','supercharger':'V3 Supercharger（参考写真。日本の新設拠点を撮影したものではありません）'}[key]})

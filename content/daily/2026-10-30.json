@@ -1,14 +1,14 @@
 {
   "id": "daily-2026-10-30",
   "date": "2026-10-30",
-  "checkedAt": "2026-10-30T09:22:32+09:00",
+  "checkedAt": "2026-10-30T09:42:47+09:00",
   "category": "日次レポート",
   "hardware": [
     "HW3",
     "HW4"
   ],
-  "title": "2026.10.30｜FSD・充電の定点観測",
-  "summary": "公式発表・世界FSD報道・充電情報の12系統中、5系統を取得。取得できなかった情報も明示します。",
+  "title": "2026.10.30｜購入・補助金・中古相場とオーナーズトピックス",
+  "summary": "購入・補助金・中古相場・FSD・充電などの23系統中、15系統を取得。取得できなかった情報も明示します。",
   "auto": true,
   "changes": [],
   "headlines": [
@@ -131,6 +131,126 @@
       "source": "規制当局の関連発表（RSS発見）",
       "topic": "規制当局・原文確認",
       "initial": true
+    },
+    {
+      "title": "2026.39.6 Official Tesla Release Notes - Software Updates - Not a Tesla App",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUmFFNUpLSzBWX1U5NzRZcy1iVzVZUDRqWnVZRmFyX2ZiNVZPUWRaeE5hTGZkeFhjcXE5THlBallEeUg5LWpvUFFGMnVEWkoyX0V4QTRzZWFhbGYwVXVQMUl2VmpDdS1qYXQzZkVEcDhtM09sS3VNQWtEYzBlMVYxaE1Baw?oc=5",
+      "published": "Thu, 29 Oct 2026 22:02:02 GMT",
+      "source": "世界FSD報道の発見用RSS",
+      "topic": "海外報道・未検証",
+      "initial": false
+    },
+    {
+      "title": "令和７年度補正 CEV 補助金（車両） 申請者向けリーフレットについて",
+      "url": "https://www.cev-pc.or.jp/notice/20261029_1281.html",
+      "published": "原文で確認",
+      "source": "CEV補助金：実施機関のお知らせ",
+      "topic": "補助金・期限",
+      "initial": true
+    },
+    {
+      "title": "令和７年度補正 CEV 補助金（車両） オンライン申請のシステムメンテナンスによる利用停止について",
+      "url": "https://www.cev-pc.or.jp/notice/20261029_1280.html",
+      "published": "原文で確認",
+      "source": "CEV補助金：実施機関のお知らせ",
+      "topic": "補助金・期限",
+      "initial": true
+    },
+    {
+      "title": "令和７年度補正 外部給電器補助金 オンライン申請のシステムメンテナンスによる利用停止について",
+      "url": "https://www.cev-pc.or.jp/notice/20261029_1279.html",
+      "published": "原文で確認",
+      "source": "CEV補助金：実施機関のお知らせ",
+      "topic": "補助金・期限",
+      "initial": true
+    },
+    {
+      "title": "＜重要＞ 令和７年度補正予算「燃料電池自動車用水素供給設備設置補助事業」三次公募の受付開始",
+      "url": "https://www.cev-pc.or.jp/notice/20261026_1278.html",
+      "published": "原文で確認",
+      "source": "CEV補助金：実施機関のお知らせ",
+      "topic": "補助金・期限",
+      "initial": true
+    },
+    {
+      "title": "【実質値引き】テスラ「充電サポートプログラム」キャンペーンを開始〜最大26.4万円、先着5,000台 - Touch Lab",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5oYkdVbXZWTG9EUjkzRHFPWDdJMUVNV3RRVFJFbGZpcUE5TVVQOU5YSmdHWmtQZmM0M003UFFmVjRtdk15ZzM4SEkxWndfOUhkVERWb2t4RzFTNFFiWGNZcEF4RVRQZEEtMzBj?oc=5",
+      "published": "Fri, 23 Oct 2026 20:00:55 GMT",
+      "source": "日本のTesla購入・補助金の報道発見",
+      "topic": "購入・補助金／未検証",
+      "initial": true
+    },
+    {
+      "title": "テスラ、「モデルY」など一部改良で車両から給電 台数限定で値引き - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBHakdTNTlGek9GQjJET2s0V1V6YXhEVkRHQ05jM1hqQkF3NEp5NmhySE9GMmFJMU5DTVVfaFRpNkhYLU5YSlc1M2liNFViZE5tMnNQMEdqUi02c0RoQWx0U0ZvMkVPSVBvVE5Udw?oc=5",
+      "published": "Fri, 23 Oct 2026 05:30:15 GMT",
+      "source": "日本のTesla購入・補助金の報道発見",
+      "topic": "購入・補助金／未検証",
+      "initial": true
+    },
+    {
+      "title": "中古EVはなぜ安い？3年落ちリーフの買取相場は新車の26％！日産やテスラのリセールバリューに見る補助金の影 - リセバ総研",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0wNVpacllrcjFldUZFdUtBVTBCZEt5X3E5c2pnVjR6NlZXc1FLeEZhRW5sY3JKRTM1Y05ad3lvXzJPV0swQVFQZk1KYW13UXpHWkpQQ3d4TGFPUUpO?oc=5",
+      "published": "Mon, 26 Oct 2026 18:32:13 GMT",
+      "source": "日本のTesla購入・補助金の報道発見",
+      "topic": "購入・補助金／未検証",
+      "initial": true
+    },
+    {
+      "title": "【EV補助金が最大50万円減】2027年1月から新基準へ！ CEV補助金はなぜ減額？ 年明け納車は要注意 (carview！) - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUEI0U0ZXVDdtVmVXcmFoaXdXdmxJaV9wQWFrcHBJUVFhdS1lR1o0cVZlV1hTOFI5aVBUNk4tU2RoZXM4a3hTQm1haEF1Z1RrWWlmRlZBSXQtVGgzekZidE1VdVRoVGJkUkNWTE9makNlYTBkYUo0WXhTRGo0dF96OUhvaExLZjhLdlMtTkt3?oc=5",
+      "published": "Sat, 24 Oct 2026 09:02:26 GMT",
+      "source": "日本のTesla購入・補助金の報道発見",
+      "topic": "購入・補助金／未検証",
+      "initial": true
+    },
+    {
+      "title": "【2026年10月発売】ホンダ 新型 ヴェゼル 純正アクセサリー「Black Sports Style」価格・装着例を解説 - 最新自動車情報",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSktQajU4U3hLRXo2bWRuQ3BTQm9UbUNidTZiQjktS1VDUVd6WUdDeXpuZUJpbWdMS21FNFpjekVhWE56NGhHZEc0SUxSVzhrZ0FmMFhReG9zU2RrdUdYUUNKbFc2MkZVQTRXMTJGQ2JGQVFBbEdqc25DeVMxR1JTQWROMDZWVXU1NklDLWVQTmc?oc=5",
+      "published": "Sat, 24 Oct 2026 05:12:24 GMT",
+      "source": "Tesla用アクセサリー新着の発見",
+      "topic": "アクセサリー／未検証",
+      "initial": true
+    },
+    {
+      "title": "【速報】壮大すぎるテスラの街、Terafabの公式パースが公開 Sara Duterte Impeachment Update (IR4uP3j3iJ) - Unisba Media",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE85WUM2cDZYZzBiaHlvM0F6SG9sRFpCbHFMbmJQS2NMdjB6QWVkd0hsQ1c2RGx3b3pTbW9aRU15VkpEbmFJUHkwdG5Md1VIMmJLWHFhemlrSUJRd05zZ3N2TjVqejV3dw?oc=5",
+      "published": "Sun, 25 Oct 2026 10:03:37 GMT",
+      "source": "Tesla用アクセサリー新着の発見",
+      "topic": "アクセサリー／未検証",
+      "initial": true
+    },
+    {
+      "title": "モメンタ日本へ急接近、テスラに迫れるか 中国E2E自動運転トップの技術力 - 日経クロステック",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5TUk94M3daMDNRT042Y25WOTZTckJBbFpFV2EzNnhac0liUkRheTZwVjdnb3ZkU2hCX0E5Yk9WTlV6bVpJT0dodXhkb0VIdWpIcHVsX25ianMzUHlLVWx1UVQ1Z0FrOWZxX2Q5dg?oc=5",
+      "published": "Wed, 28 Oct 2026 20:00:00 GMT",
+      "source": "日本のTesla購入・補助金の報道発見",
+      "topic": "購入・補助金／未検証",
+      "initial": false
+    },
+    {
+      "title": "27年1月以降のEV補助､車種別一覧 トヨタbZ4Xは78万円 - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9VNXYycHNhdHhKaVl5QjBiZkhLRUs1RVFRcEExdXFkcGlNWXQyV0JVMTMxNWZkaldNQXFQVXQ0Q212Wmd1dHdfUTg4NHNUSHlGbW9MOEpOdkdFUEl6N2VWNWlyM01FMk04STdWMUotVmJxbEdHdXFyTVZua1BvN2c?oc=5",
+      "published": "Tue, 27 Oct 2026 20:00:00 GMT",
+      "source": "日本のTesla購入・補助金の報道発見",
+      "topic": "購入・補助金／未検証",
+      "initial": false
+    },
+    {
+      "title": "二重のEV補助金､都民の購入熱が沸騰 増額知る5割が検討 - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1vM0lqdUxUS0xjLW5hTVFXRTB4LS1ndXNTLXNQaFl3SHV1MWhoVkZBRkl4Vy02NHJWZ3JCcjVqTlUwWUM5bllCYXpoRk92ZDFqOGpPd3QtYTI2eXRyZkszMXBESDAzOUgwcGtHMF9RNmlPZnhHWTNtYVNRZWpaMFE?oc=5",
+      "published": "Tue, 27 Oct 2026 20:00:00 GMT",
+      "source": "日本のTesla購入・補助金の報道発見",
+      "topic": "購入・補助金／未検証",
+      "initial": false
+    },
+    {
+      "title": "スペースXとテスラ統合協議・PHPに脆弱性・ディスコ純利益予想下回る - 日経CNBC online",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE12R1dGMFp4WjJVek1ocnQySzF6aWU0ZTluWGdYSTlPRHNYWFh0VmlHd2E4dE9ZR281RFpwOGM4OE9SRWlpT2xzY2I3d1EyaXlNcmdJSw?oc=5",
+      "published": "Fri, 23 Oct 2026 07:24:00 GMT",
+      "source": "日本のTesla購入・補助金の報道発見",
+      "topic": "購入・補助金／未検証",
+      "initial": false
     }
   ],
   "photos": [
@@ -186,6 +306,50 @@
     {
       "name": "日本公式ショップ充電カテゴリ",
       "url": "https://shop.tesla.com/ja_jp/category/charging"
+    },
+    {
+      "name": "CEV公式：登録日別・車両別の補助額PDF",
+      "url": "https://www.cev-pc.or.jp/hojo/pdf/R7ho/R7ho_meigaragotojougen_3.pdf"
+    },
+    {
+      "name": "CEV補助金：実施機関のお知らせ",
+      "url": "https://www.cev-pc.or.jp/"
+    },
+    {
+      "name": "Tesla日本：現在の購入特典",
+      "url": "https://www.tesla.com/ja_jp/current-offers"
+    },
+    {
+      "name": "Spigen公式 Teslaアクセサリー",
+      "url": "https://www.spigen.com/collections/tesla"
+    },
+    {
+      "name": "日本のTesla購入・補助金の報道発見",
+      "url": "https://news.google.com/rss/search?q=%E3%83%86%E3%82%B9%E3%83%A9+%28%E8%A3%9C%E5%8A%A9%E9%87%91+OR+%E9%87%91%E5%88%A9+OR+%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%29+when%3A7d&hl=ja&gl=JP&ceid=JP:ja"
+    },
+    {
+      "name": "Teslaアップデートの報道発見",
+      "url": "https://news.google.com/rss/search?q=Tesla+software+update+when%3A1d&hl=ja&gl=JP&ceid=JP:ja"
+    },
+    {
+      "name": "Tesla用アクセサリー新着の発見",
+      "url": "https://news.google.com/rss/search?q=%E3%83%86%E3%82%B9%E3%83%A9+%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B5%E3%83%AA%E3%83%BC+when%3A7d&hl=ja&gl=JP&ceid=JP:ja"
+    },
+    {
+      "name": "カーセンサー Model 3 掲載価格相場",
+      "url": "https://www.carsensor.net/usedcar/souba/TS_S004/"
+    },
+    {
+      "name": "カーセンサー Model Y 掲載価格相場",
+      "url": "https://www.carsensor.net/usedcar/souba/TS_S005/"
+    },
+    {
+      "name": "カーセンサー Model S 掲載価格相場",
+      "url": "https://www.carsensor.net/usedcar/souba/TS_S002/"
+    },
+    {
+      "name": "カーセンサー Model X 掲載価格相場",
+      "url": "https://www.carsensor.net/usedcar/souba/TS_S003/"
     }
   ]
 }

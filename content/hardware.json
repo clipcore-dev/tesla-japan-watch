@@ -1,0 +1,424 @@
+{
+  "checkedAt": "2026-10-30",
+  "sources": {
+    "launch3": {
+      "name": "Model 3 国内受注開始の当日記録（EV充電サービス事業者EVsmart、2019-05-31）",
+      "url": "https://blog.evsmart.net/t/tesla-model-3-configurator-open/3010"
+    },
+    "oldtypes": {
+      "name": "国交省：2019〜2022年Model 3の型式記載（HW境界資料ではありません）",
+      "url": "https://www.mlit.go.jp/report/press/content/001571763.pdf"
+    },
+    "newtypes": {
+      "name": "国交省：2024年生産車の型式・製作期間（HW境界資料ではありません）",
+      "url": "https://www.mlit.go.jp/report/press/content/001866046.pdf"
+    },
+    "perf": {
+      "name": "国交省：2022〜2023年Model 3 / Yの型式",
+      "url": "https://www.mlit.go.jp/en/jidosha/content/001890368.pdf"
+    },
+    "highland": {
+      "name": "Tesla Japan：新型Model 3、2023-09-01先行注文開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000000027.000038481.html"
+    },
+    "ylaunch": {
+      "name": "Tesla Japan：Model Y日本販売開始、2022-06-10",
+      "url": "https://prtimes.jp/main/html/rd/p/000000016.000038481.html"
+    },
+    "yhw4": {
+      "name": "Tesla Japan：HW4搭載Model Y登場、2024-03-29",
+      "url": "https://prtimes.jp/main/html/rd/p/000000036.000038481.html"
+    },
+    "juniper": {
+      "name": "Tesla Japan：刷新Model Y受注開始、2025-01-10",
+      "url": "https://prtimes.jp/main/html/rd/p/000000041.000038481.html"
+    },
+    "sx": {
+      "name": "Tesla Japan：刷新S/X国内受注開始、2023-05-12",
+      "url": "https://prtimes.jp/main/html/rd/p/000000024.000038481.html"
+    },
+    "m3perf": {
+      "name": "Tesla：刷新Model 3 Performance、2024-04-23",
+      "url": "https://www.tesla.com/ja_jp/blog/introducing-new-model-3-performance"
+    },
+    "heat": {
+      "name": "Tesla旧Model 3マニュアル：製造時期別ヒートポンプの説明（日本の納車月境界ではありません）",
+      "url": "https://www.tesla.com/ownersmanual/2017_2023_model3/ja_us/Owners_Manual.pdf"
+    },
+    "ai": {
+      "name": "Tesla：AIコンピューターの実車確認・HW2/2.5からHW3への対象条件",
+      "url": "https://www.tesla.com/ja_jp/support/ai-computer"
+    },
+    "2019": {
+      "name": "Tesla 2019年Q1報告：FSDコンピューター生産開始（世界の生産情報）",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000156459019012758/tsla-8k_20190424-gen_0.pdf"
+    },
+    "2016": {
+      "name": "Tesla 2016年年次報告：2014年10月・2016年10月のAutopilotハードウェア変更",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000156459017003118/tsla-10k_20161231-gen_0.pdf"
+    },
+    "cev": {
+      "name": "CEV補助対象車両表：現行の車名・グレード・型式・類別",
+      "url": "https://www.cev-pc.or.jp/hojo/pdf/R7ho/R7ho_meigaragotojougen_3.pdf"
+    },
+    "oct26": {
+      "name": "Tesla Japan：2026-10-23発表の充電サポート・新型仕様",
+      "url": "https://prtimes.jp/main/html/rd/p/000000077.000038481.html"
+    }
+  },
+  "rows": [
+    {
+      "model": "Model 3",
+      "period": "2019年5月受注開始〜2020年頃：初期型",
+      "fromYear": 2019,
+      "toYear": 2021,
+      "types": [
+        "ZAA-3L13",
+        "ZAA-3L23",
+        "ZAA-3L23P"
+      ],
+      "hardware": "HW3が目安。初期車・輸入車は実車照会",
+      "changes": "旧型の前後意匠。ヒートポンプ導入前の製造車を含む。",
+      "buyer": "低い購入額を重視する比較候補。冬季の空調、バッテリー状態とHW・契約を確認。",
+      "sources": [
+        "launch3",
+        "oldtypes",
+        "2019",
+        "heat"
+      ]
+    },
+    {
+      "model": "Model 3",
+      "period": "2021年頃：初期型の改良・型式枝番の混在",
+      "fromYear": 2020,
+      "toYear": 2022,
+      "types": [
+        "ZAA-3L13",
+        "ZAA-3L13B",
+        "ZAA-3L23",
+        "ZAA-3L23B",
+        "ZAA-3L23P",
+        "ZAA-3L23PB"
+      ],
+      "hardware": "主にHW3世代",
+      "changes": "2020年10月頃以降の製造車ではヒートポンプ世代へ。日本の登録年とは一致しない。",
+      "buyer": "ヒートポンプの有無と製造年月を確認。Bなどの末尾だけでHW4とは判断しない。",
+      "sources": [
+        "oldtypes",
+        "heat",
+        "ai"
+      ]
+    },
+    {
+      "model": "Model 3",
+      "period": "2022年頃〜2023年改良前：旧外観の後期",
+      "fromYear": 2022,
+      "toYear": 2024,
+      "types": [
+        "ZAA-3L13T",
+        "ZAA-3L23T",
+        "ZAA-3L23PT"
+      ],
+      "hardware": "主にHW3世代",
+      "changes": "T系型式が公的資料に登場。インフォテインメントのCPUや低電圧電池にもロット差がある。",
+      "buyer": "Ryzen/Intelは画面用の処理系でHW3/HW4とは別。Tが付いてもHW4確定ではない。",
+      "sources": [
+        "perf",
+        "oldtypes",
+        "ai"
+      ]
+    },
+    {
+      "model": "Model 3",
+      "period": "2023年9月発表〜：刷新型（通称Highland）RWD / LR",
+      "fromYear": 2023,
+      "toYear": 2026,
+      "types": [
+        "ZAA-3L13T",
+        "ZAA-3L23T"
+      ],
+      "hardware": "HW4 / AI4世代の購入候補。個体確認を推奨",
+      "changes": "前席ベンチレーション、後席8インチ画面、当初のストークレス操作などへ刷新。",
+      "buyer": "FSDを重視するセダンの候補。2023〜2024年登録は旧型在庫との区別が必要。発表日を全VINのHW切替日としない。",
+      "sources": [
+        "highland",
+        "yhw4",
+        "newtypes",
+        "cev"
+      ]
+    },
+    {
+      "model": "Model 3",
+      "period": "2024年4月発表〜：刷新Performance",
+      "fromYear": 2024,
+      "toYear": 2026,
+      "types": [
+        "ZAA-3L24PT"
+      ],
+      "hardware": "HW4 / AI4世代の購入候補",
+      "changes": "新しいPerformance専用のドライブユニット、スポーツシートなど。",
+      "buyer": "HW4を選ぶためにPerformanceが必須という意味ではない。通常グレードと総額・用途で比較。",
+      "sources": [
+        "m3perf",
+        "newtypes",
+        "cev"
+      ]
+    },
+    {
+      "model": "Model 3",
+      "period": "2026年10月23日発売〜：刷新型の追加改良",
+      "fromYear": 2026,
+      "toYear": 2026,
+      "types": [
+        "ZAA-3L13T",
+        "ZAA-3L23T",
+        "ZAA-3L24PT（グレードごとの最新仕様確認）"
+      ],
+      "hardware": "HW4世代の候補。FSD国内提供とは別条件",
+      "changes": "16インチのセンター画面、V2L対応などを国内発表。V2L用アダプターは別売・発売予定。",
+      "buyer": "2026年登録でも10月改良前後がある。画面保護用品やV2L適合は現車・最新注文仕様で照合。",
+      "sources": [
+        "oct26",
+        "cev"
+      ]
+    },
+    {
+      "model": "Model Y",
+      "period": "2022年6月販売開始〜2023年頃：国内初期",
+      "fromYear": 2022,
+      "toYear": 2024,
+      "types": [
+        "ZAA-YL1YT",
+        "ZAA-YL3YT",
+        "ZAA-YL3YPT"
+      ],
+      "hardware": "主にHW3世代",
+      "changes": "日本ではRWD / Performanceから展開。後のLong Rangeも同じ旧外観の期間に含まれる。",
+      "buyer": "海外の2023年HW4導入情報を国内の全2023年車へ適用しない。2024年登録の旧在庫にも注意。",
+      "sources": [
+        "ylaunch",
+        "perf",
+        "yhw4"
+      ]
+    },
+    {
+      "model": "Model Y",
+      "period": "2024年3月29日国内発表〜：旧外観＋HW4の世代",
+      "fromYear": 2024,
+      "toYear": 2025,
+      "types": [
+        "ZAA-YL1YT",
+        "ZAA-YL3YT",
+        "ZAA-YL3YPT"
+      ],
+      "hardware": "HW4搭載車の国内公式発表あり。ただし登録年だけでは確定不可",
+      "changes": "カメラ・運転支援コンピューターの更新。外観刷新前でもHW4車が存在する。",
+      "buyer": "中古でHW4を狙う重要な比較候補。2024年式という広告だけでなく実車のコンピューターを確認。",
+      "sources": [
+        "yhw4",
+        "newtypes",
+        "cev"
+      ]
+    },
+    {
+      "model": "Model Y",
+      "period": "2025年1月10日受注開始〜：刷新型（通称Juniper）",
+      "fromYear": 2025,
+      "toYear": 2026,
+      "types": [
+        "ZAA-YL1YT",
+        "ZAA-YL3YT",
+        "ZAA-YL3YPT"
+      ],
+      "hardware": "HW4 / AI4世代の購入候補",
+      "changes": "前後のライト意匠、静粛性・乗り心地、内装などを刷新。",
+      "buyer": "2025年登録には旧型もあり得る。新しい意匠・グレードと製造時期を確認。Performanceは追加時期が別。",
+      "sources": [
+        "juniper",
+        "yhw4",
+        "cev"
+      ]
+    },
+    {
+      "model": "Model Y",
+      "period": "2026年時点：Model Y Lを含む仕様展開",
+      "fromYear": 2026,
+      "toYear": 2026,
+      "types": [
+        "ZAA-YL3YT"
+      ],
+      "hardware": "現行世代の候補。Lを型式だけで区別しない",
+      "changes": "CEV表ではModel Y LもYL3YT。同じ型式を使う通常Yとの違いは車名・類別・車両コードで確認。",
+      "buyer": "必要な座席・車体サイズを先に決め、最新注文画面と車検証情報を照合。",
+      "sources": [
+        "cev"
+      ]
+    },
+    {
+      "model": "Model S",
+      "period": "2019年前後〜2022年頃：旧世代／HW3移行期",
+      "fromYear": 2016,
+      "toYear": 2023,
+      "types": [
+        "旧型式は車検証とTesla照会で確認"
+      ],
+      "hardware": "AP1 / HW2 / HW2.5 / HW3・交換済み車が混在",
+      "changes": "世界では2019年にFSDコンピューターの生産開始。国内の登録年・輸入時期・交換時期と一致しない。",
+      "buyer": "旧S/Xの正確な型式・HW別国内VIN境界は本誌未確定。右ハンドル車と後の刷新・左ハンドル車も区別。",
+      "sources": [
+        "2019",
+        "2016",
+        "ai"
+      ]
+    },
+    {
+      "model": "Model S",
+      "period": "2023年5月12日国内受注再開〜：刷新型",
+      "fromYear": 2023,
+      "toYear": 2026,
+      "types": [
+        "ZAA-SLA",
+        "ZAA-SLP"
+      ],
+      "hardware": "HW4世代の目安。2023年切替個体は照会",
+      "changes": "Plaidを含む刷新モデルが国内再登場。日本向けも左ハンドル。横向き17インチ画面などへ。",
+      "buyer": "2024年3月の国内発表では進化したハードウェアの全車種搭載を案内。2023年の全個体を型式だけでHW4とは断定しない。",
+      "sources": [
+        "sx",
+        "yhw4",
+        "newtypes",
+        "cev"
+      ]
+    },
+    {
+      "model": "Model X",
+      "period": "2019年前後〜2022年頃：旧世代／HW3移行期",
+      "fromYear": 2016,
+      "toYear": 2023,
+      "types": [
+        "旧型式は車検証とTesla照会で確認"
+      ],
+      "hardware": "AP1 / HW2 / HW2.5 / HW3・交換済み車が混在",
+      "changes": "世界では2019年にFSDコンピューターの生産開始。国内の登録年・輸入時期・交換時期と一致しない。",
+      "buyer": "旧S/Xの正確な型式・HW別国内VIN境界は本誌未確定。右ハンドル車と後の刷新・左ハンドル車も区別。",
+      "sources": [
+        "2019",
+        "2016",
+        "ai"
+      ]
+    },
+    {
+      "model": "Model X",
+      "period": "2023年5月12日国内受注再開〜：刷新型",
+      "fromYear": 2023,
+      "toYear": 2026,
+      "types": [
+        "ZAA-XLA",
+        "ZAA-XLP"
+      ],
+      "hardware": "HW4世代の目安。2023年切替個体は照会",
+      "changes": "Plaidを含む刷新モデルが国内再登場。日本向けも左ハンドル。横向き17インチ画面などへ。",
+      "buyer": "2024年3月の国内発表では進化したハードウェアの全車種搭載を案内。2023年の全個体を型式だけでHW4とは断定しない。",
+      "sources": [
+        "sx",
+        "yhw4",
+        "newtypes",
+        "cev"
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "model": "Model 3",
+      "bars": [
+        [
+          2019.42,
+          2023.67,
+          "hw3",
+          "HW3世代"
+        ],
+        [
+          2023.67,
+          2024,
+          "transition",
+          "新旧切替"
+        ],
+        [
+          2024,
+          2027,
+          "hw4",
+          "刷新型：HW4世代"
+        ]
+      ]
+    },
+    {
+      "model": "Model Y",
+      "bars": [
+        [
+          2022.42,
+          2024.25,
+          "hw3",
+          "HW3世代"
+        ],
+        [
+          2024.25,
+          2025.08,
+          "hw4",
+          "旧外観 HW4"
+        ],
+        [
+          2025.08,
+          2027,
+          "hw4",
+          "刷新型 HW4世代"
+        ]
+      ]
+    },
+    {
+      "model": "Model S",
+      "bars": [
+        [
+          2019,
+          2023.37,
+          "hw3",
+          "旧世代／HW3目安"
+        ],
+        [
+          2023.37,
+          2024.25,
+          "transition",
+          "刷新・要照会"
+        ],
+        [
+          2024.25,
+          2027,
+          "hw4",
+          "HW4世代"
+        ]
+      ]
+    },
+    {
+      "model": "Model X",
+      "bars": [
+        [
+          2019,
+          2023.37,
+          "hw3",
+          "旧世代／HW3目安"
+        ],
+        [
+          2023.37,
+          2024.25,
+          "transition",
+          "刷新・要照会"
+        ],
+        [
+          2024.25,
+          2027,
+          "hw4",
+          "HW4世代"
+        ]
+      ]
+    }
+  ]
+}
