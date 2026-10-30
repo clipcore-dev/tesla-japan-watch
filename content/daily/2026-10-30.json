@@ -1,0 +1,143 @@
+{
+  "id": "daily-2026-10-30",
+  "date": "2026-10-30",
+  "checkedAt": "2026-10-30T09:13:24+09:00",
+  "category": "日次レポート",
+  "hardware": [
+    "HW3",
+    "HW4"
+  ],
+  "title": "2026.10.30｜FSD・充電の定点観測",
+  "summary": "公式発表・世界FSD報道・充電情報の10系統中、3系統を取得。取得できなかった情報も明示します。",
+  "auto": true,
+  "changes": [],
+  "headlines": [
+    {
+      "title": "新しいModel 3とModel Y、Model Y L - おでかけも、もしもの備えも、テスラの電気で。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000077.000038481.html",
+      "published": "2026-10-23",
+      "source": "Tesla Japan 公式発表",
+      "topic": "日本公式",
+      "initial": true
+    },
+    {
+      "title": "10月28日（水）、東海エリアの新たな納車拠点「テスラ デリバリーセンター名古屋みなと」をオープン",
+      "url": "https://prtimes.jp/main/html/rd/p/000000076.000038481.html",
+      "published": "2026-10-15",
+      "source": "Tesla Japan 公式発表",
+      "topic": "日本公式",
+      "initial": true
+    },
+    {
+      "title": "茨城県ひたちなか市に「テスラ ひたちなか」をオープン",
+      "url": "https://prtimes.jp/main/html/rd/p/000000075.000038481.html",
+      "published": "2026-09-25",
+      "source": "Tesla Japan 公式発表",
+      "topic": "日本公式",
+      "initial": true
+    },
+    {
+      "title": "Cybercab（サイバーキャブ）を日本初公開",
+      "url": "https://prtimes.jp/main/html/rd/p/000000074.000038481.html",
+      "published": "2026-09-05",
+      "source": "Tesla Japan 公式発表",
+      "topic": "日本公式",
+      "initial": true
+    },
+    {
+      "title": "外国車ブランド 車種別No.1*は、テスラ Model Y",
+      "url": "https://prtimes.jp/main/html/rd/p/000000073.000038481.html",
+      "published": "2026-08-27",
+      "source": "Tesla Japan 公式発表",
+      "topic": "日本公式",
+      "initial": true
+    },
+    {
+      "title": "South Korean Police Are Cracking Down On Tesla Owners Jailbreaking FSD - InsideEVs",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBPaFRqOTBsdTF4cmNHZTFGX3BSdFcwZEVqQ2NxNS1Ba3E2cVlwZW42M0VGMlFSX0FLRmNINlBtUDl2SEFUMl9GeUNLZ09VYlNyS1lqWkYyRnJ6OVhXLUc5VWZwdGRCOHMza3k0V2hqTlBXMFpUT3lz?oc=5",
+      "published": "Thu, 29 Oct 2026 21:25:02 GMT",
+      "source": "世界FSD報道の発見用RSS",
+      "topic": "海外報道・未検証",
+      "initial": true
+    },
+    {
+      "title": "Chase Auto Is Advertising Tesla FSD to Its Customers - BASENOR - Tesla Accessories",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQX3JqS1NLSC00SEU4QlVSREhjOFJ6Wmo2QVFCbUs1am94WmluS3lscU9ZZFY0X0tOc0tsQ2VjSGZzTlFsMlAxZ05xcFg5RnJLLUZMS1Q2M1ItOFV3aDZWeS16ZGJIYUwtMEN0ajFDUHVWLTV3ZDVYZmNBWkE5T0tpeXZuX2J1WllfR3U0WG9DcXk?oc=5",
+      "published": "Fri, 30 Oct 2026 00:04:41 GMT",
+      "source": "世界FSD報道の発見用RSS",
+      "topic": "海外報道・未検証",
+      "initial": true
+    },
+    {
+      "title": "76-Year-Old Woman in California Says Tesla FSD Lets Her Stay Out Later, But Is That Actually Safe? -",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZnlwczUyVlg0R2xLYXhlR09taktPc3EzZzMxSFFwTmE0TTViYS1HUHRsM1dNbEVLcFpnUmJjN3hjZU5aT08tenI4cnNVS0RfcGFDMnZrNjZiZGM3VXc0dmZXSnI1Q3ZKM2Etd1ZEVl9XbzdQVzJrLW5tSXpPSTh0SzQySENtWC1iYkhHX2xXZXBjc211MnBuSFhQSQ?oc=5",
+      "published": "Thu, 29 Oct 2026 18:56:02 GMT",
+      "source": "世界FSD報道の発見用RSS",
+      "topic": "海外報道・未検証",
+      "initial": true
+    },
+    {
+      "title": "South Korean court rejects Tesla owners' lawsuit seeking 'Full Self-Driving' refunds - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYjh3SVB5QkI5b2FUQ0ptMFpDNWRsTU9yVVd3Q0kxZnJUWG1wUDZnYXVzeEt5T1ZLVHJQcHBTV3V0SkRFNGc2NnkyQ0haTGhVcU9HWkJqRTFzY1MzWFNCMTF4Tjl5S09BeG5CN3dDTzhJY1RGRHlSaTBOb3FtdDNTRWRUYThoYXJXRVlud050R29xTVVMSUhMTHFWWm16T3l6RF9hcWhyMTBLeHk4cWxkRWp0dlp1N1c3RXN3eWFfemljc01ZTnBseW5aU3VDUlZleDlhSDAtUVBJUWFXaEE?oc=5",
+      "published": "Thu, 29 Oct 2026 02:00:00 GMT",
+      "source": "世界FSD報道の発見用RSS",
+      "topic": "海外報道・未検証",
+      "initial": true
+    },
+    {
+      "title": "76-Year-Old Lady Has Been Traveling Around in Her Tesla on FSD Only for Months - autoevolution",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONFRybnFtYUZiQy1NdmJuMms1UEJsS1RvT0dOdjBYMll6T19GcExMbmMta0NBSmkzdnpVRnFHWHZTdndTYkdFT3FlcV9SWVROOWx4QUttNFZQNE5kdnZOREx2QU5PYmNQVlExZlBVUUJLS0d3QkJ6cXhYamNZT1J6ckhvV0RCWHhpek80bW44ektXbU9BaDQ2RUdEbXFvWmdBOG90Nmc5MElXeDZXX045dnRxdWlxeVRTOUtlT0t5c0F2RzQ?oc=5",
+      "published": "Thu, 29 Oct 2026 22:22:18 GMT",
+      "source": "世界FSD報道の発見用RSS",
+      "topic": "海外報道・未検証",
+      "initial": true
+    }
+  ],
+  "photos": [
+    "model3",
+    "supercharger",
+    "modely"
+  ],
+  "sources": [
+    {
+      "name": "Tesla Japan 公式発表",
+      "url": "https://prtimes.jp/companyrdf.php?company_id=38481"
+    },
+    {
+      "name": "世界FSD報道の発見用RSS",
+      "url": "https://news.google.com/rss/search?q=Tesla+%22FSD%22+when:1d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "FSD 世界提供地域（Tesla公式）",
+      "url": "https://www.tesla.com/ja_jp/fsd/safety"
+    },
+    {
+      "name": "FSD 米国価格・機能（Tesla公式）",
+      "url": "https://www.tesla.com/support/fsd"
+    },
+    {
+      "name": "米国NHTSA TeslaリコールAPI / Model Y 2026",
+      "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=TESLA&model=MODEL%20Y&modelYear=2026"
+    },
+    {
+      "name": "日本Supercharger公式一覧",
+      "url": "https://www.tesla.com/ja_jp/findus/list/superchargers/Japan"
+    },
+    {
+      "name": "モバイルコネクター公式商品",
+      "url": "https://shop.tesla.com/ja_jp/product/mobile-connector"
+    },
+    {
+      "name": "ウォールコネクター公式商品",
+      "url": "https://shop.tesla.com/ja_jp/product/wall-connector"
+    },
+    {
+      "name": "CHAdeMO公式商品（URL存続も確認）",
+      "url": "https://shop.tesla.com/ja_jp/product/chademo-adapter"
+    },
+    {
+      "name": "日本公式ショップ充電カテゴリ",
+      "url": "https://shop.tesla.com/ja_jp/category/charging"
+    }
+  ]
+}

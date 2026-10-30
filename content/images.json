@@ -1,0 +1,38 @@
+[
+  {
+    "id": "model3",
+    "path": "assets/photos/model3.jpg",
+    "title": "Tesla Model 3.jpg",
+    "author": "Darin Caggiano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tesla_Model_3.jpg",
+    "changes": "縮小版。表示枠に合わせたトリミングあり。",
+    "sha256": "6ea1ddfec8a121662a77aeb8b471654bd8489a4d5a9781ca65c6cb2b0c2c1214",
+    "caption": "Model 3（2018年撮影・海外参考写真。日本仕様やHWを示すものではありません）"
+  },
+  {
+    "id": "supercharger",
+    "path": "assets/photos/supercharger.jpg",
+    "title": "Tesla V3 Supercharger photo.jpg",
+    "author": "Nashucks",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Tesla_V3_Supercharger_photo.jpg",
+    "changes": "縮小版。表示枠に合わせたトリミングあり。",
+    "sha256": "c65d216bdb88676cf82d43de7166e8f2880fb253a92f0ab5f8fd26a8d1474590",
+    "caption": "V3 Supercharger（参考写真。日本の新設拠点を撮影したものではありません）"
+  },
+  {
+    "id": "modely",
+    "path": "assets/photos/modely.jpg",
+    "title": "2022 Tesla Model Y Long Range AWD Front.jpg",
+    "author": "Vauxford",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2022_Tesla_Model_Y_Long_Range_AWD_Front.jpg",
+    "changes": "縮小版。表示枠に合わせたトリミングあり。",
+    "sha256": "c2640395f4e39165c5723dc5f28c3117b595fda5fdeebb8d13352076aabb29d0",
+    "caption": "Model Y（2022年・英国撮影。日本仕様やHWを示すものではありません）"
+  }
+]

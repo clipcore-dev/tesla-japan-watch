@@ -1,0 +1,71 @@
+name: Daily source check and Pages publish
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '23 22 * * *' # 07:23 Asia/Tokyo next day
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Collect free sources (no AI API)
+        run: python scripts/collect.py
+      - name: Refresh reviewed licensed photographs
+        run: python scripts/refresh_images.py
+      - name: Test parsers and publication safeguards
+        run: python -m unittest discover -s tests
+      - name: Build static blog
+        run: python scripts/build.py
+      - name: Validate local links and assets
+        run: python scripts/validate.py
+      - name: Save acquisition record and article
+        run: |
+          git config user.name 'Tesla Japan Watch Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add content assets/photos
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish daily source observations [skip ci]'
+            git push
+          fi
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+          retention-days: 1
+      - name: Source health summary
+        if: always()
+        run: |
+          python - <<'PY'
+          import json,os
+          x=json.load(open('content/monitor.json'))
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:
+            f.write('## Source acquisition\n\n')
+            for s in x['sources']:
+              f.write('- '+s['name']+': '+('OK' if s['ok'] else 'UNCONFIRMED - '+s.get('error',''))+'\n')
+          PY
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    timeout-minutes: 5
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

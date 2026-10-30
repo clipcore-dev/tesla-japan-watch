@@ -1,0 +1,1 @@
+{"name":"tesla-japan-watch","private":true,"version":"1.0.0","scripts":{"build":"python3 scripts/build.py","test":"python3 -m unittest discover -s tests","refresh":"python3 scripts/collect.py","dev":"python3 -m http.server 4173 --directory dist"}}

@@ -1,0 +1,449 @@
+{
+  "checkedAt": "2026-10-30T09:13:24+09:00",
+  "sources": [
+    {
+      "id": "tesla-jp",
+      "name": "Tesla Japan 公式発表",
+      "url": "https://prtimes.jp/companyrdf.php?company_id=38481",
+      "topic": "日本公式",
+      "ok": true,
+      "checkedAt": "2026-10-30T09:13:24+09:00",
+      "items": [
+        {
+          "title": "新しいModel 3とModel Y、Model Y L - おでかけも、もしもの備えも、テスラの電気で。",
+          "url": "https://prtimes.jp/main/html/rd/p/000000077.000038481.html",
+          "published": "2026-10-23"
+        },
+        {
+          "title": "10月28日（水）、東海エリアの新たな納車拠点「テスラ デリバリーセンター名古屋みなと」をオープン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000076.000038481.html",
+          "published": "2026-10-15"
+        },
+        {
+          "title": "茨城県ひたちなか市に「テスラ ひたちなか」をオープン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000075.000038481.html",
+          "published": "2026-09-25"
+        },
+        {
+          "title": "Cybercab（サイバーキャブ）を日本初公開",
+          "url": "https://prtimes.jp/main/html/rd/p/000000074.000038481.html",
+          "published": "2026-09-05"
+        },
+        {
+          "title": "外国車ブランド 車種別No.1*は、テスラ Model Y",
+          "url": "https://prtimes.jp/main/html/rd/p/000000073.000038481.html",
+          "published": "2026-08-27"
+        },
+        {
+          "title": "四国初のテスラストア、8月28日にテスラ愛媛がオープン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000072.000038481.html",
+          "published": "2026-08-17"
+        },
+        {
+          "title": "8月17日に「横浜」「神戸」の2拠点にデリバリーセンターを同時オープン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000071.000038481.html",
+          "published": "2026-08-10"
+        },
+        {
+          "title": "テスラ スーパーチャージャーを無償化",
+          "url": "https://prtimes.jp/main/html/rd/p/000000070.000038481.html",
+          "published": "2026-07-29"
+        },
+        {
+          "title": "グランフロント大阪 北館に「テスラ ストア」がオープン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000069.000038481.html",
+          "published": "2026-07-27"
+        },
+        {
+          "title": "対話型AI「Grok」を国内のテスラ車両にOTAで配信",
+          "url": "https://prtimes.jp/main/html/rd/p/000000068.000038481.html",
+          "published": "2026-07-21"
+        },
+        {
+          "title": "テスラ スーパーチャージャー、全国150箇所に到達",
+          "url": "https://prtimes.jp/main/html/rd/p/000000067.000038481.html",
+          "published": "2026-07-13"
+        },
+        {
+          "title": "世界で最もテスラが安い街、東京",
+          "url": "https://prtimes.jp/main/html/rd/p/000000066.000038481.html",
+          "published": "2026-06-25"
+        },
+        {
+          "title": "2026年5月度 外国車ブランド 車種別No.1は、テスラ Model Y",
+          "url": "https://prtimes.jp/main/html/rd/p/000000065.000038481.html",
+          "published": "2026-06-12"
+        },
+        {
+          "title": "燃料代3年間無料！キャンペーンの納車期限を7月31日まで延長",
+          "url": "https://prtimes.jp/main/html/rd/p/000000064.000038481.html",
+          "published": "2026-05-29"
+        },
+        {
+          "title": "テスラ、日本全国でストアオープンを加速",
+          "url": "https://prtimes.jp/main/html/rd/p/000000063.000038481.html",
+          "published": "2026-04-28"
+        },
+        {
+          "title": "テスラ 新しいModel Y L 登場",
+          "url": "https://prtimes.jp/main/html/rd/p/000000062.000038481.html",
+          "published": "2026-04-03"
+        },
+        {
+          "title": "テスラ 燃料代3年ゼロ！スーパーチャージャー無料キャンペーン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000061.000038481.html",
+          "published": "2026-04-01"
+        },
+        {
+          "title": "山口県、三重県にテスラストアをオープン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000060.000038481.html",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "国内初の新設テスラセンターを福岡アイランドシティにオープン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000059.000038481.html",
+          "published": "2026-01-09"
+        },
+        {
+          "title": "テスラ、静岡市に新ストアを開店",
+          "url": "https://prtimes.jp/main/html/rd/p/000000058.000038481.html",
+          "published": "2026-01-07"
+        },
+        {
+          "title": "テスラからのお年玉「0%特別金利キャンペーン」",
+          "url": "https://prtimes.jp/main/html/rd/p/000000057.000038481.html",
+          "published": "2026-01-03"
+        },
+        {
+          "title": "テスラ スーパーチャージャー、国内設置数700基を達成",
+          "url": "https://prtimes.jp/main/html/rd/p/000000056.000038481.html",
+          "published": "2025-12-18"
+        },
+        {
+          "title": "テスラ、岐阜県初・静岡県2店舗目を年内にオープン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000055.000038481.html",
+          "published": "2025-12-08"
+        },
+        {
+          "title": "テスラ、岡山県初のストア「テスラ岡山」をオープン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000054.000038481.html",
+          "published": "2025-11-10"
+        },
+        {
+          "title": "テスラ、11月19日に北陸地方初のストア「テスラ富山」をオープン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000053.000038481.html",
+          "published": "2025-11-05"
+        },
+        {
+          "title": "テスラ、北海道初のテスラストアを札幌にオープン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000052.000038481.html",
+          "published": "2025-10-15"
+        },
+        {
+          "title": "テスラ Model Y、2025年1月～7月 国内電気自動車普通車セグメント累計販売台数No.1を達成",
+          "url": "https://prtimes.jp/main/html/rd/p/000000051.000038481.html",
+          "published": "2025-10-03"
+        },
+        {
+          "title": "テスラ、日本での店舗ネットワークをさらに拡大",
+          "url": "https://prtimes.jp/main/html/rd/p/000000050.000038481.html",
+          "published": "2025-09-09"
+        },
+        {
+          "title": "千葉県と広島県に新たなストアをオープン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000049.000038481.html",
+          "published": "2025-08-28"
+        },
+        {
+          "title": "国内でのFSD（Supervised）テスト走行を本格開始",
+          "url": "https://prtimes.jp/main/html/rd/p/000000048.000038481.html",
+          "published": "2025-08-20"
+        }
+      ],
+      "lastSuccess": "2026-10-30T09:13:24+09:00"
+    },
+    {
+      "id": "world",
+      "name": "世界FSD報道の発見用RSS",
+      "url": "https://news.google.com/rss/search?q=Tesla+%22FSD%22+when:1d&hl=en-US&gl=US&ceid=US:en",
+      "topic": "海外報道・未検証",
+      "ok": true,
+      "checkedAt": "2026-10-30T09:13:24+09:00",
+      "items": [
+        {
+          "title": "South Korean Police Are Cracking Down On Tesla Owners Jailbreaking FSD - InsideEVs",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBPaFRqOTBsdTF4cmNHZTFGX3BSdFcwZEVqQ2NxNS1Ba3E2cVlwZW42M0VGMlFSX0FLRmNINlBtUDl2SEFUMl9GeUNLZ09VYlNyS1lqWkYyRnJ6OVhXLUc5VWZwdGRCOHMza3k0V2hqTlBXMFpUT3lz?oc=5",
+          "published": "Thu, 29 Oct 2026 21:25:02 GMT"
+        },
+        {
+          "title": "Chase Auto Is Advertising Tesla FSD to Its Customers - BASENOR - Tesla Accessories",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQX3JqS1NLSC00SEU4QlVSREhjOFJ6Wmo2QVFCbUs1am94WmluS3lscU9ZZFY0X0tOc0tsQ2VjSGZzTlFsMlAxZ05xcFg5RnJLLUZMS1Q2M1ItOFV3aDZWeS16ZGJIYUwtMEN0ajFDUHVWLTV3ZDVYZmNBWkE5T0tpeXZuX2J1WllfR3U0WG9DcXk?oc=5",
+          "published": "Fri, 30 Oct 2026 00:04:41 GMT"
+        },
+        {
+          "title": "76-Year-Old Woman in California Says Tesla FSD Lets Her Stay Out Later, But Is That Actually Safe? -",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZnlwczUyVlg0R2xLYXhlR09taktPc3EzZzMxSFFwTmE0TTViYS1HUHRsM1dNbEVLcFpnUmJjN3hjZU5aT08tenI4cnNVS0RfcGFDMnZrNjZiZGM3VXc0dmZXSnI1Q3ZKM2Etd1ZEVl9XbzdQVzJrLW5tSXpPSTh0SzQySENtWC1iYkhHX2xXZXBjc211MnBuSFhQSQ?oc=5",
+          "published": "Thu, 29 Oct 2026 18:56:02 GMT"
+        },
+        {
+          "title": "South Korean court rejects Tesla owners' lawsuit seeking 'Full Self-Driving' refunds - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYjh3SVB5QkI5b2FUQ0ptMFpDNWRsTU9yVVd3Q0kxZnJUWG1wUDZnYXVzeEt5T1ZLVHJQcHBTV3V0SkRFNGc2NnkyQ0haTGhVcU9HWkJqRTFzY1MzWFNCMTF4Tjl5S09BeG5CN3dDTzhJY1RGRHlSaTBOb3FtdDNTRWRUYThoYXJXRVlud050R29xTVVMSUhMTHFWWm16T3l6RF9hcWhyMTBLeHk4cWxkRWp0dlp1N1c3RXN3eWFfemljc01ZTnBseW5aU3VDUlZleDlhSDAtUVBJUWFXaEE?oc=5",
+          "published": "Thu, 29 Oct 2026 02:00:00 GMT"
+        },
+        {
+          "title": "76-Year-Old Lady Has Been Traveling Around in Her Tesla on FSD Only for Months - autoevolution",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONFRybnFtYUZiQy1NdmJuMms1UEJsS1RvT0dOdjBYMll6T19GcExMbmMta0NBSmkzdnpVRnFHWHZTdndTYkdFT3FlcV9SWVROOWx4QUttNFZQNE5kdnZOREx2QU5PYmNQVlExZlBVUUJLS0d3QkJ6cXhYamNZT1J6ckhvV0RCWHhpek80bW44ektXbU9BaDQ2RUdEbXFvWmdBOG90Nmc5MElXeDZXX045dnRxdWlxeVRTOUtlT0t5c0F2RzQ?oc=5",
+          "published": "Thu, 29 Oct 2026 22:22:18 GMT"
+        },
+        {
+          "title": "Tesla Wins Italy’s Backing for EU FSD Approval After Musk-Salvini Call - Electric Vehicles",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPd2pDaTlSRmQwVVBfQnVYUm0tVVBXOGV1MEZPM1h5WENOOUpJU2lJWTBMeW5iNjF4dFlCcEFXeTZZUjdad2FJdFRFVWxXUkxYUk5MdmxCeFZWR0RUWUFBdHJtNDVLWjlSX25DY3dIcTNyRGVRSHVPazVTUHVnS2NHM3lHd2NjRGJXUmw1c2NaTDRCdi1zdEhYVkJVV1ZnYnhKVmExSEI4V2s?oc=5",
+          "published": "Thu, 29 Oct 2026 18:14:00 GMT"
+        },
+        {
+          "title": "Tesla Wins Lawsuit in South Korea Over FSD Feature Delays - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcDF4akhSeXBtYlhsWHo5MFNmT1BDblliU2cxMG1Tb0I5bW9MUndfY1ZHa1ZSNFhfanRiNlVuTEgwZmVpTHp3cjZ3NzVxS3ZYMnJMUS1rNlRpU2xER2tJZE9HVWRpRHE1XzE2cUhabG1pWXNaSDFJRmlxaDFFN0hpVjhqMkw0ZHNyWTFxd0dpbHR6ZGRpNXFPUHFPOWtITzdiLUd2NjJTTUlTdURG?oc=5",
+          "published": "Thu, 29 Oct 2026 04:13:00 GMT"
+        },
+        {
+          "title": "Tesla FSD v14.2.2.6 Rolls Out in Europe With 2026.39.6 Update - BASENOR - Tesla Accessories",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBDQlhPV0RCNWZpcVBOWGp3RU4yM3pDZk5Zb2h2QVJtYWhMajIzRnZVNkRlZS1RXzItVXZ4TWpzTWc1dmkxeHFadmRNNTVBbjVSMmYzd181bjhsWDVNSHk5d2RmOTZpd2s1?oc=5",
+          "published": "Thu, 29 Oct 2026 22:04:10 GMT"
+        },
+        {
+          "title": "Tesla wins South Korean lawsuit over unfulfilled FSD promises - Drive Tesla Canada",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZUdBbHJJelNCbEJNQ3c2a01weFUzcUZCVnJZVmpnT2I1aXV3dUZ4RFo1QnI1Q0hBQWlJRTZwSlZBeEpsNDltenpaeEdxUHA1eXJtYnpuVE1rMXhWajgwUmNKb3VnUWUtSXRuUVhSNUtReHpyWmVMcFBkRFlQcmozY0xTYlRjYTI2blppMw?oc=5",
+          "published": "Thu, 29 Oct 2026 12:53:32 GMT"
+        },
+        {
+          "title": "Tesla wins court battle over delayed FSD features in South Korea (TSLA:NASDAQ) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbEp0Vkl0TllLMjd6MzhSZ3JRVUY4YmhaMFl0UFJUcDhLajBDZlpsWnZCSHJpZTMxNkw3bkZUT2lqN2otcU9HT21WOHd1U3JvNC0tQTg1T3ljb2MwRWJvTWpPaV95aVZxMVduWURRTUd0WGw4bFltc29JWnVNbk85TDRUM1lGTVNpdldBajBuVTJDeEh0SFZWdHFfM2UteHhLMm9QeQ?oc=5",
+          "published": "Thu, 29 Oct 2026 06:48:08 GMT"
+        },
+        {
+          "title": "Musk’s Massive Marketing Miss Cost $10 Trillion - Trefis",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZzRtT0Q1elF0QmYybG1FR3hFQ0Z6aGJaeGFxMmtXWkFsa3FJRkdZb2JjbjlTb19wUkZndmJzazhUZ0NONXEyOUxzckhBeEQ0dXdDQWk3RVR0UHZMZ3RDeW5mQTJhcTkxSnRaMlRfTy1wV1VVYjIwVjFKX1lCdGZqczE5RGJBUzdfdWNUWWtEcHA0S3VzYWUzanZ3dldlRGMtYXVtN3AxcnZRZw?oc=5",
+          "published": "Thu, 29 Oct 2026 12:00:19 GMT"
+        },
+        {
+          "title": "Another country says YES to Tesla FSD! Europe is getting harder to keep up with. Latvia just became ",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vbWZISk1UcE1VQk5jOEZhVzB0YjcwNEZJbHFJU19pY0hVX3FqR2dJclJBeExnUzR0bEZEU29FWHVSYlpIWTBiWkNlUnZlTFp0S1NBX0owYTloVXZSZmRpVm9MUy1aekxzYnp6cw?oc=5",
+          "published": "Thu, 29 Oct 2026 10:00:03 GMT"
+        },
+        {
+          "title": "Slovakia approved ‌Tesla's (TSLA.O) Full Self-Driving (FSD) system. - The Daily News | Texas' Oldest",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQcUVoX0F2VEtIXzkzZ2NTa3NIUE1mbUtUb1VRN0o0NVdiMFhPM0JlMzBaRGVwd0Z1U0ExaUU5NWl3b2tPcmduUl9nQ0pVNVZJUktWLUFqWEVBb0VzN0cyZ0lkZWROTjFqbjhHR3F6WkRzZ0lQZE9nWDZlWmplRjFIdUZCeU02dlVvb1hBMFJDdnNkTEhfNS1TamhxYldEakpYdGlybllzS2pTejVtTFVUQldyWUN6ZGktNm9mU2hkUi1zZF9tQVRaWVR2SktRRloySUg0WHlfbnVSTzFkYzRWaWhyekZmeUJ0bTJz?oc=5",
+          "published": "Thu, 29 Oct 2026 08:05:42 GMT"
+        },
+        {
+          "title": "Tesla Wins South Korea FSD Refund Case - GuruFocus",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWWNXRFJweE1OR2hkLUk0bE8tdzJTUjNZUXBKaldNd3lpY2lTLVFGZGpGNDVUSHhhYmcyWHhibFhQSTVNMzByNW4zYktwRUpCaklMWHBYUVRVN0RUZVpJVjhmekh2T1RNMVZ6YmpTNEpuQ3BsVkJnWXZTSHlVekZFUXJtRQ?oc=5",
+          "published": "Thu, 29 Oct 2026 14:07:46 GMT"
+        },
+        {
+          "title": "Seoul Court Rejects 98 Tesla FSD Refund Claims [2026] - https://tech-insider.org/",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPS0ZkcXFteVhzRG42MGR1dzVOM211dm9idkRSbUh2LVdRRUVPSUhEM0pFeHVPTjRGVWdUdHpmQUU0WGFLUXZNWm1vT0FUWklDcm5XVFJDbEotSkNzMVYtWXRkOVJkWlNWb1RpTVVCYWxwOHFZbEljZDVBTWJCVGYweDhZaXZNcE1SMno3MkJQU08?oc=5",
+          "published": "Thu, 29 Oct 2026 02:21:34 GMT"
+        },
+        {
+          "title": "Tesla FSD Is Hitting Europe. It's Not Perfect - InsideEVs",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBtOThWVDJCd2lYTUtrWFpra0pHaENpTlQxY2pBdmFaZHJSc3JmbHVxbXpPbm9aRTFvNjZBMmVyN3hGMWZWX2lNbG1EM3VJSUVQWHh3Y3FqUnZmQ3Y2cUpmemtrYWdaZ29tLTc0djFNX2R1WW1GZmwxdA?oc=5",
+          "published": "Thu, 29 Oct 2026 10:31:00 GMT"
+        },
+        {
+          "title": "Musk Said Unsupervised FSD Would Reach End Users by the End of 2025, Then Tesla Pointed to Q2 2027 f",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVWJkejdES1ktSnN1RERjdU9JcXVnVXYwTzV4N1NHVy0tRHB1dUtHZ3FVcEdrVUlWSUJpcm9uM0xmdFN6RHEyMDI1Z0hyOVd1cE5zZDhRTEFWY0VhZExHdHZ4RHVCc014eEtGT3lFNkQ5WENCSHMzUHZEcXNpZ29scE9pU1doV2RUb09pOHM2X1hBTWtXMl9lVTVGa2s?oc=5",
+          "published": "Thu, 29 Oct 2026 14:00:00 GMT"
+        },
+        {
+          "title": "Tesla Seeks Exemption to Unlock FSD for China-Made Cars in South Korea - Drive Tesla Canada",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVXhFNXphYkp4VDFBVU5KMXQxV2pCRmh5ZW5Ub0p0UHVyYjM4dnNEYWgydGR0NzV6bkxBblNMRDZTUTNFMXRUUlFOWTFzMnZKZUhNWGZicFdBVjVWOFloc2R4RlAxR1VHQ0Z6R25UeHlvM2lCSnI2eEdnbFAxUjBDTU9CQ1dyREZZ?oc=5",
+          "published": "Thu, 29 Oct 2026 14:33:33 GMT"
+        },
+        {
+          "title": "The Xpeng L03 Aims To Take On Europe And Undercut Tesla - InsideEVs",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JeXpqVjBkbXlnOU1PQTAzaE5zOExmMlBOcWdGSnI3bEV1UGZSX1M5X0hhZXR4RWJXM3MxaERScmNfVkpiVU91aDNnRlVUbGJuZzEzdmhVUWdDczBZOXNvdkRPbnlXMWRnMi1TSnpjUWo?oc=5",
+          "published": "Thu, 29 Oct 2026 16:10:29 GMT"
+        },
+        {
+          "title": "Italy Backs Tesla Assisted Driving EU Approval: 5 Key Points - BASENOR - Tesla Accessories",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWFh0NmxZbkNpX2pmN29jWXI5X3p3STVPN2thbzJBOUIxSGJfMlJ4UWNjY3p4cnBSMWVoMDV4aVB0UEdzeTB2OTNERGN0VTBrUzBmZnFRd3NfQ3dSenQxZ3lTYlVPc0s3SnJCYW0xYWNtUkk4RXVIMjBjY19hUFJ1OWZuTUs0bENjSE9UZDJNWFBoUnlTSGoxa0tR?oc=5",
+          "published": "Thu, 29 Oct 2026 11:04:18 GMT"
+        },
+        {
+          "title": "9th Circuit Vacates 3 Tesla FSD Classes [2026] - shattered.io",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTE13Q0pQR09hLWJ3d05FVmFwb2pneVFmcDRVTVV3emlZekIxN2hxR2l1LW5Oazd3RDB3VExBTlFfUzZmZkZvVmZGUXFoSURpWkVnOVZiTlpDWV9aNHNjMmF2cndfSG5VYUtfZXZEMVVyTm9TV3hwYUlLY1dYem9vbFln?oc=5",
+          "published": "Thu, 29 Oct 2026 02:42:55 GMT"
+        },
+        {
+          "title": "Tesla FSD V14: 2x Fewer Interventions, No Data [2026] - https://tech-insider.org/",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbVVVMWdNTlFCWHNoVHhtQnpRdmpycnFmWUJzWXdjdjVzeEs1UlFnZ1hLb0JwdGthNFBiUGFBWDhqbGFwNUNXcDlwMTl2TUh0YkdTOTRjaFc5REowd2FTZmVsN0ltcl9YUGtyZjdBREtOTTVqdnhaaExGX2Y3dU8wM1YyZkJUbUNFeWVWODBsUUVpams1THc?oc=5",
+          "published": "Thu, 29 Oct 2026 01:07:44 GMT"
+        },
+        {
+          "title": "Korea Books 80 Tesla Owners Over FSD Unlocks [2026] - https://tech-insider.org/",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORGE1SXp4OE9GSWhoUFZtZV9YRzMteFFuREotcVZpT1RvaU5pNGI3M3RIQ3BqMUdDTDVxZDVaMXFfNUNrTlhoS2tDa0xvaEM2UGxVS3lkd1pDandYQWlCVGItQmlzMzZzdnAxQUcydXZiUlkyS1BjZ3JrSlNrbDhQeG1xc01iTDlUM2p2OA?oc=5",
+          "published": "Thu, 29 Oct 2026 02:52:10 GMT"
+        },
+        {
+          "title": "Key facts: Tesla (TSLA) 1.7M FSD Users; Barclays Upgrade; 450x PE - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWFZJaWRRamJxZXQ4amY2LWo3Um5HREFMemhuLTVybWg3ZEM3SzVyY1hsVHV0bmx2cG1UQ3F4ak8zMUNGYzlDYWtnQUk3elFMdlJ1TVFJd045c1Nvb0NNX1dobUU2NmluM3d3VkpIY1NCZXFkNHV0MjhDVEpHZEREXzdJLWFYYzBzanhHVWExMF9nN0ZWMTZsU1AtTldMWk9ETUs1WTF2SlR6MWtlX0JweHQ2ZzVTTHVwUnI0cDNycw?oc=5",
+          "published": "Thu, 29 Oct 2026 07:00:00 GMT"
+        },
+        {
+          "title": "2026.38.6 Official Tesla Release Notes - Software Updates - Not a Tesla App",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObEFUd0JkTGFWcmU5MHhzZDMybTNQeTdvTDl3aDBXYTk5bFo4Y0pIRWY5Z3F1V2I5RUs2RWI2N3FzcHluZi1HUmtkbDVmVGR0QTFMNXBNTnl0T19BSmExUklLUWtsa0puZDJKZVlwY3VYdVRyLW9zYS1ycHd1V3JqeUNPNA?oc=5",
+          "published": "Thu, 29 Oct 2026 11:01:48 GMT"
+        },
+        {
+          "title": "Court Dismisses Tesla Owners' FSD Refund Lawsuit - 조선일보",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRGMzb2QtdGdSXy1vMUdvd284bm5CanBLZWloUURiM1lKS3F3SDlnbEM4MDZiLVBoUU1seXdnN3M0ZWpFUzI2dERkQy03RUJzTG45X2t3aXdSWkM4SmZ2VHFrMXJZVy15djZiYWhpMlc5S1NDcGhQb08tS1dRNUd5aUlscGVtajd4?oc=5",
+          "published": "Thu, 29 Oct 2026 05:23:39 GMT"
+        },
+        {
+          "title": "South Korean Court Rejects Tesla Car Owners' FSD Refund Suit - marketscreener.com",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVFBVdTN3Z0FnSEFxZHhlVnZWOHJLY24tNUpKVVRPTWRHUHJUZG5TQ0d4MlFzalBlWk5XcXZNVDBNaExxVGhzZEdqc2JmUkZJRm5fYjA4eUZHVjJIUVZvWW1kSGp1RTZMOTQ4UFVoZmdwRUpDc08xTEQyUDRYX3lXNkdBU3p4YTZ3bG5CMmREY0dBMGZQRGNJcnF4M2hXUTMwa0NVcGhQVE9UWmsyV2NHVk9B?oc=5",
+          "published": "Thu, 29 Oct 2026 04:54:21 GMT"
+        },
+        {
+          "title": "South Korea books 80 Tesla owners for illegally unlocking FSD feature, seizes 21 devices - Business ",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQemZkVzhYOHFPYzAyQjduYnZRYVNjZkM1MG5uMGpFeXBnenl6azZ4UnpWR3VUVWFXdDQ4bEc0SG1WVDFSM3NyZW5yRkVtdXRzYllXTkFkRW5XWTNaWHg2TDNPeFpyUDg2VnN3dU5McW4ybm9hYVM0bjRSdWhMbU45a2J6aVNpN1BRZlJtRmFyOVRHX2MyejhCRnBvQXZTbzR2RUpRZkN1MVUxem10Q0tkaUprR3NjMXJUYXJHdUs4THNfbzFQdUNmU1I5THlyNFNsdmh4WlI4SWVXc0hfaVpj0gHkAUFVX3lxTE9XTmlKZTY0dHJObERsN2t2RkJCaDJVTHZ4OEd1VVFrRVVhbkxNb1dPTVV6bmtkOTFEemItODJaaWNjX0l2OUZhMDU1cEE0dk95cm1ubmlVTlRqVzhSWmdSSGhWejlsZ2RSWFlQbDY2Z05WUFBHWmMyUUpmbUhFSl9TcG9ybFZMbG81MnlBMUFpdVVUZFVDZlBYUHQ0cndtTG9sOGdKSjdYbUlhRWVzUzd1Zk9MUUhJQ24wcVI3MnNldEZPR0cwZnlxcHRSV2JERHFzNmNhdGwyVWRMVG1WRk1OaFBXUg?oc=5",
+          "published": "Thu, 29 Oct 2026 20:45:04 GMT"
+        },
+        {
+          "title": "Italy backs swift EU approval of Tesla Assisted Driving after Musk talks - Drive Tesla Canada",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLVd5QmE1eGpvVUVjMW56d08wYmcyR2VTTlp2RENmWGRzcGdYZnpCR0hhUU44YnExVFUtZDVWYThjaDRhczl3OHpfdzVQbS1ySFVaRndMSmVOVmNPS2FpeXRYb2xQdXBHMTdaeUw3MGlaVGZZa1lhN0tITHgwWmc5anFDWnVQenkxWE8xMHZ3?oc=5",
+          "published": "Thu, 29 Oct 2026 15:13:33 GMT"
+        },
+        {
+          "title": "The Zacks Analyst Blog Highlights Tesla and SpaceX - The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYWpTNEZ6MDJ0TndjemhleUtjcVFNbElWeVV3TnJPbVdvLUpPTnlvS0pHVlBvM0JWZG1UN0E3bzg5MUM4QmxRN0tjS00tNndTeHdRcmxMN2FFcVdmNTZQd3gtbEF3TW1XN2JhdkFLV1BNX29UREM5a05ZempEYUNwMW04cTFHTzgzYXdocjQzYjlJUUdQY3FZVnc2VVZ1all3SDN1TTBXOVFtdVJlOWZKcmljLXFaR29xZGI1WWwtV2ZzVUczZEs5bWxMVkhvelNF?oc=5",
+          "published": "Thu, 29 Oct 2026 13:31:16 GMT"
+        }
+      ],
+      "lastSuccess": "2026-10-30T09:13:24+09:00"
+    },
+    {
+      "id": "fsd-jp",
+      "name": "FSD 世界提供地域（Tesla公式）",
+      "url": "https://www.tesla.com/ja_jp/fsd/safety",
+      "topic": "FSD・規制",
+      "ok": false,
+      "checkedAt": "2026-10-30T09:13:24+09:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "fsd-us",
+      "name": "FSD 米国価格・機能（Tesla公式）",
+      "url": "https://www.tesla.com/support/fsd",
+      "topic": "FSD・価格",
+      "ok": false,
+      "checkedAt": "2026-10-30T09:13:24+09:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "regulator",
+      "name": "米国NHTSA TeslaリコールAPI / Model Y 2026",
+      "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=TESLA&model=MODEL%20Y&modelYear=2026",
+      "topic": "米国規制",
+      "ok": true,
+      "checkedAt": "2026-10-30T09:13:24+09:00",
+      "recalls": [
+        {
+          "id": "25V359000",
+          "component": "VISIBILITY:WINDSHIELD WIPER/WASHER:LINKAGES",
+          "reported": "30/05/2025"
+        },
+        {
+          "id": "25V410000",
+          "component": "SEATS:CRITICAL FASTENERS",
+          "reported": "18/06/2025"
+        },
+        {
+          "id": "25V490000",
+          "component": "ELECTRICAL SYSTEM:HORN",
+          "reported": "28/07/2025"
+        },
+        {
+          "id": "25V658000",
+          "component": "ELECTRICAL SYSTEM:WIRING",
+          "reported": "02/10/2025"
+        },
+        {
+          "id": "25V690000",
+          "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:FUSES, RELAYS, CONTACTS, AND SHUNTS",
+          "reported": "10/10/2025"
+        },
+        {
+          "id": "26V315000",
+          "component": "EQUIPMENT:OTHER:LABELS",
+          "reported": "19/05/2026"
+        },
+        {
+          "id": "26V445000",
+          "component": "STRUCTURE:BODY:BUMPERS",
+          "reported": "08/07/2026"
+        },
+        {
+          "id": "26V558000",
+          "component": "SUSPENSION:CRITICAL FASTENERS",
+          "reported": "01/09/2026"
+        }
+      ],
+      "lastSuccess": "2026-10-30T09:13:24+09:00"
+    },
+    {
+      "id": "stations",
+      "name": "日本Supercharger公式一覧",
+      "url": "https://www.tesla.com/ja_jp/findus/list/superchargers/Japan",
+      "topic": "新設・掲載",
+      "ok": false,
+      "checkedAt": "2026-10-30T09:13:24+09:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "mobile",
+      "name": "モバイルコネクター公式商品",
+      "url": "https://shop.tesla.com/ja_jp/product/mobile-connector",
+      "topic": "充電・在庫",
+      "ok": false,
+      "checkedAt": "2026-10-30T09:13:24+09:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "wall",
+      "name": "ウォールコネクター公式商品",
+      "url": "https://shop.tesla.com/ja_jp/product/wall-connector",
+      "topic": "充電・在庫",
+      "ok": false,
+      "checkedAt": "2026-10-30T09:13:24+09:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "chademo",
+      "name": "CHAdeMO公式商品（URL存続も確認）",
+      "url": "https://shop.tesla.com/ja_jp/product/chademo-adapter",
+      "topic": "充電・在庫",
+      "ok": false,
+      "checkedAt": "2026-10-30T09:13:24+09:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "charging",
+      "name": "日本公式ショップ充電カテゴリ",
+      "url": "https://shop.tesla.com/ja_jp/category/charging",
+      "topic": "充電・販売",
+      "ok": false,
+      "checkedAt": "2026-10-30T09:13:24+09:00",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-10-30",
+      "ok": 3,
+      "total": 10,
+      "stations": null
+    }
+  ]
+}
