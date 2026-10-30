@@ -1,7 +1,7 @@
 {
   "id": "daily-2026-10-30",
   "date": "2026-10-30",
-  "checkedAt": "2026-10-30T09:45:50+09:00",
+  "checkedAt": "2026-10-30T09:47:00+09:00",
   "category": "日次レポート",
   "hardware": [
     "HW3",
@@ -202,7 +202,7 @@
       "published": "Sat, 24 Oct 2026 09:02:26 GMT",
       "source": "日本のTesla購入・補助金の報道発見",
       "topic": "購入・補助金／未検証",
-      "initial": true
+      "initial": false
     },
     {
       "title": "【2026年10月発売】ホンダ 新型 ヴェゼル 純正アクセサリー「Black Sports Style」価格・装着例を解説 - 最新自動車情報",
@@ -258,6 +258,30 @@
       "published": "Thu, 29 Apr 2021 08:15:39 GMT",
       "source": "規制当局の関連発表（RSS発見）",
       "topic": "規制当局・原文確認",
+      "initial": false
+    },
+    {
+      "title": "新しいテスラ モデル3＆モデルY登場！ CHAdeMOアダプターで急速充電の利便性大幅向上へ - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1sM0I5S3E0QlBiaS1Tbmp0U3lLOXZ0S1NlQUVUejZtbkhBcEE4V21ZbUJHSFhaaTZ1Y205b3ZYRFBzSUdCMjBtMk9sNmJWR0hXTy1lMEQ4b1BPckkyUjR1RXdSWkhLb3NJT1RuZU1MU0JSdWpoVDhHTXpDLU9QU1k?oc=5",
+      "published": "Fri, 23 Oct 2026 07:01:40 GMT",
+      "source": "日本のTesla購入・補助金の報道発見",
+      "topic": "購入・補助金／未検証",
+      "initial": false
+    },
+    {
+      "title": "【解説】テスラの紹介リンクで「Model 3／Model Y」が35,000円引き〜使い方と注意点のまとめ - Touch Lab",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XNVloN29Ea0NHOUZ5bmRVd2pfQWVkX19KNDNEMWctRXI4bHFsc3JNcm5EV29CZWdvdmNmSGVQZUdRMHFETmY0d1hBcGhXanVVTGIxQ3Q4Yk5IcVV6eUMxeQ?oc=5",
+      "published": "Fri, 23 Oct 2026 15:45:09 GMT",
+      "source": "日本のTesla購入・補助金の報道発見",
+      "topic": "購入・補助金／未検証",
+      "initial": false
+    },
+    {
+      "title": "テスラ モデル3 日本仕様を改良、先着で26.4万円支援も｜16インチ画面 - トランスカー",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9EcjNIRVZKMldEVng4RmwzMmlMS2pnWU1KV3ZtNmstamg1QUpqQ1ZCSnA5SEN2V281WDlHejVBUXU1bFBMb3NhVzZxam1hMGdhZk9hczRrWG4yalhaMUlEVzlR?oc=5",
+      "published": "Fri, 23 Oct 2026 07:22:08 GMT",
+      "source": "日本のTesla購入・補助金の報道発見",
+      "topic": "購入・補助金／未検証",
       "initial": false
     }
   ],
