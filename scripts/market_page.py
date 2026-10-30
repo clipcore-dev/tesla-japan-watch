@@ -18,6 +18,20 @@ def render(reports):
  good=[r for r in reports if any(s.get('market') and s.get('ok') for s in r['sources'])]
  out+='<div class="notice">'+('観測はまだ1日分です。前日比・月次推移はデータが蓄積してから比較します。' if len(good)<2 else str(len(good))+'日分を記録しています。以下の履歴で各日の相場表を比較できます。')+' 少数区分や掲載構成の変化には注意してください。</div>'
  if reports:out+='<h2>直近の取得結果</h2>'+snapshot(reports[-1])
+ if len(good)>1:
+  previous,current=good[-2:];before={s['id']:s for s in previous['sources'] if s.get('ok') and s.get('market')}
+  out+='<h2>前回観測との比較</h2><p>比較日は '+E(previous['checkedAt'][:10])+' と '+E(current['checkedAt'][:10])+'。日付が離れた場合は前日比ではありません。価格範囲は元の掲載分布の区切りにも影響されます。車両構成の変化やFSDの因果効果を調整した指数ではありません。</p><div class="table-wrap"><table><thead><tr><th>車種・年式</th><th>前回の中央値所属範囲</th><th>今回の中央値所属範囲</th><th>掲載台数の差</th></tr></thead><tbody>'
+  def band(r):
+   lo,hi=r['medianLowerManYen'],r['medianUpperManYen']
+   return f'{lo:g}万円以上' if hi is None else f'{lo:g}〜{hi:g}万円未満'
+  for source in current['sources']:
+   if not source.get('ok') or not source.get('market') or source['id'] not in before:continue
+   old={r['year']:r for r in before[source['id']]['market']['years']}
+   for r in source['market']['years']:
+    if r['year'] not in old:continue
+    prev=old[r['year']];name=source['name'].replace('カーセンサー ','').replace(' 掲載価格相場','')+' / '+r['year']
+    out+='<tr>'+''.join('<td>'+E(x)+'</td>' for x in [name,band(prev),band(r),f"{r['count']-prev['count']:+d}台"])+'</tr>'
+  out+='</tbody></table></div>'
  out+='<h2>日付別の記録</h2><ul>'
  for r in reversed(good):
   date=r['checkedAt'][:10];out+='<li><a href="articles/daily-'+date+'.html">'+E(date)+'の中古相場・日次トピックス</a></li>'
