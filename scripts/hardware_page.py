@@ -3,7 +3,7 @@ E=lambda x:html.escape(str(x),quote=True)
 def render(data):
  sources=data['sources'];numbers={k:i+1 for i,k in enumerate(sources)}
  def citations(keys):return ' '.join('<a href="'+E(sources[k]['url'])+'">['+str(numbers[k])+']</a>' for k in keys)
- out='''<section class="hardware-overview"><span class="kicker">JAPAN MODEL HISTORY / 2019—2026</span><h2>いつ、何が変わったのか。</h2><p>日本での発表・受注開始を軸に、HW世代の目安を並べました。バーの境目は実車の製造日・全VINの切替境界を保証する線ではありません。斜線は切替・個別照会が必要な期間です。</p><div class="timeline-scroll"><div class="timeline"><div class="timeline-axis"><strong>国内向けの目安</strong><div>'''
+ out='''<section class="hardware-overview"><span class="kicker">JAPAN MODEL HISTORY / 2019—2026</span><h2>いつ、何が変わったのか。</h2><p>日本での発表・受注開始を軸に、HW世代の目安を並べました。バーの境目は実車の製造日・全VINの切替境界を保証する線ではありません。斜線は切替・個別照会が必要な期間です。</p><p class="muted">スマートフォンでは線表を横にスワイプして見られます。</p><div class="timeline-scroll" tabindex="0" role="region" aria-label="2019年から2026年のハードウェア世代線表"><div class="timeline"><div class="timeline-axis"><strong>国内向けの目安</strong><div>'''
  out+=''.join('<span>'+str(y)+'</span>' for y in range(2019,2027))+'</div></div>'
  for series in data['segments']:
   out+='<div class="timeline-row"><strong>'+E(series['model'])+'</strong><div class="track">'
