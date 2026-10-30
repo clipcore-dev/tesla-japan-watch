@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30T09:21:17+09:00",
+  "checkedAt": "2026-10-30T09:22:32+09:00",
   "sources": [
     {
       "id": "tesla-jp",
@@ -7,7 +7,7 @@
       "url": "https://prtimes.jp/companyrdf.php?company_id=38481",
       "topic": "日本公式",
       "ok": true,
-      "checkedAt": "2026-10-30T09:21:17+09:00",
+      "checkedAt": "2026-10-30T09:22:32+09:00",
       "items": [
         {
           "title": "新しいModel 3とModel Y、Model Y L - おでかけも、もしもの備えも、テスラの電気で。",
@@ -160,7 +160,7 @@
           "published": "2025-08-20"
         }
       ],
-      "lastSuccess": "2026-10-30T09:21:17+09:00"
+      "lastSuccess": "2026-10-30T09:22:32+09:00"
     },
     {
       "id": "world",
@@ -168,7 +168,7 @@
       "url": "https://news.google.com/rss/search?q=Tesla+%22FSD%22+when:1d&hl=en-US&gl=US&ceid=US:en",
       "topic": "海外報道・未検証",
       "ok": true,
-      "checkedAt": "2026-10-30T09:21:17+09:00",
+      "checkedAt": "2026-10-30T09:22:32+09:00",
       "items": [
         {
           "title": "South Korean Police Are Cracking Down On Tesla Owners Jailbreaking FSD - InsideEVs",
@@ -321,7 +321,7 @@
           "published": "Thu, 29 Oct 2026 13:31:16 GMT"
         }
       ],
-      "lastSuccess": "2026-10-30T09:21:17+09:00"
+      "lastSuccess": "2026-10-30T09:22:32+09:00"
     },
     {
       "id": "fsd-jp",
@@ -329,7 +329,7 @@
       "url": "https://www.tesla.com/ja_jp/fsd/safety",
       "topic": "FSD・規制",
       "ok": false,
-      "checkedAt": "2026-10-30T09:21:17+09:00",
+      "checkedAt": "2026-10-30T09:22:32+09:00",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -338,7 +338,7 @@
       "url": "https://www.tesla.com/support/fsd",
       "topic": "FSD・価格",
       "ok": false,
-      "checkedAt": "2026-10-30T09:21:17+09:00",
+      "checkedAt": "2026-10-30T09:22:32+09:00",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -347,9 +347,9 @@
       "url": "https://www.rdw.nl/en/news/2026/rdw-explanation-of-european-type-approval-tesla-with-provisional-validity-in-the-netherlands",
       "topic": "欧州規制",
       "ok": true,
-      "checkedAt": "2026-10-30T09:21:17+09:00",
+      "checkedAt": "2026-10-30T09:22:32+09:00",
       "fingerprint": "7615faa818f4812e4bd9c9b20c5720e5ce31e68ad6b4e42f0382e26bac586bb9",
-      "lastSuccess": "2026-10-30T09:21:17+09:00"
+      "lastSuccess": "2026-10-30T09:22:32+09:00"
     },
     {
       "id": "authorities",
@@ -357,7 +357,7 @@
       "url": "https://news.google.com/rss/search?q=(site:rdw.nl+OR+site:nhtsa.gov+OR+site:mlit.go.jp)+Tesla+when:30d&hl=en-US&gl=US&ceid=US:en",
       "topic": "規制当局・原文確認",
       "ok": true,
-      "checkedAt": "2026-10-30T09:21:17+09:00",
+      "checkedAt": "2026-10-30T09:22:32+09:00",
       "items": [
         {
           "title": "Elon Musk Weight Loss: How the Tesla CEO’s Reported Transformation Put Weight-Loss Medication and L…",
@@ -400,7 +400,7 @@
           "published": "Thu, 01 Oct 2026 07:00:00 GMT"
         }
       ],
-      "lastSuccess": "2026-10-30T09:21:17+09:00"
+      "lastSuccess": "2026-10-30T09:22:32+09:00"
     },
     {
       "id": "regulator",
@@ -408,7 +408,7 @@
       "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=TESLA&model=MODEL%20Y&modelYear=2026",
       "topic": "米国規制",
       "ok": true,
-      "checkedAt": "2026-10-30T09:21:17+09:00",
+      "checkedAt": "2026-10-30T09:22:32+09:00",
       "recalls": [
         {
           "id": "25V359000",
@@ -451,7 +451,7 @@
           "reported": "01/09/2026"
         }
       ],
-      "lastSuccess": "2026-10-30T09:21:17+09:00"
+      "lastSuccess": "2026-10-30T09:22:32+09:00"
     },
     {
       "id": "stations",
@@ -459,7 +459,7 @@
       "url": "https://www.tesla.com/ja_jp/findus/list/superchargers/Japan",
       "topic": "新設・掲載",
       "ok": false,
-      "checkedAt": "2026-10-30T09:21:17+09:00",
+      "checkedAt": "2026-10-30T09:22:32+09:00",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -468,7 +468,7 @@
       "url": "https://shop.tesla.com/ja_jp/product/mobile-connector",
       "topic": "充電・在庫",
       "ok": false,
-      "checkedAt": "2026-10-30T09:21:17+09:00",
+      "checkedAt": "2026-10-30T09:22:32+09:00",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -477,7 +477,7 @@
       "url": "https://shop.tesla.com/ja_jp/product/wall-connector",
       "topic": "充電・在庫",
       "ok": false,
-      "checkedAt": "2026-10-30T09:21:17+09:00",
+      "checkedAt": "2026-10-30T09:22:32+09:00",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -486,7 +486,7 @@
       "url": "https://shop.tesla.com/ja_jp/product/chademo-adapter",
       "topic": "充電・在庫",
       "ok": false,
-      "checkedAt": "2026-10-30T09:21:17+09:00",
+      "checkedAt": "2026-10-30T09:22:32+09:00",
       "error": "HTTP Error 403: Forbidden"
     },
     {
@@ -495,7 +495,7 @@
       "url": "https://shop.tesla.com/ja_jp/category/charging",
       "topic": "充電・販売",
       "ok": false,
-      "checkedAt": "2026-10-30T09:21:17+09:00",
+      "checkedAt": "2026-10-30T09:22:32+09:00",
       "error": "HTTP Error 403: Forbidden"
     }
   ],
