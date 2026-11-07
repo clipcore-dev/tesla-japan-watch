@@ -1,0 +1,214 @@
+{
+  "id": "daily-2026-11-07",
+  "date": "2026-11-07",
+  "checkedAt": "2026-11-07T10:58:46+09:00",
+  "category": "日次レポート",
+  "hardware": [
+    "HW3",
+    "HW4"
+  ],
+  "title": "2026.11.07｜購入・補助金・中古相場とオーナーズトピックス",
+  "summary": "購入・補助金・中古相場・FSD・充電などの23系統中、15系統を取得。取得できなかった情報も明示します。",
+  "auto": true,
+  "changes": [
+    {
+      "title": "CEV公式：登録日別・車両別の補助額PDF：出典内容の変更候補",
+      "url": "https://www.cev-pc.or.jp/hojo/pdf/R7ho/R7ho_meigaragotojougen_3.pdf",
+      "note": "ページの共通部分やPDF差し替えも含むため、制度・価格・機能の変更内容は未判定。最新の原文確認が必要です。"
+    },
+    {
+      "title": "Spigen公式 Teslaアクセサリー：出典内容の変更候補",
+      "url": "https://www.spigen.com/collections/tesla",
+      "note": "ページの共通部分やPDF差し替えも含むため、制度・価格・機能の変更内容は未判定。最新の原文確認が必要です。"
+    }
+  ],
+  "headlines": [
+    {
+      "title": "Critics Slam Tesla's Gamification Of FSD As Driver Hits 25,000-Mile Streak - InsideEVs",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE55QWFadW5ERDhEVGlMYWFaS0w2Um4xZ2RURHE2TGN3WDVwdldKSVJHZndxZWF0WVd5WUVBOWtqdF96VG5BeTJHUnhXcmhSbTN3Y0JRakF4X25kQWc5djRQMC1aSUd1dTNOT3N5ekRn?oc=5",
+      "published": "Fri, 06 Nov 2026 20:58:30 GMT",
+      "source": "世界FSD報道の発見用RSS",
+      "topic": "海外報道・未検証",
+      "initial": false
+    },
+    {
+      "title": "Tesla FSD and Senior Mobility: Your Questions Answered - BASENOR - Tesla Accessories",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeUVJRlNEdUZlOGFiZFIwSE85dHJoMkRYVVJuREJMOFU5SVZ1SVVFX0doUmJpQ0FHa0taWmdOUDdKeUpfSjhLTG9wdkdvLWRXTHJxem56dWIybnRrVVI1Z0dfR0JNQXZzdkFFVkl6eW91TWIzeTdGcGtXTWxDM2gxdVdvdGstZ1N3eXVEMFpnSGxFZw?oc=5",
+      "published": "Fri, 06 Nov 2026 17:05:30 GMT",
+      "source": "世界FSD報道の発見用RSS",
+      "topic": "海外報道・未検証",
+      "initial": false
+    },
+    {
+      "title": "You Can Now Rent A Tesla With FSD On Turo - CarScoops",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBWTDUzbHI4bGF6MTdvQjBDdVBjRkpUTWd2LVA5MThQUGFDYTdvMFhoYmVaT3BwU0xRdU01Mm5ReGlYQ09pbjBiZ3UwR1Q4WU1aMlJ0QmFGcnBZUFFrYVRfWTlHOHlXOS12UXc?oc=5",
+      "published": "Fri, 06 Nov 2026 20:48:26 GMT",
+      "source": "世界FSD報道の発見用RSS",
+      "topic": "海外報道・未検証",
+      "initial": false
+    },
+    {
+      "title": "Understanding the Tesla FSD System - Brake & Front End",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5mM01KRUNTMTZMNlZSdXJNQ1JDTXlKYjN1WmZjYnhtUUVZUk81alFHbkpSanV4R3FuZ0NtM084Qkdlb1VCNkxScUdsM2RkVmlFQUU5aHR5SDlZblQ3SHFnQnBFc1ZwNXVvX3dFTzBOdGpXSlpmcnAw?oc=5",
+      "published": "Fri, 06 Nov 2026 18:00:00 GMT",
+      "source": "世界FSD報道の発見用RSS",
+      "topic": "海外報道・未検証",
+      "initial": false
+    },
+    {
+      "title": "令和７年度補正 CEV 補助金（車両） テスラ モデル３、モデルＹのグレード名称の一部変更について （車両コード 1168、1316、1327）",
+      "url": "https://www.cev-pc.or.jp/notice/pdf/20261106_R7ho-cev_oshirase.pdf",
+      "published": "原文で確認",
+      "source": "CEV補助金：実施機関のお知らせ",
+      "topic": "補助金・期限",
+      "initial": false
+    },
+    {
+      "title": "テスラ、サイバートラック生産を2027年半ばに縮小へ 空く工場でロボタクシー増産 ｜Seizo Trend - ビジネス+IT",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1nMmV0eE8xRjhKZTBETmFobW0yckFoTnlDejFWZGVMaXJyR29pcHdmaHZQendsV2R4ZXR5cnctR1VGVWFER05lWUNMSzJuZ0k?oc=5",
+      "published": "Fri, 06 Nov 2026 11:16:00 GMT",
+      "source": "日本のTesla購入・補助金の報道発見",
+      "topic": "購入・補助金／未検証",
+      "initial": false
+    },
+    {
+      "title": "マスク氏率いるテスラ、スペースX株再び急落－民主勝利の影響を警戒 - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9xUnFlaGt3eUV4RU1xLUF5SmFfRjZQUEE1LTJpNC1ocHZzbzhhdFdZVFNwdEdaZF9TVHd4Z205TzdOTG9VQjNBTkFIdWhFbE9BVnR2eGVGQjU0UUE2blhaNWN1MXdpVnRtZ0xKalRnT3RVWkllTVRF?oc=5",
+      "published": "Thu, 05 Nov 2026 15:21:51 GMT",
+      "source": "日本のTesla購入・補助金の報道発見",
+      "topic": "購入・補助金／未検証",
+      "initial": false
+    },
+    {
+      "title": "テスラ、テキサスでのサイバートラック生産を段階的に終了へ - ｄメニューニュース",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdW9JRXJyYVlLaVRoenRqUmdYaDhTVFBZRkNUbVRMTGNFdFFodmxVYWIxN0NldGszNXphLUxYQXBNR2xhemR4eDg3Qm5EUVE0Wmk5VG9mZlZUUEVKamRScmxXak9BTGltd292a3NqWlhqQ0lIRm4xSFBiam1oZmdmYUpZNFVxbWPSAYcBQVVfeXFMUHVvSUVycmFZS2lUaHp0alJnWGg4U1RQWUZDVG1UTExjRXRRaHZsVWFiMTdDZXRrMzV6YS1MWEFwTUdsYXpkeHg4N0JuRFFRNFppOVRvZmZWVFBFSmpkUnJsV2pPQUxpbXdvdmtzalpYakNJSEZuMUhQYmptaGZnZmFKWTRVcW1j?oc=5",
+      "published": "Fri, 06 Nov 2026 09:35:00 GMT",
+      "source": "日本のTesla購入・補助金の報道発見",
+      "topic": "購入・補助金／未検証",
+      "initial": false
+    },
+    {
+      "title": "「トヨタはすごい」は幻想に…EV補助金縮小であらわになる中国BYDと性能差 頼みの綱は高市政権による“嫌中”作戦だけになる 古賀茂明 - AERA DIGITAL",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA3ZzMwZVIzOVV2U3ozZnJzcVo4amhrZ3psa1NYWEE5UXl3QnM5V2hBUWVPOXA1YXdzQ2VMN1lIRDd4X1RJVENocnNpd3VqNlhZQm5LdG51WU9Kdw?oc=5",
+      "published": "Mon, 02 Nov 2026 21:00:00 GMT",
+      "source": "日本のTesla購入・補助金の報道発見",
+      "topic": "購入・補助金／未検証",
+      "initial": false
+    },
+    {
+      "title": "「ぽこ あ ポケモン」DLC第2弾「どきどきデコレーション」が12月9日配信決定！新要素「アクセサリー」の追加や新ポケモンなどが登場 - au Webポータル",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBQWGhrUFN0a0p3ZkNVOVZEWmY4UHVfd2VoSlkxbDloQktPT1M3ZnBXUzA0cENRZFFsZlZ4YUE0M19TSTMzaUFyS0p4TzlHWnBUSnhiSUtvQm1vT3M5NHExYVdNSUdkYVVwX2ZROVNB?oc=5",
+      "published": "Thu, 05 Nov 2026 02:30:00 GMT",
+      "source": "Tesla用アクセサリー新着の発見",
+      "topic": "アクセサリー／未検証",
+      "initial": false
+    },
+    {
+      "title": "テスラの16インチ大画面も、一人で貼れる。Deffがテスラ専用タッチスクリーン保護フィルムを11月4日発売 - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9uWVdRdkIxMXNscC13emV3VGpod0t3RjJDdXBQV0tOcWl6Qk01Tm5CWktOeUtTZXZmZTR4V1R3RklOTmdpLXg4ZlVUQjlfeXRyZ2dxVWt0U1hNSWhaMWxDaFF2WEd1VkJRaXc?oc=5",
+      "published": "Wed, 04 Nov 2026 02:14:34 GMT",
+      "source": "Tesla用アクセサリー新着の発見",
+      "topic": "アクセサリー／未検証",
+      "initial": false
+    }
+  ],
+  "photos": [
+    "model3",
+    "supercharger",
+    "modely"
+  ],
+  "sources": [
+    {
+      "name": "Tesla Japan 公式発表",
+      "url": "https://prtimes.jp/companyrdf.php?company_id=38481"
+    },
+    {
+      "name": "世界FSD報道の発見用RSS",
+      "url": "https://news.google.com/rss/search?q=Tesla+%22FSD%22+when:1d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "FSD 世界提供地域（Tesla公式）",
+      "url": "https://www.tesla.com/ja_jp/fsd/safety"
+    },
+    {
+      "name": "FSD 米国価格・機能（Tesla公式）",
+      "url": "https://www.tesla.com/support/fsd"
+    },
+    {
+      "name": "オランダRDW：FSD承認の公式説明",
+      "url": "https://www.rdw.nl/en/news/2026/rdw-explanation-of-european-type-approval-tesla-with-provisional-validity-in-the-netherlands"
+    },
+    {
+      "name": "規制当局の関連発表（RSS発見）",
+      "url": "https://news.google.com/rss/search?q=(site:rdw.nl+OR+site:nhtsa.gov+OR+site:mlit.go.jp)+Tesla+when:30d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "米国NHTSA TeslaリコールAPI / Model Y 2026",
+      "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=TESLA&model=MODEL%20Y&modelYear=2026"
+    },
+    {
+      "name": "日本Supercharger公式一覧",
+      "url": "https://www.tesla.com/ja_jp/findus/list/superchargers/Japan"
+    },
+    {
+      "name": "モバイルコネクター公式商品",
+      "url": "https://shop.tesla.com/ja_jp/product/mobile-connector"
+    },
+    {
+      "name": "ウォールコネクター公式商品",
+      "url": "https://shop.tesla.com/ja_jp/product/wall-connector"
+    },
+    {
+      "name": "CHAdeMO公式商品（URL存続も確認）",
+      "url": "https://shop.tesla.com/ja_jp/product/chademo-adapter"
+    },
+    {
+      "name": "日本公式ショップ充電カテゴリ",
+      "url": "https://shop.tesla.com/ja_jp/category/charging"
+    },
+    {
+      "name": "CEV公式：登録日別・車両別の補助額PDF",
+      "url": "https://www.cev-pc.or.jp/hojo/pdf/R7ho/R7ho_meigaragotojougen_3.pdf"
+    },
+    {
+      "name": "CEV補助金：実施機関のお知らせ",
+      "url": "https://www.cev-pc.or.jp/"
+    },
+    {
+      "name": "Tesla日本：現在の購入特典",
+      "url": "https://www.tesla.com/ja_jp/current-offers"
+    },
+    {
+      "name": "Spigen公式 Teslaアクセサリー",
+      "url": "https://www.spigen.com/collections/tesla"
+    },
+    {
+      "name": "日本のTesla購入・補助金の報道発見",
+      "url": "https://news.google.com/rss/search?q=%E3%83%86%E3%82%B9%E3%83%A9+%28%E8%A3%9C%E5%8A%A9%E9%87%91+OR+%E9%87%91%E5%88%A9+OR+%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%29+when%3A7d&hl=ja&gl=JP&ceid=JP:ja"
+    },
+    {
+      "name": "Teslaアップデートの報道発見",
+      "url": "https://news.google.com/rss/search?q=Tesla+software+update+when%3A1d&hl=ja&gl=JP&ceid=JP:ja"
+    },
+    {
+      "name": "Tesla用アクセサリー新着の発見",
+      "url": "https://news.google.com/rss/search?q=%E3%83%86%E3%82%B9%E3%83%A9+%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B5%E3%83%AA%E3%83%BC+when%3A7d&hl=ja&gl=JP&ceid=JP:ja"
+    },
+    {
+      "name": "カーセンサー Model 3 掲載価格相場",
+      "url": "https://www.carsensor.net/usedcar/souba/TS_S004/"
+    },
+    {
+      "name": "カーセンサー Model Y 掲載価格相場",
+      "url": "https://www.carsensor.net/usedcar/souba/TS_S005/"
+    },
+    {
+      "name": "カーセンサー Model S 掲載価格相場",
+      "url": "https://www.carsensor.net/usedcar/souba/TS_S002/"
+    },
+    {
+      "name": "カーセンサー Model X 掲載価格相場",
+      "url": "https://www.carsensor.net/usedcar/souba/TS_S003/"
+    }
+  ]
+}
