@@ -8,6 +8,11 @@ from market import summarise
 ROOT=Path(__file__).resolve().parents[1]
 TZ=dt.timezone(dt.timedelta(hours=9))
 SOURCES=[
+ ('autonomy-world','世界の自動運転報道の発見用RSS','https://news.google.com/rss/search?q='+urllib.parse.quote_plus('(Waymo OR Wayve OR autonomous driving OR robotaxi) when:1d')+'&hl=ja&gl=JP&ceid=JP:ja','rss','世界の自動運転／未検証'),
+ ('mlit-safety','国交省 車両安全対策検討会','https://www.mlit.go.jp/jidosha/jidosha_tk7_000005.html','page','日本の制度'),
+ ('waymo-japan','Waymo日本 公式FAQ','https://www.waymo.jp/waymo-in-japan/','page','日本の自動運転'),
+ ('nissan-next','日産 次世代ProPILOT 公式','https://www2.nissan-global.com/JP/INNOVATION/TECHNOLOGY/ARCHIVE/NEXT_GEN_PROPILOT/','page','日本の運転支援'),
+
  ('tesla-jp','Tesla Japan 公式発表','https://prtimes.jp/companyrdf.php?company_id=38481','rss','日本公式'),
  ('world','世界FSD報道の発見用RSS','https://news.google.com/rss/search?q=Tesla+%22FSD%22+when:1d&hl=en-US&gl=US&ceid=US:en','rss','海外報道・未検証'),
  ('fsd-jp','FSD 世界提供地域（Tesla公式）','https://www.tesla.com/ja_jp/fsd/safety','page','FSD・規制'),
@@ -161,7 +166,7 @@ def main():
   existing=json.loads(existing_path.read_text())
   headlines=merge_records(existing.get('headlines',[]),headlines,60)
   changes=merge_records(existing.get('changes',[]),changes,50)
- article={'id':'daily-'+day,'date':day,'checkedAt':NOW,'category':'日次レポート','hardware':['HW3','HW4'],'title':day.replace('-','.')+'｜購入・補助金・中古相場とオーナーズトピックス','summary':f"購入・補助金・中古相場・FSD・充電などの{len(results)}系統中、{sum(s['ok'] for s in results)}系統を取得。取得できなかった情報も明示します。",'auto':True,'changes':changes,'headlines':headlines[:60],'photos':['model3','supercharger','modely'],'sources':[{'name':s['name'],'url':s['url']} for s in results]}
+ article={'id':'daily-'+day,'date':day,'checkedAt':NOW,'category':'日次レポート','hardware':['HW3','HW4'],'title':day.replace('-','.')+'｜Tesla FSD・世界の自動運転とオーナーニュース','summary':f"FSD・世界の自動運転・購入・充電などの{len(results)}系統中、{sum(s['ok'] for s in results)}系統を取得。取得できなかった情報も明示します。",'auto':True,'changes':changes,'headlines':headlines[:60],'photos':['model3','supercharger','modely'],'sources':[{'name':s['name'],'url':s['url']} for s in results]}
  (ROOT/'content/daily').mkdir(exist_ok=True)
  (ROOT/'content/daily'/f'{day}.json').write_text(json.dumps(article,ensure_ascii=False,indent=2)+'\n')
  # Articles accumulate permanently; photographs are shared across the archive.
