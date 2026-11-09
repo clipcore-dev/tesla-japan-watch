@@ -1,7 +1,7 @@
 {
   "id": "daily-2026-11-10",
   "date": "2026-11-10",
-  "checkedAt": "2026-11-10T00:08:59+09:00",
+  "checkedAt": "2026-11-10T00:10:14+09:00",
   "category": "日次レポート",
   "hardware": [
     "HW3",
@@ -130,6 +130,22 @@
       "published": "Wed, 04 Nov 2026 12:51:15 GMT",
       "source": "Tesla用アクセサリー新着の発見",
       "topic": "アクセサリー／未検証",
+      "initial": false
+    },
+    {
+      "title": "日本国土開発 (1887)に関するニュース - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSHFMbTRCdVRJWDNoV2J0T2J0emV0ejJidFJaZWZNVXJvSGtCWWh0d3NWMGJnS3BMSjFpdlFLNkV3T2NpUm1OZDZKaUgzb1lRRmpEOFppbFEzcG42LXJpOWJTZVowdS03TlNheWE0dW9peE1hMGxKNkU4ZmlOUTdBZDZTTUpZZ0FwNHp0Z3NMUDlMY1BPZ2dlNE9VbE1rdnROVnBWWHdSekxpdnFhejNhb2dZZTNsNVdTYWduZTZ5UWh3WjVUNVlJTUgyeUtLZw?oc=5",
+      "published": "Mon, 09 Nov 2026 00:48:41 GMT",
+      "source": "世界の自動運転報道の発見用RSS",
+      "topic": "世界の自動運転／未検証",
+      "initial": false
+    },
+    {
+      "title": "Tesla Model 3 Highland approved to receive adaptive headlights in Europe - Teslarati",
+      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQN0lILUJPbk5Sb21Hc3o3V2hpd1E0WnBlQmpDLTNldW4xLVF1bXRHRm01VUFSM2hJVExHZjZvb1FvLWcyakIxbjZQNGV2cTVLTk5fdFhZUDRSa1NLcXA1RzJOVUNIYVdyYnpFcnhyQk9kS0tWdXp2SmhrbXF4aElzcDBwaGNYVHB6ZnV5eEZuc2N4cVZYSEdqZXNITWtQci1GV2VpcnpaTFI1OGpBUF9ZanBDbHV3aU5YY01sUmtQWHlIYnVzMXkxTGdXUFlOWkt0S01XalJMZDcxTzRUZkU4NVB1bzBWaENQNUw3dFFlTU1DdmY5VVNnaWJTRzk5cmQ3QXRnUk9WVW9DX3VIZkVHNGFiNk1MWFpaaEtXdS1B?oc=5",
+      "published": "Mon, 09 Nov 2026 07:22:18 GMT",
+      "source": "世界FSD報道の発見用RSS",
+      "topic": "海外報道・未検証",
       "initial": false
     }
   ],
