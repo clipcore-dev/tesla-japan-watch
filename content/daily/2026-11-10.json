@@ -1,7 +1,7 @@
 {
   "id": "daily-2026-11-10",
   "date": "2026-11-10",
-  "checkedAt": "2026-11-10T00:10:14+09:00",
+  "checkedAt": "2026-11-10T13:32:12+09:00",
   "category": "日次レポート",
   "hardware": [
     "HW3",
@@ -10,7 +10,13 @@
   "title": "2026.11.10｜Tesla FSD・世界の自動運転とオーナーニュース",
   "summary": "FSD・世界の自動運転・購入・充電などの27系統中、19系統を取得。取得できなかった情報も明示します。",
   "auto": true,
-  "changes": [],
+  "changes": [
+    {
+      "title": "Spigen公式 Teslaアクセサリー：出典内容の変更候補",
+      "url": "https://www.spigen.com/collections/tesla",
+      "note": "ページの共通部分やPDF差し替えも含むため、制度・価格・機能の変更内容は未判定。最新の原文確認が必要です。"
+    }
+  ],
   "headlines": [
     {
       "title": "Teslaの「カメラ単体」を否定する理由 Waymoが明かした自動運転の壁と自社製プロセッサー (1/4) - ASCII.jp",
@@ -146,6 +152,102 @@
       "published": "Mon, 09 Nov 2026 07:22:18 GMT",
       "source": "世界FSD報道の発見用RSS",
       "topic": "海外報道・未検証",
+      "initial": false
+    },
+    {
+      "title": "Uberが「Uber Parking」を正式提供開始、配車だけでなく自ら運転する際の駐車場予約も可能に - Mashdigi",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSFFLaXZiNkNPaTdhdWs2N1FBWmlTdk1Vdlc1by1yTVpMQXpZb21Xam8wRGZNNDI5ckRCUnRraDJ5T2JnTkRKc3JqMnRROUl4M2JPZmhNc3E1QWw2SS1ac3RQZl9FNFlvcGhBOExaRFBmNTBVeFlzOXRsQy1QTmxhbS1B?oc=5",
+      "published": "Tue, 10 Nov 2026 01:00:19 GMT",
+      "source": "世界の自動運転報道の発見用RSS",
+      "topic": "世界の自動運転／未検証",
+      "initial": false
+    },
+    {
+      "title": "【解説】newmo208億円調達の勝算｜日本型自動運転と2層AI - PlusWeb3",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBxdXU1QngyNkZFRUhoaGZ1ZFgyZ3hXTzdHU2sxYi00ZWpWX0hnalN0TndCc2F3eFNtOHM0dW5WaDNPdmdPQllCZnBLRWtTWkpaY1NkVVVHVTJCN3dCZFhCNXhCUnhOUVJUY3JDTWFZTQ?oc=5",
+      "published": "Mon, 09 Nov 2026 12:00:00 GMT",
+      "source": "世界の自動運転報道の発見用RSS",
+      "topic": "世界の自動運転／未検証",
+      "initial": false
+    },
+    {
+      "title": "日産プロパイロットの自動運転機能は？ロボタクシーの開発計画は？ - 自動運転ラボ",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wd3JXX3g2b09HUXF0aW52dVh2U3U2aWtyUzE5MUY0eEJBRGNDNy0ydEthZFJza1NRT1VzRUMwcURMQ0t5R3liV2hRczFBRnJXWElaV1VYLTVFcWJzSnpsSWNxSnVIcllO?oc=5",
+      "published": "Mon, 09 Nov 2026 05:00:28 GMT",
+      "source": "世界の自動運転報道の発見用RSS",
+      "topic": "世界の自動運転／未検証",
+      "initial": false
+    },
+    {
+      "title": "テスラ、日本で「ロボタクシー」の商標出願 - 自動運転ラボ",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE85dTFxRXM3LWZ0bW82V2d0bG9KRE4yQzViRW45cTV6QmI1YXBsUTkwZHhidk5TYVZuSzc2WUhkN1BmbEFTbHdVZA?oc=5",
+      "published": "Mon, 09 Nov 2026 06:17:36 GMT",
+      "source": "世界の自動運転報道の発見用RSS",
+      "topic": "世界の自動運転／未検証",
+      "initial": false
+    },
+    {
+      "title": "Tesla 2026.38.4.5 Is Out: FSD v14.2 Lite and What to Do - BASENOR - Tesla Accessories",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9ha2pCV0VmbTNxTllKa2hZcUlsU2U2V2Jma0Z5TUZGS2REM2pRQ3piOVdCa3huNFVDU0FCUE44emtlRlNpcGxoTkQwdThZTjRqaURERG8xRGd2N0NoN0JNVjZyd0ZXUFVQQ3R3?oc=5",
+      "published": "Tue, 10 Nov 2026 04:06:16 GMT",
+      "source": "世界FSD報道の発見用RSS",
+      "topic": "海外報道・未検証",
+      "initial": false
+    },
+    {
+      "title": "Mercedes' Answer To Tesla FSD Requires Hands On The Wheel. Does That Make It Better Or Worse? - Ins…",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBubUcxZVdXRGFBeUdTaUhNVlIxUEkwOU5kRjJJVlhLb0gtWk11NXQxd0xqSkFiai1FcTZad21PM2tNMGdjSWhEZzluSXg5ZmEwN3Y3ck5hMk1rejhQMTZWdVRGOUVQS01mcGxtcng4cjZkZw?oc=5",
+      "published": "Mon, 09 Nov 2026 15:08:00 GMT",
+      "source": "世界FSD報道の発見用RSS",
+      "topic": "海外報道・未検証",
+      "initial": false
+    },
+    {
+      "title": "Jay Leno Tries Tesla FSD for First Time in Model Y L [Video] - Drive Tesla Canada",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zNTR6UHJTazM5Vjk2SzBoRTBGVDBvR25wYlM0NXpWdmtrb3d0ckJOWmVSOTlyMkdSRmFNUTByNzJvdGZublp1T2N1dXpIRXMzZnRDcHRkcG9jU0RaYzFtZFV3a1hsQkRySGJyblZUZ3hxZFNaaDVkYmpqeE1UYUE?oc=5",
+      "published": "Mon, 09 Nov 2026 23:21:31 GMT",
+      "source": "世界FSD報道の発見用RSS",
+      "topic": "海外報道・未検証",
+      "initial": false
+    },
+    {
+      "title": "FSD Beta Safety Score Resets: What Owners Need to Know - BASENOR - Tesla Accessories",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb0oyRWx2RHBibkhfSy1GeUlDbmZBRXZYZmZITTBRU2NVZl9BMFBNdlNSelhQYno0NnBGcmdTVThyZWtWX2hKcERZa0V6Y2FlT25aLUpWcXpoUEJOd3JpTE5LVzJ3YXM5eVhaSTBOTk5YZmZia2NjQks0WGhJUWkzS0pPb0FlUDktT3ZCUTE5TWN5QQ?oc=5",
+      "published": "Tue, 10 Nov 2026 00:03:18 GMT",
+      "source": "世界FSD報道の発見用RSS",
+      "topic": "海外報道・未検証",
+      "initial": false
+    },
+    {
+      "title": "＜再掲、追記＞令和７年度補正 CEV 補助金（車両） テスラ モデル３、モデルＹのグレード名称の一部変更について （車両コード 1168、1316、1327）",
+      "url": "https://www.cev-pc.or.jp/notice/pdf/20261110_R7ho-cev_oshirase.pdf",
+      "published": "原文で確認",
+      "source": "CEV補助金：実施機関のお知らせ",
+      "topic": "補助金・期限",
+      "initial": false
+    },
+    {
+      "title": "テスラ、「サイバートラック」の予約購入者に対し予約金を返金する方針＝米国株個別 - 株探",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtQ055c2xfcXdBMTdSYTJDeE1McTFKTXJoTW9ERnhGa0xUa0s2OWczY200WkZSckNRcWtJSXBvVE0xQ2VPSXB2d1VwWG03TzY4YW1CVWo3UWpSSUEwY3phdQ?oc=5",
+      "published": "Mon, 09 Nov 2026 14:44:00 GMT",
+      "source": "日本のTesla購入・補助金の報道発見",
+      "topic": "購入・補助金／未検証",
+      "initial": false
+    },
+    {
+      "title": "【ECOライフホーム】テスラ新世代家庭用蓄電池 Powerwall 3 - ニコニコニュース",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5HR0FoeUNON2ZWRFhaalpQei16MW5mcTR1ajhPVEY5YjN3QjhTazNmbndOT3p2YUptdWdUZGtjaGEzUlJ4dzVaRjZqWEhwQ2tYRW5yaFEtTFBUZHVWVFlrQjRnWUt4cVc4c1I2V21OVjE3Rkx6RXZCYTFGUQ?oc=5",
+      "published": "Tue, 10 Nov 2026 02:51:20 GMT",
+      "source": "日本のTesla購入・補助金の報道発見",
+      "topic": "購入・補助金／未検証",
+      "initial": false
+    },
+    {
+      "title": "AppleがiOS 27.2.1を公開、不具合とセキュリティの修正 - Pasquale Pillitteri",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNN0l5bnNjOFhhb2R6Z1oxejl6ZWwydTlKM25pMDZ3dVk0YjZkUmU0Y2JVQmpINkVRWlRyRzE4LVhLeG5wZEVPN2MwN0ZsaGxQd21TLVY5ekhFT3Zib24wZjFCTnM1NVF6ZGFGeGRoUGtHRWlPLWpyaXdnbktTNGFpUENRYzZqV0pmNjNV?oc=5",
+      "published": "Mon, 09 Nov 2026 20:30:36 GMT",
+      "source": "Teslaアップデートの報道発見",
+      "topic": "アップデート／未検証",
       "initial": false
     }
   ],
