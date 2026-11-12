@@ -1,0 +1,1296 @@
+{
+  "checkedAt": "2026-11-12T12:41:05+09:00",
+  "sources": [
+    {
+      "id": "autonomy-world",
+      "name": "世界の自動運転報道の発見用RSS",
+      "url": "https://news.google.com/rss/search?q=%28Waymo+OR+Wayve+OR+autonomous+driving+OR+robotaxi%29+when%3A1d&hl=ja&gl=JP&ceid=JP:ja",
+      "topic": "世界の自動運転／未検証",
+      "ok": true,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "items": [
+        {
+          "title": "OTAアップデート後も違反が継続？米NHTSA、Waymoの自動運転タクシー2,895台を対象に調査を格上げ - Mashdigi",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1zc0RoSVozcVg1QVNoNExtM29FXzJrS1gxZklVUkl4UVVEYkVRN3R3VGFHTk51dVcyZDAzcVM2S3hBUlFaMHBWeTZ1VVZCVDZMRmRlTXZHc1lNUmxTN1FyLXB5YmZBY2hjVWZ1UVQ1NXBuYXZQLUh3aDdPRQ?oc=5",
+          "published": "Wed, 11 Nov 2026 12:16:51 GMT"
+        },
+        {
+          "title": "自動運転銘柄、本命の米国株・日本株まとめ｜株式投資 - 自動運転ラボ",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ydm03QURBSmhORlpIREtsOXBxSG9TWTVQQXhjT3lUR1FvWDcteHE4QjFYTFp5akpvRVY0NHdNVklIVVVpYk02UnZ6eUdwV3YzWXdSZkMtUnRrbUFHYmRDSw?oc=5",
+          "published": "Wed, 11 Nov 2026 22:20:58 GMT"
+        },
+        {
+          "title": "【日産決算関連】過去映像でふり返る「自動運転車の実力は」【WBS】 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4yUF9vZTJRMHlwc2JicURydEwyMTJTejVWQ3g4c0VZbG1QbzJuUEtCWkM4bHNxWHZDUXVlWDdoZHQ2dFU3THBhcEJuVFpLaXBOTHhOMUY1U3Ytb3NM?oc=5",
+          "published": "Wed, 11 Nov 2026 07:00:07 GMT"
+        },
+        {
+          "title": "Uberが「Uber Parking」を正式提供開始、配車だけでなく自ら運転する際の駐車場予約も可能に - Mashdigi",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSFFLaXZiNkNPaTdhdWs2N1FBWmlTdk1Vdlc1by1yTVpMQXpZb21Xam8wRGZNNDI5ckRCUnRraDJ5T2JnTkRKc3JqMnRROUl4M2JPZmhNc3E1QWw2SS1ac3RQZl9FNFlvcGhBOExaRFBmNTBVeFlzOXRsQy1QTmxhbS1B?oc=5",
+          "published": "Wed, 11 Nov 2026 12:16:01 GMT"
+        },
+        {
+          "title": "【緊急解説】外国人を増やせば日本は救われるのか？2040年を見据えた人口戦略【藤田文武】 - YouTube",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE96TFpoZ3ZyR3JpWG00WkM0dmhQXzBXaXdBRGJVV0kyaEFxQjhMRXdEMGlmbi1oX2pMc0ZBbDJ4WldqcEF4MHVzNG9oTnVsaGJzOWxNNFUxS1RfQ082?oc=5",
+          "published": "Wed, 11 Nov 2026 13:00:09 GMT"
+        }
+      ],
+      "lastSuccess": "2026-11-12T12:41:05+09:00"
+    },
+    {
+      "id": "mlit-safety",
+      "name": "国交省 車両安全対策検討会",
+      "url": "https://www.mlit.go.jp/jidosha/jidosha_tk7_000005.html",
+      "topic": "日本の制度",
+      "ok": true,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "fingerprint": "15e30e906f727c237d13762f4b86278ae270c798cd01c5b4b9899b1eecbef746",
+      "lastSuccess": "2026-11-12T12:41:05+09:00"
+    },
+    {
+      "id": "waymo-japan",
+      "name": "Waymo日本 公式FAQ",
+      "url": "https://www.waymo.jp/waymo-in-japan/",
+      "topic": "日本の自動運転",
+      "ok": true,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "fingerprint": "f611ad76bf6d95efc816588168cc03ed8ef235aad6aef229cc0f96b0c809414a",
+      "lastSuccess": "2026-11-12T12:41:05+09:00"
+    },
+    {
+      "id": "nissan-next",
+      "name": "日産 次世代ProPILOT 公式",
+      "url": "https://www2.nissan-global.com/JP/INNOVATION/TECHNOLOGY/ARCHIVE/NEXT_GEN_PROPILOT/",
+      "topic": "日本の運転支援",
+      "ok": true,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "fingerprint": "4adfcd76a2cda2df3b17bea663647b497bf12cbc8f0ce5e13542e17fe5f2724e",
+      "lastSuccess": "2026-11-12T12:41:05+09:00"
+    },
+    {
+      "id": "tesla-jp",
+      "name": "Tesla Japan 公式発表",
+      "url": "https://prtimes.jp/companyrdf.php?company_id=38481",
+      "topic": "日本公式",
+      "ok": true,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "items": [
+        {
+          "title": "新しいModel 3とModel Y、Model Y L - おでかけも、もしもの備えも、テスラの電気で。",
+          "url": "https://prtimes.jp/main/html/rd/p/000000077.000038481.html",
+          "published": "2026-10-23"
+        },
+        {
+          "title": "10月28日（水）、東海エリアの新たな納車拠点「テスラ デリバリーセンター名古屋みなと」をオープン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000076.000038481.html",
+          "published": "2026-10-15"
+        },
+        {
+          "title": "茨城県ひたちなか市に「テスラ ひたちなか」をオープン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000075.000038481.html",
+          "published": "2026-09-25"
+        },
+        {
+          "title": "Cybercab（サイバーキャブ）を日本初公開",
+          "url": "https://prtimes.jp/main/html/rd/p/000000074.000038481.html",
+          "published": "2026-09-05"
+        },
+        {
+          "title": "外国車ブランド 車種別No.1*は、テスラ Model Y",
+          "url": "https://prtimes.jp/main/html/rd/p/000000073.000038481.html",
+          "published": "2026-08-27"
+        },
+        {
+          "title": "四国初のテスラストア、8月28日にテスラ愛媛がオープン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000072.000038481.html",
+          "published": "2026-08-17"
+        },
+        {
+          "title": "8月17日に「横浜」「神戸」の2拠点にデリバリーセンターを同時オープン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000071.000038481.html",
+          "published": "2026-08-10"
+        },
+        {
+          "title": "テスラ スーパーチャージャーを無償化",
+          "url": "https://prtimes.jp/main/html/rd/p/000000070.000038481.html",
+          "published": "2026-07-29"
+        },
+        {
+          "title": "グランフロント大阪 北館に「テスラ ストア」がオープン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000069.000038481.html",
+          "published": "2026-07-27"
+        },
+        {
+          "title": "対話型AI「Grok」を国内のテスラ車両にOTAで配信",
+          "url": "https://prtimes.jp/main/html/rd/p/000000068.000038481.html",
+          "published": "2026-07-21"
+        },
+        {
+          "title": "テスラ スーパーチャージャー、全国150箇所に到達",
+          "url": "https://prtimes.jp/main/html/rd/p/000000067.000038481.html",
+          "published": "2026-07-13"
+        },
+        {
+          "title": "世界で最もテスラが安い街、東京",
+          "url": "https://prtimes.jp/main/html/rd/p/000000066.000038481.html",
+          "published": "2026-06-25"
+        },
+        {
+          "title": "2026年5月度 外国車ブランド 車種別No.1は、テスラ Model Y",
+          "url": "https://prtimes.jp/main/html/rd/p/000000065.000038481.html",
+          "published": "2026-06-12"
+        },
+        {
+          "title": "燃料代3年間無料！キャンペーンの納車期限を7月31日まで延長",
+          "url": "https://prtimes.jp/main/html/rd/p/000000064.000038481.html",
+          "published": "2026-05-29"
+        },
+        {
+          "title": "テスラ、日本全国でストアオープンを加速",
+          "url": "https://prtimes.jp/main/html/rd/p/000000063.000038481.html",
+          "published": "2026-04-28"
+        },
+        {
+          "title": "テスラ 新しいModel Y L 登場",
+          "url": "https://prtimes.jp/main/html/rd/p/000000062.000038481.html",
+          "published": "2026-04-03"
+        },
+        {
+          "title": "テスラ 燃料代3年ゼロ！スーパーチャージャー無料キャンペーン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000061.000038481.html",
+          "published": "2026-04-01"
+        },
+        {
+          "title": "山口県、三重県にテスラストアをオープン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000060.000038481.html",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "国内初の新設テスラセンターを福岡アイランドシティにオープン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000059.000038481.html",
+          "published": "2026-01-09"
+        },
+        {
+          "title": "テスラ、静岡市に新ストアを開店",
+          "url": "https://prtimes.jp/main/html/rd/p/000000058.000038481.html",
+          "published": "2026-01-07"
+        },
+        {
+          "title": "テスラからのお年玉「0%特別金利キャンペーン」",
+          "url": "https://prtimes.jp/main/html/rd/p/000000057.000038481.html",
+          "published": "2026-01-03"
+        },
+        {
+          "title": "テスラ スーパーチャージャー、国内設置数700基を達成",
+          "url": "https://prtimes.jp/main/html/rd/p/000000056.000038481.html",
+          "published": "2025-12-18"
+        },
+        {
+          "title": "テスラ、岐阜県初・静岡県2店舗目を年内にオープン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000055.000038481.html",
+          "published": "2025-12-08"
+        },
+        {
+          "title": "テスラ、岡山県初のストア「テスラ岡山」をオープン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000054.000038481.html",
+          "published": "2025-11-10"
+        },
+        {
+          "title": "テスラ、11月19日に北陸地方初のストア「テスラ富山」をオープン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000053.000038481.html",
+          "published": "2025-11-05"
+        },
+        {
+          "title": "テスラ、北海道初のテスラストアを札幌にオープン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000052.000038481.html",
+          "published": "2025-10-15"
+        },
+        {
+          "title": "テスラ Model Y、2025年1月～7月 国内電気自動車普通車セグメント累計販売台数No.1を達成",
+          "url": "https://prtimes.jp/main/html/rd/p/000000051.000038481.html",
+          "published": "2025-10-03"
+        },
+        {
+          "title": "テスラ、日本での店舗ネットワークをさらに拡大",
+          "url": "https://prtimes.jp/main/html/rd/p/000000050.000038481.html",
+          "published": "2025-09-09"
+        },
+        {
+          "title": "千葉県と広島県に新たなストアをオープン",
+          "url": "https://prtimes.jp/main/html/rd/p/000000049.000038481.html",
+          "published": "2025-08-28"
+        },
+        {
+          "title": "国内でのFSD（Supervised）テスト走行を本格開始",
+          "url": "https://prtimes.jp/main/html/rd/p/000000048.000038481.html",
+          "published": "2025-08-20"
+        }
+      ],
+      "lastSuccess": "2026-11-12T12:41:05+09:00"
+    },
+    {
+      "id": "world",
+      "name": "世界FSD報道の発見用RSS",
+      "url": "https://news.google.com/rss/search?q=Tesla+%22FSD%22+when:1d&hl=en-US&gl=US&ceid=US:en",
+      "topic": "海外報道・未検証",
+      "ok": true,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "items": [
+        {
+          "title": "Critics Slam Tesla's Gamification Of FSD As Driver Hits 25,000-Mile Streak - InsideEVs",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE55QWFadW5ERDhEVGlMYWFaS0w2Um4xZ2RURHE2TGN3WDVwdldKSVJHZndxZWF0WVd5WUVBOWtqdF96VG5BeTJHUnhXcmhSbTN3Y0JRakF4X25kQWc5djRQMC1aSUd1dTNOT3N5ekRn?oc=5",
+          "published": "Wed, 11 Nov 2026 11:57:38 GMT"
+        },
+        {
+          "title": "Finland clears Tesla assisted driving tech after changes - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTlM5bTZEWktQbU9STjk1NE9iMjNpUVJaNUJXcVI1bUV3ZmxPN2p2NjQ0c2ZaQXdITlJkeDNCYkV2MjgwVjlaMjFYTnN6U2VGMHBJNDV3T1VTZ3IwTnVRcGtxdGR5djY3VldGVnVhOEg4YTI0dEUzbWJJVUFNeHZoa1RuZVphZnU3SGk4b3FPeEcxSjR1aGVsMUh5SExpNlZINVE?oc=5",
+          "published": "Wed, 11 Nov 2026 06:53:00 GMT"
+        },
+        {
+          "title": "Finland approves FSD Supervised, automaker renames it to 'Tesla Assisted Driving' in Europe - Tesla…",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVFRQa1VyZ29rVVFEeko4Yk9fcnljdTBnTUR3bXBjRUZ6ejRLUVdoOEdnMGRLclBFZEs5RDQyVkZoRFpld21nUUh0aFhMbnlzMXhXZjFnY05EYTlYeVNhVk02aUFlbkRvQ3ZueGVVdzJiSWkxb1FPeXAyeTdQbS1fRldNZHV1ZFprYlgwenlSY2w0UGJnV3ZsQUR4alV5SmZfbVRZUWR5eEN2bmFxSWVYTGVYREFfZHVNdGtESVhpZGY1LURuelBz?oc=5",
+          "published": "Wed, 11 Nov 2026 20:20:06 GMT"
+        },
+        {
+          "title": "Turo Now Lets You Rent A Tesla With Full Self-Driving - Motor1.com",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1XdFU4TERHeWU5TU8yRG1naVFxQVBQRll3aEs1Vi1iY3VYNGZkN29PTVJsRjlfSS1ZanZQVXBsTUxJT3kwRXJqTHRjUWdKOTZrRHNxSXQxQVlDWU1pUVplYTV5MnlQVjAxcjRqRFd0Z2Z3b2c2?oc=5",
+          "published": "Wed, 11 Nov 2026 18:31:46 GMT"
+        },
+        {
+          "title": "Finland Allows Tesla FSD, So Long As It's Not Called That - Jalopnik",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9lQ0FIS0NYUE9yZWotQ2lEWTRROWtkanA0azFfTUE0ckotSjE2Q2YzbzdENFZaR0F6LVZ0MmJjNU1WZy02WjdtaDFoMDgyU3JLX2pCR1RPbzlZZmE4NDJwOFZMaW5lVkJxeDlLNg?oc=5",
+          "published": "Wed, 11 Nov 2026 15:22:43 GMT"
+        },
+        {
+          "title": "Finland recognises Tesla's FSD Supervised as the 11th European country to do so - Startup Fortune",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNENPZnlFdFRGZjk3Wm56TEZLZHh4TVhTcEFld01iYW85UUZYV0l6c3ZWcXFBdk5aaWpROGlQZkhVdG9jaVZvRHo0U3NDRjRreG1lOFlmX2pFcXR0Q2p1SnlZakNYcHpkS1RmRlVyVmF3VjhfV3owSGl4NnJBNFlneDd3eUNyWmlnM2ZMV3VSYVQ4UHo1QkZLamlhU2hHUFRMeU42aFlnemU1QQ?oc=5",
+          "published": "Wed, 11 Nov 2026 17:24:14 GMT"
+        },
+        {
+          "title": "South Korea Is Cracking Down On Tesla Users Using This Dangerous Mod - BGR",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRFVfa1ZjcEZGWERRdFBBTGxhUHM1RkloSWFpdWFJa0duamtpZ0dxa1RrM1RzTGRqbXpMZnpzbjM3aVo0WF85QUFlWDZFQmJRM2lOcy01SXBScnRERTJJaHg3NXk4NV8zN2QyRHdWdGRSLWhhYTNQbnF0M1ZWSmZPQw?oc=5",
+          "published": "Wed, 11 Nov 2026 13:17:00 GMT"
+        },
+        {
+          "title": "Tesla Threatens To Sue Media Outlet For Unofficially Activating FSD For Test - Outlet Hides Behind …",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE13bUlwb3c2WDZVMFpycDNTZUNneUthcmc4dDA3UDFOOGRxVElUNVdyUjRiMDIydmhsUWZTem5TWV9BTWdZMC1qMFVyVzhvNjBZZzdvRXRrZjFMUVVBeWttTXNwenpnZDV4a0NmWm53?oc=5",
+          "published": "Wed, 11 Nov 2026 23:56:26 GMT"
+        },
+        {
+          "title": "Tesla FSD Approval in South Korea Faces Lengthy Delays Over Incomplete Documents - Drive Tesla Cana…",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTGJQbXR3UGYyYlItdnNjdG9NMXNEczFpcTJsbzdReWt2Z21aVWFSLVVnYjFSbmdWNEJJcG5nZnFzNHFscUU4Q0tLelJJaEEzQk4wRmpsQi1fMzd5blZNdGVJQXJneXA0SHR2bGYwU1FEUjZiQVRiVWZLQWhCLXF4dzVQTQ?oc=5",
+          "published": "Wed, 11 Nov 2026 16:43:10 GMT"
+        },
+        {
+          "title": "EU: \"Express driver responsibility\"... Tesla barred from using FSD name - 스타뉴스",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTjdFaGZySDlzallvZi1wZ01rcm5Ldkk2Vk1NZWlOejdRYVdRUWZtam83OE9WUWdtLWpYNml1Nnp6dDFZOUpVTzlJQjRGaHFjSFZHN1RIbWxvT1FPdmZObVdOc3ZMMzNRR3BVMWtrMndlUW1HTjBDaEFtRFpZbEFLd3ZaMA?oc=5",
+          "published": "Thu, 12 Nov 2026 00:16:36 GMT"
+        },
+        {
+          "title": "Tesla Assisted Driving Approved in Finland — 11th European Country - BASENOR - Tesla Accessories",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWVh5VUw0NU9nTW5mSUpTNnF6a2ptemJ4Uk5VcmFGRnF6VmNRWjYxZXBUVF9iNUZiMmlSdnpKeGpYaU04LTdzcy1TaHVPMll6QUJHZ2xaTE1rZkUwN1c3c2M4RWJSeGpBb2xRM1l1bUY1aFJiMUxfeWlXRGJBOTFsbVVkNjI5TTlwUnNNY3VWRzg0T1FmaGxiVVFxY1NYNmhf?oc=5",
+          "published": "Wed, 11 Nov 2026 08:07:18 GMT"
+        },
+        {
+          "title": "Tesla FSD (Supervised) — Approved in Finland - Electric Vehicles",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbi1TR3AzNms2cGVPZ281ajM3RS1mWGRmX1FHb2piMm5JQ096RFppTUdkUzNVUDNOUHY5VkpzdHo4c3B6aVpDLXBvT0kzWTZXUFByR2hOcWtzM0JEa2RtQzVCaDBvX1N1QzU1NlpScmdXQ1hzRlFjaFlNSF9oWG9nZUJ4U0tsZlRBX3VuZjNTSlpfbVl6RXRr?oc=5",
+          "published": "Wed, 11 Nov 2026 06:18:00 GMT"
+        },
+        {
+          "title": "Finland Clears Tesla’s Renamed FSD for 6,500 Eligible Cars - FourWeekMBA",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaDN2OHhTdFpxVlFMYVNiemxzeGpka0c2RDR6TEtkUk5kZGp4ZjBRaGkyUWFuYXNjNldxcWo0Smd2NFNPZjFua3JCdGk3SDZTNlc3WC1aX2N1ZDhlNGZQQmZWdW5SVXJwcV83b2tHbkhsUFdOQU1mXzM3M1pQZ3hrdmd2RXBOZGVoQktBWA?oc=5",
+          "published": "Wed, 11 Nov 2026 10:36:53 GMT"
+        },
+        {
+          "title": "[Reporter’s Notebook] Tesla Hides Behind the Shield of Its Fan Base - 아시아경제",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8yanBfZmpZeXBrTUUwSHM1cC05NURaRVFJS0ZRNjVPQUs4QWV2VlkyYW9ORUZ2LWh0WEg4eXRwaTY2QWhaVVc0YTZab3FHYVBXNDdmM205NXVjZzhHQ1luOTMyRXE?oc=5",
+          "published": "Thu, 12 Nov 2026 00:28:39 GMT"
+        },
+        {
+          "title": "Musk’s Companies Will Face Intense Democrat Scrutiny, But One is Under More Heat - 24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZG9tMWMxWm5Hc3B0UGFsZDlZU21lbWJ0eVhQQVNhOXpDWlRsVTd0S2paWlE2OTVTbnhDX1VBXzFSV1h2d2M2X3VMY292Sldqb25xWXNDYlNiSnJYTDBodkRFVlgzMHM0STlvbktUbkxOckYtX3A4c0V5blNFenl2Z3BMdHYweXJhNFpsclZnTk5IX09WM3pHVmdsZG04NEdzZmxBVklPakZESEoyS2J2NXcyMkpWcHZnOWtoZkVPQQ?oc=5",
+          "published": "Wed, 11 Nov 2026 13:45:00 GMT"
+        },
+        {
+          "title": "The Xpeng L03 Aims To Take On Europe And Undercut Tesla - InsideEVs",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JeXpqVjBkbXlnOU1PQTAzaE5zOExmMlBOcWdGSnI3bEV1UGZSX1M5X0hhZXR4RWJXM3MxaERScmNfVkpiVU91aDNnRlVUbGJuZzEzdmhVUWdDczBZOXNvdkRPbnlXMWRnMi1TSnpjUWo?oc=5",
+          "published": "Wed, 11 Nov 2026 19:02:01 GMT"
+        },
+        {
+          "title": "Finland grants Tesla permission to drive \"hands free\" - Yle",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1NbkRndXFlUzR4X1JKaVJkSEhadUFNbUZYLW5YMmt5R0NhRkV0a25WaUEwd2pEbG0tS0hKTTFKajREQQ?oc=5",
+          "published": "Wed, 11 Nov 2026 12:07:13 GMT"
+        },
+        {
+          "title": "Tesla Assisted Driving Approved in Finland, the 11th EU Country to Allow It - Electric Vehicles",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcGZEVGlGZjhoZUwwb28wVW52Wnh0bGhQd2pEY3cyaEFtQ1RoRy1QUGJZWHpsYmhfM2h5dXJVUmwyMkJPLWR4Q3haYXNQcTFyTW1Rc2EyNDNGd1R4VU1YbmxBUkowcnVOajg3TzVIQ282ZUJMSUNjenMyZ05CNXNOdkQwelJVQjczaFpBWVBQS2xDWVJaLThNUnJWLTlDemdhMzFBN2ltaThSUGl4RUxz?oc=5",
+          "published": "Wed, 11 Nov 2026 09:04:00 GMT"
+        },
+        {
+          "title": "Finland becomes 11th European country to approve Tesla Assisted Driving - Drive Tesla Canada",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE51cVlKNFAwVHA1elB0VUNNOTlXZGxETjZuTkVHTlpudUhHS193MXpwUm9MUWZoS0JrVGlJRHZ6b2k5MHFZV2V3WnFRSzIxbE1EaWZDSFhjNERhbTZOTXhWRTZIYlZLdWE5cVZCQk5yZnYyZ1docUVnb3llQVNmZw?oc=5",
+          "published": "Wed, 11 Nov 2026 12:52:58 GMT"
+        },
+        {
+          "title": "It Speeds, Ignores Stop Signs, And School Buses - Tesla's FSD Is Becoming More Human Than Ever - Au…",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1tcjZZbDNnd3ZyeFJoZmdOLU42NmtTTUZ6Sm5MdUVSQ2FUNnBUcWRqSXJNeVdMdHFEYjhtOHBLb2RpSFR4NWtseERpRFNqWXJEV2hubGdhVnBsSVR3ZDlmektQRnFPa3RtZndsSE5R?oc=5",
+          "published": "Wed, 11 Nov 2026 13:43:58 GMT"
+        },
+        {
+          "title": "Finland approves Tesla assisted driving cars ahead of EU vote - AOL.co.uk",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZVpUX0c2WUNwbEJidDJFSDBISTNMTlFXbEN0WXJuSnExUzJtbTAzd0NELXhwQzdneHVSemROaGd5UnNvaTl5VHNZUkF0N2tmZFZTSDBlLVpnRFBFWE9VM0pJRUwwVHEyRUpGRVdDUE1fZWRMYk16bVFNWHNlN0VGQXU5bkQ0TXlpUkpfeHJn?oc=5",
+          "published": "Wed, 11 Nov 2026 15:27:52 GMT"
+        },
+        {
+          "title": "Tesla (NASDAQ:TSLA) Advances Autonomous Driving and Robotaxi Deployment as FSD Adoption Reaches New…",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZDdsYWt5dWVhUkNMcU9YbEFuYWVlTlNHdjNRUlVuT0lUMFhzX3RPNTJjcUF3WjNPa1ZxdEh2ZW03N05KaVpCR0Y2S2stY0F4UWpqLXRtcXlmOW5qNzRJLWExemlMZFM1TEZpYkNEdEt0bDl5NzFZMEhtSjA5ZVZ6eWp2MHN5c2RxTGNSWndWMmJJX1liUlh4czRLaHR5QVJBcUFHaHJhWDU1SmNrdGpGT3hndlZMbFVOX1hYdU1UTjZVcG9lNFhmejVnRG02TTRidmtiemNLaWs?oc=5",
+          "published": "Wed, 11 Nov 2026 04:14:00 GMT"
+        },
+        {
+          "title": "Exclusive: Musk Cut Basic Autopilot From New Vehicles to Boost FSD Subscriptions - Not a Tesla App",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaWtEaXVlMDdCdlpWeE9RTHh4ejEzako2dXl1OVV2SFB5NU82VENoY1NTR3daY01zU3BLVUUzQm1wZnF2WktkcjVQR2wydUlNR0llUlBhUU9Eb2xnMmpld0o1bTVKMW9DMTNlLUJaTllWUTJWc0pxemcyT0ctcUI5dC1ZWTcwT3BrU1F3VEUzZ0xDblBVMURON3lhX1JlbkpHOUNITFhMWFpVYW5JLUI3bmRFQzBiaFh6SUE?oc=5",
+          "published": "Wed, 11 Nov 2026 20:08:00 GMT"
+        },
+        {
+          "title": "Tesla FSD Approved in Finland, Rolling Out Soon - Not a Tesla App",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPc1E2bHJ2MUwxRFg0LTNmSWFUOGRKaFBjZnNTOXRTVkh1aXNVZThFWjZUVHdkbDZ2SHZKZDI0ZzdIbVQyQjZZR21TVXozbFVNbmgtR19JNlEzV2hRMGwzN3ktWHk5aE9TbHRqd1dUQzZtVllSTnB4ZjBoV0lkeG5CU1BIbm1GYXp4MG01QXFB?oc=5",
+          "published": "Wed, 11 Nov 2026 16:10:00 GMT"
+        },
+        {
+          "title": "2026.39.100 Official Tesla Release Notes - Software Updates - Not a Tesla App",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRFRmOXNhSVRKbzFyUW0wUG5ONm9qYVB5TkhYSU5UYlNVZ1BKZnptekR2ZGtiMHBfWXpta29Pa1h0RW5HNlpXenowN0ZFeWFyZy11RW9KajBMcFdGbGlwNGhRRWhLRE02elZSWVBFUlZYTkpEX1owUmM3V0tOVXRNc01KcTl4Zw?oc=5",
+          "published": "Wed, 11 Nov 2026 18:33:14 GMT"
+        },
+        {
+          "title": "Tesla FSD Approved in Finland, Rollout Coming Soon - TeslaNorth.com",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBkWjZlX3VFUTMtdG52aHhlcUhUMElzQnBFa0JfV3pjMGNtUGZUX0M0TVRqWWI5Mkdkd041ejFkelJRMXNUWmt4eFRMcEhDMUdiT2t3ZDcyMV8td1BCS1J1QmlUUGlTaDVEdTlYVEhUMFRKUDhiNTNYSnR3bw?oc=5",
+          "published": "Wed, 11 Nov 2026 12:42:20 GMT"
+        },
+        {
+          "title": "Musk Says SoftBank Chose WeWork Over a $12B Tesla Stake - TeslaNorth.com",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY1g3OGtXYXFOSU9PdnlSU1VnTWdEUUN0SDBGOHNYLVI5dkRNdG1KQmZKb2F6dFRzd0Y3RWZ4SkM2alMybHJzTzV5TFRFckQ4RE5sMURHSGI0T0VrLVJicmNMbldTbTR3cDEwRGJodW1jbEp2WjNIdzl4VXU4ZWg5VXJ3M3U?oc=5",
+          "published": "Wed, 11 Nov 2026 15:34:14 GMT"
+        },
+        {
+          "title": "Tesla threatens D1EV with police over unofficial FSD V14 test that lost to Aion - GlobalChinaEV",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZnNkd2lESFliNk5sTkxKMmJ2bWFaSDVCMTU1VGdkNlVyMm5JSkg1UWRNZ1JNT05jMFFLaEVkd0tocXU5UGVkUDVRclBSY2dTcm1kNWNsSHFjZXFpV3lFNlVUdVgwZmJkOU5URXBLU05Mc3V2Q3BlQ2c3dF9FN01VajlVdXRQdW8ySGlsdHo4cEZvbjdWZGNtTThJTDNyTGgtMzUzU2hCZHBoSTN2ODA0?oc=5",
+          "published": "Wed, 11 Nov 2026 14:24:51 GMT"
+        },
+        {
+          "title": "Tesla FSD: Finland approves Tesla Assisted Driving, the eleventh country in Europe - Tesla Mag",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5rMklZU3hZQTRDM0ROWUNkOUU5MnpNY09MRmVEMkZqUE5MS1U5RjF2a0ZlSlF4VkkwZ3gwMmxDOEtOdlVZNVlLM0Vucm51Rm1zTkd1NVZMVHJiMDdQbkFQa2lsX3JiYVQ5Q05Xa1czcy1ydUtRS3cyR2hPRXd0Zw?oc=5",
+          "published": "Wed, 11 Nov 2026 09:18:05 GMT"
+        },
+        {
+          "title": "Tesla Threatens To Sue Media Outlet For Unofficially Activating FSD For Test - Outlet Hides Behind …",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQSG54YVNVeS1IR1RxYkVBYVU1c3dhd0xxMDl5RVlTbDVhbWhmMThrM0JtYmFJWFZYb1AyQ1hxX1Y3ZjBtYkY0Vm8zTUxYc1A0WjNkZkF5d3BQZkVPcTNCejgyX0ZVMDFLLWlZOFVSd21qbDhGdlhHYzMxTDBRdkdDZ0VXTjNxOU9yMURPWjZJR0czRWlYUm5IM1ViV3puVTgxOTNwbDRKUUU0akVkQkZoSFpCZldrV3RYeFJWZmF4czZqNkxOYzVZaGdad2UwMTN6bHY3c2dxeE15X2Y5cEdHTUNWN19OazlsbXhLZlBYSQ?oc=5",
+          "published": "Wed, 11 Nov 2026 16:02:54 GMT"
+        }
+      ],
+      "lastSuccess": "2026-11-12T12:41:05+09:00"
+    },
+    {
+      "id": "fsd-jp",
+      "name": "FSD 世界提供地域（Tesla公式）",
+      "url": "https://www.tesla.com/ja_jp/fsd/safety",
+      "topic": "FSD・規制",
+      "ok": false,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "fsd-us",
+      "name": "FSD 米国価格・機能（Tesla公式）",
+      "url": "https://www.tesla.com/support/fsd",
+      "topic": "FSD・価格",
+      "ok": false,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "rdw",
+      "name": "オランダRDW：FSD承認の公式説明",
+      "url": "https://www.rdw.nl/en/news/2026/rdw-explanation-of-european-type-approval-tesla-with-provisional-validity-in-the-netherlands",
+      "topic": "欧州規制",
+      "ok": true,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "fingerprint": "7615faa818f4812e4bd9c9b20c5720e5ce31e68ad6b4e42f0382e26bac586bb9",
+      "lastSuccess": "2026-11-12T12:41:05+09:00"
+    },
+    {
+      "id": "authorities",
+      "name": "規制当局の関連発表（RSS発見）",
+      "url": "https://news.google.com/rss/search?q=(site:rdw.nl+OR+site:nhtsa.gov+OR+site:mlit.go.jp)+Tesla+when:30d&hl=en-US&gl=US&ceid=US:en",
+      "topic": "規制当局・原文確認",
+      "ok": true,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "items": [
+        {
+          "title": "RDW approves changes to Tesla driver assistance system - RDW",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRm5JYXRPeVBPSS1MUGlLSU9ZVnRKa0NpUkhzZXNCeHI1Y3FZYUNzWUhUSW05VzlWSnQ5empzRmhoc1FKamFWVFAtNXA3YVVJN25sLVJuZUlHUzJQTEgydnhhUThSWVBRMHFOc0phT0RjRUxCT2ZMVjk0ZHlMQUp6dlFjLUVjVGkzTE9RdGlxbw?oc=5",
+          "published": "Tue, 03 Nov 2026 08:00:00 GMT"
+        },
+        {
+          "title": "RDW keurt wijzigingen aan Tesla-rijhulpsysteem goed - RDW",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVTVvd05FaGlnZlkxNUFoeC1CNmYyaWVWQTc4b0lGYWQzWWdvT1ZEUVNPOWJWZDVlZWR4NmpYRjJtWTB5LWlKaEZKbVVjVlFLeHNYUXJmRHZNRGFSeUFXa1F3SXQ0eFExdkdfbTVXVWtYenpIX0RoNDAxa2ZoeXV2ai1uaXBkd2M4aVNlVnQzVWxpeWFYemc?oc=5",
+          "published": "Tue, 03 Nov 2026 08:00:00 GMT"
+        },
+        {
+          "title": "Vehicle Detail Search - 2026 TESLA ROBOTAXI - NHTSA | National Highway Traffic Safety Administratio…",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9xUlRDTkh0c3VCQkdUNUdLcm1JSWNxal9KWnlrN1RPOG51RThmNmxVeWRFeHNqZjdlcFNkYk9yLWZsNDVuaHktZGNFbEZVVW03SVlLQ043RFpKbnJFZHc?oc=5",
+          "published": "Wed, 04 Nov 2026 14:58:05 GMT"
+        },
+        {
+          "title": "Memorandum - NHTSA | National Highway Traffic Safety Administration (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1tM0dGaTZiemNWZ2xjcmV0bXpmQzJfa2dQSU0xb0pYUTZrb041VG0wV25WaE5OekpRRlNVd1lEcnduc05VQm53UUhoQS1PX0FMYTdXU3ZUbDgxZS1IRmpRbWRyRVRiMmU0WVVUclh3?oc=5",
+          "published": "Fri, 16 Oct 2026 14:33:13 GMT"
+        },
+        {
+          "title": "AI Horizons PGH Summit - NHTSA | National Highway Traffic Safety Administration (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5RajhnZldXMkRIZkVqMGRUamlqMklNbGl1cmMyRllzX19acktkQV9idHJWamxQMGJycVVOZndraXYtWHYwZTlWcEZtWDJfYlN4N0x3czlEWG9BZmdoaE84NW8wQ2dPOEU4bGpJMjhXLUpYbkFCNFE?oc=5",
+          "published": "Thu, 29 Oct 2026 23:18:23 GMT"
+        },
+        {
+          "title": "2023 MY F-150Lightning Accesory Protocol Interface Module - SYNC SYNC-26.2.9.3.1 Software Update 13…",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96cXJSSF9jN1BPanp4WnBzZmVDRUVqWGpPc0Flam16WHFoUFhzaVAySkRGZjRmYmcwYnhVeWF3RlVIV2xDLTVfZmVBbU4zNldlY0hVbGdxTlF4SUtwQmgyVHZ5c1BsNk1jeXkw?oc=5",
+          "published": "Wed, 11 Nov 2026 16:50:17 GMT"
+        },
+        {
+          "title": "About NHTSA - NHTSA | National Highway Traffic Safety Administration (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE01WDl0dzdiUkhmNnNmcDJKT0JBUzJFdkstbnEwOENxWXd1OE5Rd18tRDEweGxQamVvTUJZdlRTdmxTT3g0Rl84Qg?oc=5",
+          "published": "Sat, 17 Dec 2016 01:15:14 GMT"
+        },
+        {
+          "title": "ODI RESUME - NHTSA | National Highway Traffic Safety Administration (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE94b3Rvc2xRVUZjV0NDQlByQzZtRnl3WU44c3hTQ2pCNTlKTDVYazFjV3dPTjUtdVc0dDIwSVc0VVhzRndVTGllNTdvLWtNczhpVXFHc0xLQVp5Z0ZibTNwRzhoMUxUVHVMaHBlbQ?oc=5",
+          "published": "Fri, 06 Nov 2026 08:00:00 GMT"
+        },
+        {
+          "title": "Part 573 Safety Recall Report 26V728 - NHTSA | National Highway Traffic Safety Administration (.gov)",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA4eTVFMFRYQWR4X1hIeXgyLUVjY3JUZWFTUTU5eUZ1TVctTUZ1NUNkYzJqQjRCV0FDZGp5dGNxYWNaeXhfX2RzNmdzM3dwcndZczZtZi1lcjN6NVBxWFVhb2hZMEM4eXZzVTVjdg?oc=5",
+          "published": "Thu, 05 Nov 2026 15:21:52 GMT"
+        }
+      ],
+      "lastSuccess": "2026-11-12T12:41:05+09:00"
+    },
+    {
+      "id": "regulator",
+      "name": "米国NHTSA TeslaリコールAPI / Model Y 2026",
+      "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=TESLA&model=MODEL%20Y&modelYear=2026",
+      "topic": "米国規制",
+      "ok": true,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "recalls": [
+        {
+          "id": "25V359000",
+          "component": "VISIBILITY:WINDSHIELD WIPER/WASHER:LINKAGES",
+          "reported": "30/05/2025"
+        },
+        {
+          "id": "25V410000",
+          "component": "SEATS:CRITICAL FASTENERS",
+          "reported": "18/06/2025"
+        },
+        {
+          "id": "25V490000",
+          "component": "ELECTRICAL SYSTEM:HORN",
+          "reported": "28/07/2025"
+        },
+        {
+          "id": "25V658000",
+          "component": "ELECTRICAL SYSTEM:WIRING",
+          "reported": "02/10/2025"
+        },
+        {
+          "id": "25V690000",
+          "component": "ELECTRICAL SYSTEM:PROPULSION SYSTEM:FUSES, RELAYS, CONTACTS, AND SHUNTS",
+          "reported": "10/10/2025"
+        },
+        {
+          "id": "26V315000",
+          "component": "EQUIPMENT:OTHER:LABELS",
+          "reported": "19/05/2026"
+        },
+        {
+          "id": "26V445000",
+          "component": "STRUCTURE:BODY:BUMPERS",
+          "reported": "07/07/2026"
+        },
+        {
+          "id": "26V558000",
+          "component": "SUSPENSION:CRITICAL FASTENERS",
+          "reported": "01/09/2026"
+        }
+      ],
+      "lastSuccess": "2026-11-12T12:41:05+09:00"
+    },
+    {
+      "id": "stations",
+      "name": "日本Supercharger公式一覧",
+      "url": "https://www.tesla.com/ja_jp/findus/list/superchargers/Japan",
+      "topic": "新設・掲載",
+      "ok": false,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "mobile",
+      "name": "モバイルコネクター公式商品",
+      "url": "https://shop.tesla.com/ja_jp/product/mobile-connector",
+      "topic": "充電・在庫",
+      "ok": false,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "wall",
+      "name": "ウォールコネクター公式商品",
+      "url": "https://shop.tesla.com/ja_jp/product/wall-connector",
+      "topic": "充電・在庫",
+      "ok": false,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "chademo",
+      "name": "CHAdeMO公式商品（URL存続も確認）",
+      "url": "https://shop.tesla.com/ja_jp/product/chademo-adapter",
+      "topic": "充電・在庫",
+      "ok": false,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "charging",
+      "name": "日本公式ショップ充電カテゴリ",
+      "url": "https://shop.tesla.com/ja_jp/category/charging",
+      "topic": "充電・販売",
+      "ok": false,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "cev-amounts",
+      "name": "CEV公式：登録日別・車両別の補助額PDF",
+      "url": "https://www.cev-pc.or.jp/hojo/pdf/R7ho/R7ho_meigaragotojougen_3.pdf",
+      "topic": "補助金・交付額",
+      "ok": true,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "fingerprint": "1165e92b511ee2fdd3b4b721c85367c979b63001d5d4ff961ae60d4f013a96f5",
+      "lastSuccess": "2026-11-12T12:41:05+09:00"
+    },
+    {
+      "id": "cev",
+      "name": "CEV補助金：実施機関のお知らせ",
+      "url": "https://www.cev-pc.or.jp/",
+      "topic": "補助金・期限",
+      "ok": true,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "items": [
+        {
+          "title": "＜重要＞ 令和７年度補正 CEV 補助金（車両） 申請受付終了見込み時期について",
+          "url": "https://www.cev-pc.or.jp/notice/pdf/cev/R7hoseiCEV_mikomi-oshirase20261111.pdf",
+          "published": "原文で確認"
+        },
+        {
+          "title": "＜再掲、追記＞令和７年度補正 CEV 補助金（車両） テスラ モデル３、モデルＹのグレード名称の一部変更について （車両コード 1168、1316、1327）",
+          "url": "https://www.cev-pc.or.jp/notice/pdf/20261110_R7ho-cev_oshirase.pdf",
+          "published": "原文で確認"
+        },
+        {
+          "title": "令和５年度補正予算および令和６年度予算 充電設備補助金 充電インフラ整備事業補助金交付実績一覧を公表しました",
+          "url": "https://www.cev-pc.or.jp/notice/20261109_1284.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "令和７年度補正 CEV 補助金（車両） テスラ モデル３、モデルＹのグレード名称の一部変更について （車両コード 1168、1316、1327）",
+          "url": "https://www.cev-pc.or.jp/notice/pdf/20261106_R7ho-cev_oshirase.pdf",
+          "published": "原文で確認"
+        },
+        {
+          "title": "＜重要＞ 令和７年度補正 CEV 補助金（車両） 下取車がある場合の申請の留意点について",
+          "url": "https://www.cev-pc.or.jp/notice/20261104_1282.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "令和７年度補正 CEV 補助金（車両） 申請者向けリーフレットについて",
+          "url": "https://www.cev-pc.or.jp/notice/20261029_1281.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "令和７年度補正 CEV 補助金（車両） オンライン申請のシステムメンテナンスによる利用停止について",
+          "url": "https://www.cev-pc.or.jp/notice/20261029_1280.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "令和７年度補正 外部給電器補助金 オンライン申請のシステムメンテナンスによる利用停止について",
+          "url": "https://www.cev-pc.or.jp/notice/20261029_1279.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "＜重要＞ 令和７年度補正予算「燃料電池自動車用水素供給設備設置補助事業」三次公募の受付開始",
+          "url": "https://www.cev-pc.or.jp/notice/20261026_1278.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "＜重要＞ 令和７年度補正 充電設備補助金 年度またぎ事業の交付申請受付開始のお知らせ",
+          "url": "https://www.cev-pc.or.jp/notice/20261023_1277.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "お知らせ",
+          "url": "https://www.cev-pc.or.jp/notice/index_cev.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "＜重要＞ 令和７年度補正 CEV 補助金 令和９年１月１日以降登録（届出）分の補助額について",
+          "url": "https://www.cev-pc.or.jp/notice/20261021_1275.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "令和７年度補正 CEV 補助金（車両） オンライン申請のシステムメンテナンスによる利用停止について",
+          "url": "https://www.cev-pc.or.jp/notice/20261020_1274.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "令和７年度補正 CEV 補助金（車両） オンライン申請のシステムメンテナンスによる利用停止について",
+          "url": "https://www.cev-pc.or.jp/notice/20261014_1272.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "＜重要＞ 令和７年度補正 CEV 補助金（車両） 登録 ❨届出❩ 期間と受付期間の最終期限について",
+          "url": "https://www.cev-pc.or.jp/notice/pdf/20261009_R7ho-cev_kigen-oshirase.pdf",
+          "published": "原文で確認"
+        },
+        {
+          "title": "予算残高についてのお知らせ",
+          "url": "https://www.cev-pc.or.jp/notice/",
+          "published": "原文で確認"
+        },
+        {
+          "title": "【8/4付 お知らせ】｢予備分｣の 制度概要について",
+          "url": "https://www.cev-pc.or.jp/notice/20230804_1042.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "【ご案内】パナソニック社製の充電用コンセントの設置をされる申請者の方へ",
+          "url": "https://www.cev-pc.or.jp/notice/20260716_1240.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "【2/7付 お知らせ】能登半島地震で被災した充電器の財産処分対応について",
+          "url": "https://www.cev-pc.or.jp/notice/20240207_1069.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "令和７年度補正 外部給電器補助金 オンライン申請のシステムメンテナンスによる利用停止について",
+          "url": "https://www.cev-pc.or.jp/notice/20261014_1271.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "＜重要＞ 令和7年度補正 充電設備補助金 年度またぎ事業について経済産業省より概要が発表されました",
+          "url": "https://www.cev-pc.or.jp/notice/pdf/20261001_juden_oshirase.pdf",
+          "published": "原文で確認"
+        },
+        {
+          "title": "＜重要＞ 令和７年度補正 充電設備補助金 第２期の結果について",
+          "url": "https://www.cev-pc.or.jp/notice/pdf/20260929_juden_oshirase.pdf",
+          "published": "原文で確認"
+        },
+        {
+          "title": "＜重要＞ 令和７年度補正 V2H充放電設備・戸建て住宅充電用コンセント 補助金 申請内容の審査状況について",
+          "url": "https://www.cev-pc.or.jp/notice/20260925_1257.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "＜重要＞ 令和８年台風第24号及び前線による大雨に伴う災害により被災した充電設備・V2H充放電設備の財産処分対応について（愛知県名古屋市、鹿児島県熊毛郡屋久島町）",
+          "url": "https://www.cev-pc.or.jp/notice/20260914_1265.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "令和７年度補正 戸建て住宅充電用コンセント補助金 お問合せ先の一部仕様変更について",
+          "url": "https://www.cev-pc.or.jp/notice/pdf/20260903_juden_oshirase.pdf",
+          "published": "原文で確認"
+        },
+        {
+          "title": "＜重要＞ 令和８年８月27日からの大雨に伴う災害により被災した充電設備・V2H充放電設備の財産処分対応について（北陸3県）",
+          "url": "https://www.cev-pc.or.jp/notice/20260902_1261.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "＜重要＞ 令和７年度補正予算「燃料電池自動車用水素供給設備設置補助事業」二次公募の受付開始",
+          "url": "https://www.cev-pc.or.jp/notice/20260803_1246.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "＜重要＞ 令和７年度補正予算「燃料電池自動車用水素供給設備設置補助事業」及び「燃料電池自動車等新規需要創出活動補助事業」公募を開始しました",
+          "url": "https://www.cev-pc.or.jp/notice/20260331_1212.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "＜重要＞ 令和７年度補正予算「燃料電池自動車用水素供給設備設置補助事業」及び「燃料電池自動車等新規需要創出活動補助事業」公募説明会の受付を開始しました",
+          "url": "https://www.cev-pc.or.jp/notice/20260316_1211.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "＜重要＞ 令和７年度予算「燃料電池自動車用水素供給設備設置補助事業」三次公募の受付開始",
+          "url": "https://www.cev-pc.or.jp/notice/20251105_1189.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "＜重要＞ 令和６年度補正予算「燃料電池自動車等新規需要創出活動補助事業」 制度改定説明会の受付を開始しました",
+          "url": "https://www.cev-pc.or.jp/notice/20251014_1186.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "＜重要＞ 令和７年度予算「燃料電池自動車用水素供給設備設置補助事業」二次公募の受付開始",
+          "url": "https://www.cev-pc.or.jp/notice/20250714_1172.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "＜重要＞ 令和７年度予算「燃料電池自動車用水素供給設備設置補助事業」公募を開始しました",
+          "url": "https://www.cev-pc.or.jp/notice/20250521_1162.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "＜重要＞ 令和６年度補正予算「燃料電池自動車等新規需要創出活動補助事業」 追加支援に関する制度についての説明会の受付を開始しました",
+          "url": "https://www.cev-pc.or.jp/notice/20250514_1161.html",
+          "published": "原文で確認"
+        },
+        {
+          "title": "＜重要＞ 令和７年度予算「燃料電池自動車用水素供給設備設置補助事業」公募説明会の受付を開始しました",
+          "url": "https://www.cev-pc.or.jp/notice/20250514_1160.html",
+          "published": "原文で確認"
+        }
+      ],
+      "lastSuccess": "2026-11-12T12:41:05+09:00"
+    },
+    {
+      "id": "offers-jp",
+      "name": "Tesla日本：現在の購入特典",
+      "url": "https://www.tesla.com/ja_jp/current-offers",
+      "topic": "購入・キャンペーン",
+      "ok": false,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "spigen",
+      "name": "Spigen公式 Teslaアクセサリー",
+      "url": "https://www.spigen.com/collections/tesla",
+      "topic": "アクセサリー",
+      "ok": true,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "fingerprint": "1e8b1fef90fbe91c20f0f9785cb1defd98d0a3d55ffecd7d3fcb6d69d48195a3",
+      "lastSuccess": "2026-11-12T12:41:05+09:00"
+    },
+    {
+      "id": "purchase-news",
+      "name": "日本のTesla購入・補助金の報道発見",
+      "url": "https://news.google.com/rss/search?q=%E3%83%86%E3%82%B9%E3%83%A9+%28%E8%A3%9C%E5%8A%A9%E9%87%91+OR+%E9%87%91%E5%88%A9+OR+%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%29+when%3A7d&hl=ja&gl=JP&ceid=JP:ja",
+      "topic": "購入・補助金／未検証",
+      "ok": true,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "items": [
+        {
+          "title": "ＥＶ独自補助金、テスラは縮小・ＢＹＤは継続 - NNAアジア",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBkZmdMcktrYUNleGxid2dhWHJSeEFYdk1kSjAzbTN3V29YeUdTaERmWDlrNC14WktQdEtvZWtLNHU4VkhSWUE?oc=5",
+          "published": "Tue, 10 Nov 2026 15:00:00 GMT"
+        },
+        {
+          "title": "今週の展望：ECB政策金利発表が控える；アルファベット、テスラ、インテルの決算発表；世界PMI速報値が判明 - TradingKey",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNzVlMW1jQnNrbVhTb0hQYUVpS24xUXUxUy1Jand1dFlmbmNuVldBQ1hCQTZ0aGRNY2NjbTJYR1d3VkcxSndmdi1EUkhhY3dtdXBqZ2toUURMQ2xpMGRWN1M0YWVoRXoxQ0pVUGtNZERaaE1HTXZ3b1U4WnZ4ZFNWT2dRbDRXS3ZOTDVqNWV5X3J0MmRUVmJSV1JHeHlfaTdQcnYtMVZSb3BPcVRSWFlfRVFWalN6Z19TMVVubTR2NU00TTlXc3NzU0JIVWJ3STZ1?oc=5",
+          "published": "Tue, 10 Nov 2026 22:03:50 GMT"
+        },
+        {
+          "title": "テスラ、テキサスでのサイバートラック生産を段階的に終了へ | ロイター - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE94Mkc0UDE1R0JMLTJkclFpUC1iLXFCYks1VTFmUzd1djctVXIzVEo1Vk82aU9jbF9jV1FJR1NtSU1ObWJYNmU4dUZ0R0paeW9NMDFnQ0ZFcTBDc2VJR2lCLUxIU0I4RFlUaHVUaVZlVnpZSEVXbnpQQmlwRm04Zw?oc=5",
+          "published": "Fri, 06 Nov 2026 09:36:09 GMT"
+        },
+        {
+          "title": "テスラ、サイバートラック生産を2027年半ばに縮小へ 空く工場でロボタクシー増産 ｜Seizo Trend - ビジネス+IT",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1nMmV0eE8xRjhKZTBETmFobW0yckFoTnlDejFWZGVMaXJyR29pcHdmaHZQendsV2R4ZXR5cnctR1VGVWFER05lWUNMSzJuZ0k?oc=5",
+          "published": "Fri, 06 Nov 2026 11:16:00 GMT"
+        },
+        {
+          "title": "テスラ、「サイバートラック」の予約購入者に対し予約金を返金する方針＝米国株個別 - 株探",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtQ055c2xfcXdBMTdSYTJDeE1McTFKTXJoTW9ERnhGa0xUa0s2OWczY200WkZSckNRcWtJSXBvVE0xQ2VPSXB2d1VwWG03TzY4YW1CVWo3UWpSSUEwY3phdQ?oc=5",
+          "published": "Mon, 09 Nov 2026 14:44:00 GMT"
+        },
+        {
+          "title": "テスラの中国での販売台数が66%急減、4年余りぶりの低水準 - Moomoo",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdUV6dmFlRUhkc0RQS2F6VmU5TDB2MzUzUkVwUzZkZklwRmlFU2dWS2dORmFnQ0ZHYWhDTTZhNElDZjZQNl9fZkNyaVRvbXA2aGpCOXNrV3c4cEVyZENYS3QxVzZZZEVvVE4yYURvMERieE9jTHUtS0lTUXQ5VHVwMVJjNXF4RHFEdFZ6Y0NoQ0lmcUdWQ3FKbUxCcmR6c1lJLU1NOGZ3?oc=5",
+          "published": "Wed, 11 Nov 2026 05:50:51 GMT"
+        },
+        {
+          "title": "【ECOライフホーム】テスラ新世代家庭用蓄電池 Powerwall 3 - ニコニコニュース",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5HR0FoeUNON2ZWRFhaalpQei16MW5mcTR1ajhPVEY5YjN3QjhTazNmbndOT3p2YUptdWdUZGtjaGEzUlJ4dzVaRjZqWEhwQ2tYRW5yaFEtTFBUZHVWVFlrQjRnWUt4cVc4c1I2V21OVjE3Rkx6RXZCYTFGUQ?oc=5",
+          "published": "Tue, 10 Nov 2026 02:51:20 GMT"
+        },
+        {
+          "title": "テスラ、サイバートラックの生産縮小へ マスク氏表明 | The Wall Street Journal発 - ダイヤモンド・オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAtWk1ldUtMT2tXYmxmQVY4U3hBeDExb2dWQ01CWklEQ2lqN1RCNUFBLUF1RmF6bDJGLWFCOU14bUd6WmtSMVFCUTMtMU4?oc=5",
+          "published": "Fri, 06 Nov 2026 12:34:00 GMT"
+        },
+        {
+          "title": "マスク氏が太極旗を掲げたテスラ、韓国での10月登録は26%急減 - BigGo ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9lSTg2V0tFM1RIZnBubHdvSnN5bmR3SXJydllKZ2FyRWtHM3lIMmplS3ZNWGVQQWNQN0hqcnBSLWlNYnFqVDFfaVd1YzdxMGRWYmlCcXVGZnpad2JtNzkwczdEb1VkTnR6T2hjNXRZZl9pd2ho?oc=5",
+          "published": "Fri, 06 Nov 2026 12:35:00 GMT"
+        },
+        {
+          "title": "テスラ、テキサスでのサイバートラック生産を段階的に終了へ - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdW9JRXJyYVlLaVRoenRqUmdYaDhTVFBZRkNUbVRMTGNFdFFodmxVYWIxN0NldGszNXphLUxYQXBNR2xhemR4eDg3Qm5EUVE0Wmk5VG9mZlZUUEVKamRScmxXak9BTGltd292a3NqWlhqQ0lIRm4xSFBiam1oZmdmYUpZNFVxbWPSAYcBQVVfeXFMUHVvSUVycmFZS2lUaHp0alJnWGg4U1RQWUZDVG1UTExjRXRRaHZsVWFiMTdDZXRrMzV6YS1MWEFwTUdsYXpkeHg4N0JuRFFRNFppOVRvZmZWVFBFSmpkUnJsV2pPQUxpbXdvdmtzalpYakNJSEZuMUhQYmptaGZnZmFKWTRVcW1j?oc=5",
+          "published": "Fri, 06 Nov 2026 09:35:00 GMT"
+        },
+        {
+          "title": "テスラ、サイバートラックの生産を縮小へ。ギガテキサスをサイバーキャブ増産に振り向け - EVcafe",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE54V0hoRDRIdzhXZkRoMkN0ZU5VUUJvc3hONHdYN3NIQkpJR3pLQTh0QW1xYnFWVW9MUFBmRlh4Y2lkaC1CUDkzTjl3?oc=5",
+          "published": "Sat, 07 Nov 2026 23:24:53 GMT"
+        },
+        {
+          "title": "テスラ、サイバートラック予約金を多くの顧客に返金へ－マスク氏 - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPa1h6ZnZrN0ZmSDdVRC1ub09MMUJsbnQ2Z1NXcnZ3SjZrc0N1M1RnaHc4QWg1ZUdUSHdyeVVGU2RPX3hZWjNUMWRpZWRuMTU5ajhCMXB1RV9pd0NreUc3S3FOblN0SmRzWUxrNG9XWGNaLXM1RnZwVFRZcnVqeDVmaHFpc2dLSjhxWTR2cXVn?oc=5",
+          "published": "Tue, 10 Nov 2026 02:08:00 GMT"
+        },
+        {
+          "title": "【小型化】テスラ「Cybercab」、電池を40kWhに〜新色リキッドシルバーも - Touch Lab",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TN05WVEdJUk1MbTB3dVk1eDFQYU9aZG9QRUVsOFBBQkhQSUZTdkg4dm93MzlJeTF3Tk5RRHpWWDF4bFo2WXYzLVZrWVJEQWg1UEx5UlBSaFVYeU9LNUhTb2ZjR2N2N1ow?oc=5",
+          "published": "Sun, 08 Nov 2026 00:09:09 GMT"
+        },
+        {
+          "title": "2027年 テスラ 新型車発売 モデルチェンジ情報 まとめ - 最新自動車情報",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ldFE4VjVtNl9VNGNYdlhGOWRkcHoyMkQwaTBoSE43RHRIdjVJVDV6eXY5VDdqOW1CajQyR21PNWYwUUxISWFOeVBnQ3MwQU1jN1NpdXNSNWVFZw?oc=5",
+          "published": "Sun, 08 Nov 2026 13:25:31 GMT"
+        },
+        {
+          "title": "5日目 - テスラ - Moomoo",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAwMmpoSUNfeU1DdjhjWUNCUXlyTmpWTUFzOG9xLWN5X3ZCOENFUDdJOGpuUjJ1OGFZc3F2WGZ0MFlIV1hZaU5lMWRCZTNURVhETXpRbU9ySG81RGlKVk5Wa1lrNXIyVUFTMzVraVViRS01YTlXQmc?oc=5",
+          "published": "Tue, 10 Nov 2026 15:11:18 GMT"
+        },
+        {
+          "title": "Global markets: stocks rebound, but sources say Tencent Music to delay IPO - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9qZTVqMjluelQ4T0gxaUFvd01VV0o4S2VqWkx3SnlDNVJ3Q0JuRnF1QmtSdC1DVE9hSVJiNmt1YkoxVVVQckY1d29OV3Z0dEUtaUhiVE55VEFNM2Iwb3pNTg?oc=5",
+          "published": "Tue, 10 Nov 2026 09:28:07 GMT"
+        },
+        {
+          "title": "【8都市目】テスラ、テキサス州サンアントニオでRobotaxiの運行を開始〜スタート時で過去最大のエリア - Touch Lab",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1sWExSRHhZaHZPQ3d1cGNCWklpcnU5TDJWSkRvSkl6SS1mT0FRWkVkaTkzWFpLUUd0ZEhlNU5nci1GbTBBUjlub0RpUTNyeVlhZE9aRVdaOHF1eGJ6bF83dnRRVlpFQQ?oc=5",
+          "published": "Tue, 10 Nov 2026 01:59:24 GMT"
+        },
+        {
+          "title": "【補助金】CEVの受付終了見込みが「11月下旬〜」に早まる〜テスラは在庫車で「12月4日登録」を案内 - Touch Lab",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBnS2lXbkdUYXMyMmdVTUo0TnRhdC1YVGhjakM1UzdIemY3VjZQcmgyQy1Lb3NkVVJISVpfOWpWMG5jN3BnUlkyVktmQnJVbFJiMi1jV0R4V2d6bFh6Wkh6WllOaDBrcHg1TzI3ZEtZS2kwQQ?oc=5",
+          "published": "Wed, 11 Nov 2026 14:03:20 GMT"
+        },
+        {
+          "title": "テスラの完全自動運転を制限し、安売り中国製EVに補助金――オワコン化する国土交通省はなぜ日本人の足を引っ張るのか - ライブドアニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8zSWtMelhHUEZ6Sk92eE50YjVHYnJXdjZnaW13NDlKeDFGWjRqTDRpb3VUbWI2UzZSTkhfOWVvVFRxZFIxT2NzbjdocnhFdDhPbzhhLWoxb2hkN0R1ZjVV?oc=5",
+          "published": "Fri, 06 Nov 2026 01:07:18 GMT"
+        },
+        {
+          "title": "テスラの2026年10月における中国国内販売が2022年以来の低水準に。一方で中国からの輸出が急増、「テスラにとっての中国」のポジションに変化が生じる - https://intensive911.…",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4wNl9USlBFU0FRVEVTUzVwOXdnZnRidllTT3JybktTRVRuZUNlOU5jYzRmRWlrSHVkTzZDakFNVDVSaHZJTHZLWElNdkhXelkwVzFZMnhVdVVzMWFHMXpLX3JkR0dKUjQ?oc=5",
+          "published": "Tue, 10 Nov 2026 08:05:03 GMT"
+        },
+        {
+          "title": "【撤退】新電元工業、EV充電器の販売を終了〜市場の成長鈍化が理由 - Touch Lab",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBwOGJkUzMwQmx4ZndmOGlZTk5fUmxnak5nQmh3N0dQV3AtcVJKRXdaNUpoRUlRbnBEenBQSG96MU5NeWdJQ2h2OElocmhuTEJXZ3JmVGhrM2NfQmc2aE1IWEtGMko1Zw?oc=5",
+          "published": "Wed, 11 Nov 2026 03:31:52 GMT"
+        },
+        {
+          "title": "自動車業界 ニュースの見方 第69回 国内EV販売が過去最高! 下期の主役は軽EV? ラッコとe SKYが直接対決 - Excite エキサイト",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBPOG82Y0ViTnJmLThrQ1Z3dU5naTFzeDF2X3NEVm0tUm1yOHFFZjJrTTJQUjRIN3pXUVZzb0k0TzVkSGhDRVhISHhyTXoxVzlQWkhUQzNwNDdJQlIxeVNjVFZB?oc=5",
+          "published": "Tue, 10 Nov 2026 23:00:00 GMT"
+        }
+      ],
+      "lastSuccess": "2026-11-12T12:41:05+09:00"
+    },
+    {
+      "id": "software-news",
+      "name": "Teslaアップデートの報道発見",
+      "url": "https://news.google.com/rss/search?q=Tesla+software+update+when%3A1d&hl=ja&gl=JP&ceid=JP:ja",
+      "topic": "アップデート／未検証",
+      "ok": true,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "items": [
+        {
+          "title": "EU、「運転者の責任を明示せよ」··· テスラ、FSDという名称は使用できない - 스타뉴스",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTmlXbXRBNWZhOHNic2V0Q3UxU3Q1YThfMzltaVBGdFJGTWRLNkg4a3d1RDVoNVB3WW1ZRFFzSTBOZlFPdVRCZzcwYlV0TkpFdE52dkZGS2tpSWtKMEtSSlNBbkdlcHFELW42aGEwSm4ybnVza05CaWRDaTNjUWdoQ1B6VQ?oc=5",
+          "published": "Thu, 12 Nov 2026 00:16:36 GMT"
+        },
+        {
+          "title": "世界の自動車OTAアップデート市場、2034年に219億6,000万米ドルへ拡大予測｜年平均成長率19.4％、コネクテッドカー・SDV・5G技術が市場成長を牽引 - PR TIMES",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9UVFBjMUk4M2VLYlM3VGNJVXhsNjZjemwybWZnX2YzdE5qbVUxM3BvZmV2ek1QLWJTNGVmaE4tLUtEWlJXNHVldmllX0gwREZrVlFyV1RZTTVSeWlXSmlWWldINlJ2UThWYnc?oc=5",
+          "published": "Wed, 11 Nov 2026 05:58:00 GMT"
+        }
+      ],
+      "lastSuccess": "2026-11-12T12:41:05+09:00"
+    },
+    {
+      "id": "accessory-news",
+      "name": "Tesla用アクセサリー新着の発見",
+      "url": "https://news.google.com/rss/search?q=%E3%83%86%E3%82%B9%E3%83%A9+%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B5%E3%83%AA%E3%83%BC+when%3A7d&hl=ja&gl=JP&ceid=JP:ja",
+      "topic": "アクセサリー／未検証",
+      "ok": true,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "items": [
+        {
+          "title": "どでかいテスラの16インチ画面も一人で貼れる！ 映り込みや反射を抑える専用保護フィルムがすごい - ベストカーWeb",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5lREpoSnJlZmpHVjZ0cE44RTlLZzd3QkR1TWVjS2FwZWJ1UGhfVVpySURER1JhWmMtLUJEMTBFLTBxdHZVVlhoTlpR?oc=5",
+          "published": "Tue, 10 Nov 2026 10:00:00 GMT"
+        }
+      ],
+      "lastSuccess": "2026-11-12T12:41:05+09:00"
+    },
+    {
+      "id": "market-3",
+      "name": "カーセンサー Model 3 掲載価格相場",
+      "url": "https://www.carsensor.net/usedcar/souba/TS_S004/",
+      "topic": "中古相場",
+      "ok": true,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "market": {
+        "listingCount": 191,
+        "years": [
+          {
+            "year": "2019年",
+            "count": 13,
+            "medianLowerManYen": 205.0,
+            "medianUpperManYen": 225.0,
+            "smallSample": false
+          },
+          {
+            "year": "2020年",
+            "count": 19,
+            "medianLowerManYen": 185.0,
+            "medianUpperManYen": 205.0,
+            "smallSample": false
+          },
+          {
+            "year": "2021年",
+            "count": 73,
+            "medianLowerManYen": 225.0,
+            "medianUpperManYen": 245.0,
+            "smallSample": false
+          },
+          {
+            "year": "2022年",
+            "count": 59,
+            "medianLowerManYen": 265.0,
+            "medianUpperManYen": 285.0,
+            "smallSample": false
+          },
+          {
+            "year": "2023年",
+            "count": 8,
+            "medianLowerManYen": 385.0,
+            "medianUpperManYen": 405.0,
+            "smallSample": true
+          },
+          {
+            "year": "2024年",
+            "count": 12,
+            "medianLowerManYen": 365.0,
+            "medianUpperManYen": 405.0,
+            "smallSample": false
+          },
+          {
+            "year": "2025年",
+            "count": 6,
+            "medianLowerManYen": 425.0,
+            "medianUpperManYen": 445.0,
+            "smallSample": true
+          }
+        ],
+        "measure": "車両本体の掲載価格分布から求めた中央値の所属範囲（万円）。成約価格ではありません。",
+        "excludedListings": 1,
+        "note": "国内導入前の年式区分は要確認データとして表から除外。掲載属性の誤りや並行輸入を自動判定しません。"
+      },
+      "lastSuccess": "2026-11-12T12:41:05+09:00"
+    },
+    {
+      "id": "market-y",
+      "name": "カーセンサー Model Y 掲載価格相場",
+      "url": "https://www.carsensor.net/usedcar/souba/TS_S005/",
+      "topic": "中古相場",
+      "ok": true,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "market": {
+        "listingCount": 145,
+        "years": [
+          {
+            "year": "2022年",
+            "count": 51,
+            "medianLowerManYen": 275.0,
+            "medianUpperManYen": 295.0,
+            "smallSample": false
+          },
+          {
+            "year": "2023年",
+            "count": 48,
+            "medianLowerManYen": 295.0,
+            "medianUpperManYen": 315.0,
+            "smallSample": false
+          },
+          {
+            "year": "2024年",
+            "count": 12,
+            "medianLowerManYen": 375.0,
+            "medianUpperManYen": 395.0,
+            "smallSample": false
+          },
+          {
+            "year": "2025年",
+            "count": 28,
+            "medianLowerManYen": 495.0,
+            "medianUpperManYen": 515.0,
+            "smallSample": false
+          },
+          {
+            "year": "2026年以降",
+            "count": 6,
+            "medianLowerManYen": 515.0,
+            "medianUpperManYen": 555.0,
+            "smallSample": true
+          }
+        ],
+        "measure": "車両本体の掲載価格分布から求めた中央値の所属範囲（万円）。成約価格ではありません。",
+        "excludedListings": 0,
+        "note": "国内導入前の年式区分は要確認データとして表から除外。掲載属性の誤りや並行輸入を自動判定しません。"
+      },
+      "lastSuccess": "2026-11-12T12:41:05+09:00"
+    },
+    {
+      "id": "market-s",
+      "name": "カーセンサー Model S 掲載価格相場",
+      "url": "https://www.carsensor.net/usedcar/souba/TS_S002/",
+      "topic": "中古相場",
+      "ok": true,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "market": {
+        "listingCount": 25,
+        "years": [
+          {
+            "year": "2014年",
+            "count": 2,
+            "medianLowerManYen": 0,
+            "medianUpperManYen": 180.0,
+            "smallSample": true
+          },
+          {
+            "year": "2015年",
+            "count": 2,
+            "medianLowerManYen": 300.0,
+            "medianUpperManYen": 460.0,
+            "smallSample": true
+          },
+          {
+            "year": "2016年",
+            "count": 3,
+            "medianLowerManYen": 220.0,
+            "medianUpperManYen": 240.0,
+            "smallSample": true
+          },
+          {
+            "year": "2017年",
+            "count": 1,
+            "medianLowerManYen": 200.0,
+            "medianUpperManYen": 220.0,
+            "smallSample": true
+          },
+          {
+            "year": "2018年",
+            "count": 6,
+            "medianLowerManYen": 320.0,
+            "medianUpperManYen": 380.0,
+            "smallSample": true
+          },
+          {
+            "year": "2019年",
+            "count": 1,
+            "medianLowerManYen": 240.0,
+            "medianUpperManYen": 260.0,
+            "smallSample": true
+          },
+          {
+            "year": "2020年",
+            "count": 5,
+            "medianLowerManYen": 420.0,
+            "medianUpperManYen": 440.0,
+            "smallSample": true
+          },
+          {
+            "year": "2021年",
+            "count": 1,
+            "medianLowerManYen": 560.0,
+            "medianUpperManYen": 580.0,
+            "smallSample": true
+          },
+          {
+            "year": "2023年",
+            "count": 4,
+            "medianLowerManYen": 880.0,
+            "medianUpperManYen": null,
+            "smallSample": true
+          }
+        ],
+        "measure": "車両本体の掲載価格分布から求めた中央値の所属範囲（万円）。成約価格ではありません。",
+        "excludedListings": 0,
+        "note": "国内導入前の年式区分は要確認データとして表から除外。掲載属性の誤りや並行輸入を自動判定しません。"
+      },
+      "lastSuccess": "2026-11-12T12:41:05+09:00"
+    },
+    {
+      "id": "market-x",
+      "name": "カーセンサー Model X 掲載価格相場",
+      "url": "https://www.carsensor.net/usedcar/souba/TS_S003/",
+      "topic": "中古相場",
+      "ok": true,
+      "checkedAt": "2026-11-12T12:41:05+09:00",
+      "market": {
+        "listingCount": 43,
+        "years": [
+          {
+            "year": "2016年",
+            "count": 1,
+            "medianLowerManYen": 0,
+            "medianUpperManYen": 285.0,
+            "smallSample": true
+          },
+          {
+            "year": "2017年",
+            "count": 14,
+            "medianLowerManYen": 365.0,
+            "medianUpperManYen": 405.0,
+            "smallSample": false
+          },
+          {
+            "year": "2018年",
+            "count": 8,
+            "medianLowerManYen": 465.0,
+            "medianUpperManYen": 485.0,
+            "smallSample": true
+          },
+          {
+            "year": "2019年",
+            "count": 4,
+            "medianLowerManYen": 405.0,
+            "medianUpperManYen": 545.0,
+            "smallSample": true
+          },
+          {
+            "year": "2020年",
+            "count": 11,
+            "medianLowerManYen": 525.0,
+            "medianUpperManYen": 545.0,
+            "smallSample": false
+          },
+          {
+            "year": "2021年",
+            "count": 1,
+            "medianLowerManYen": 685.0,
+            "medianUpperManYen": 705.0,
+            "smallSample": true
+          },
+          {
+            "year": "2023年",
+            "count": 4,
+            "medianLowerManYen": 1025.0,
+            "medianUpperManYen": 1105.0,
+            "smallSample": true
+          }
+        ],
+        "measure": "車両本体の掲載価格分布から求めた中央値の所属範囲（万円）。成約価格ではありません。",
+        "excludedListings": 0,
+        "note": "国内導入前の年式区分は要確認データとして表から除外。掲載属性の誤りや並行輸入を自動判定しません。"
+      },
+      "lastSuccess": "2026-11-12T12:41:05+09:00"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-10-30",
+      "ok": 15,
+      "total": 23,
+      "stations": null
+    },
+    {
+      "date": "2026-10-31",
+      "ok": 15,
+      "total": 23,
+      "stations": null
+    },
+    {
+      "date": "2026-11-01",
+      "ok": 15,
+      "total": 23,
+      "stations": null
+    },
+    {
+      "date": "2026-11-02",
+      "ok": 15,
+      "total": 23,
+      "stations": null
+    },
+    {
+      "date": "2026-11-03",
+      "ok": 15,
+      "total": 23,
+      "stations": null
+    },
+    {
+      "date": "2026-11-04",
+      "ok": 15,
+      "total": 23,
+      "stations": null
+    },
+    {
+      "date": "2026-11-05",
+      "ok": 15,
+      "total": 23,
+      "stations": null
+    },
+    {
+      "date": "2026-11-06",
+      "ok": 15,
+      "total": 23,
+      "stations": null
+    },
+    {
+      "date": "2026-11-07",
+      "ok": 15,
+      "total": 23,
+      "stations": null
+    },
+    {
+      "date": "2026-11-08",
+      "ok": 15,
+      "total": 23,
+      "stations": null
+    },
+    {
+      "date": "2026-11-09",
+      "ok": 15,
+      "total": 23,
+      "stations": null
+    },
+    {
+      "date": "2026-11-10",
+      "ok": 19,
+      "total": 27,
+      "stations": null
+    },
+    {
+      "date": "2026-11-11",
+      "ok": 19,
+      "total": 27,
+      "stations": null
+    },
+    {
+      "date": "2026-11-12",
+      "ok": 19,
+      "total": 27,
+      "stations": null
+    }
+  ]
+}
